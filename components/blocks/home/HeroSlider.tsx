@@ -89,22 +89,22 @@ export const HeroSlider = ({ slides }: HeroSliderProps) => {
                 initial={{ x: -80, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 0.7 }}
-                className="mx-auto text-center px-4"
+                className="mx-auto text-center"
               >
-                <div className="rounded-lg w-fit bg-neutral-400/35 p-4 sm:p-5 md:p-6 flex items-center mb-3 sm:mb-4 md:mb-5 lg:mb-6">
-                  <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-left font-bold text-white">
+                <div className="rounded-lg w-fit bg-neutral-400/35 p-6 flex items-center mb-4 md:mb-6">
+                  <h1 className="text-2xl text-left font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
                     {slides[currentSlide].slogan}
                   </h1>
                 </div>
                 {slides[currentSlide].subSlogan && (
-                  <p className="mb-4 sm:mb-5 md:mb-6 lg:mb-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-left text-gray-200">
+                  <p className="mb-6 text-sm text-left text-gray-200 sm:text-base md:mb-8 md:text-lg lg:text-xl">
                     {slides[currentSlide].subSlogan}
                   </p>
                 )}
                 <div className="flex justify-start">
                   <Link
                     href={slides[currentSlide].button.link}
-                    className="inline-flex items-center rounded-lg bg-vina-primary px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 lg:px-8 lg:py-4 text-xs sm:text-sm md:text-base lg:text-lg font-semibold text-white transition-colors hover:bg-vina-primary"
+                    className="inline-flex items-center rounded-lg bg-vina-primary px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-vina-primary sm:px-8 sm:py-4 sm:text-base md:text-lg"
                   >
                     {slides[currentSlide].button.label}
                   </Link>
@@ -121,10 +121,11 @@ export const HeroSlider = ({ slides }: HeroSliderProps) => {
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
-            className={`h-1.5 rounded-full transition-all sm:h-2 ${index === currentSlide
+            className={`h-1.5 rounded-full transition-all sm:h-2 ${
+              index === currentSlide
                 ? "w-6 bg-white sm:w-8 md:w-10"
                 : "w-1.5 bg-white/50 sm:w-2"
-              }`}
+            }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
