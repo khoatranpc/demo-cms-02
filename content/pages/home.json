@@ -149,6 +149,7 @@
       "button": {
         "label": "TEST",
         "position": {
+          "right": 2,
           "bottom": 10
         }
       },
