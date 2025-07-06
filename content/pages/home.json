@@ -231,7 +231,7 @@
           "backgroundImage": "/uploads/banner-home.png",
           "button": {
             "label": "Liên hệ",
-            "link": "?modal=Button contact"
+            "link": "?modal=BTN TEST"
           }
         }
       ],
