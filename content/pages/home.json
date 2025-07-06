@@ -145,6 +145,17 @@
   "slug": "/",
   "blocks": [
     {
+      "heading": "Why choose us",
+      "features": [
+        {
+          "title": "ABC",
+          "description": "abcdcr",
+          "icon": "FaCertificate"
+        }
+      ],
+      "_template": "whyChooseUs"
+    },
+    {
       "name": "Button contact",
       "button": {
         "label": "Contact",
