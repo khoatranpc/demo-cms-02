@@ -145,15 +145,14 @@
   "slug": "/",
   "blocks": [
     {
-      "heading": "Why choose us",
-      "features": [
-        {
-          "title": "ABC",
-          "description": "abcdcr",
-          "icon": "FaCertificate"
+      "name": "BTN TEST",
+      "button": {
+        "label": "TEST",
+        "position": {
+          "bottom": 10
         }
-      ],
-      "_template": "whyChooseUs"
+      },
+      "_template": "fixedFormButton"
     },
     {
       "name": "Button contact",
