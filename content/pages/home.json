@@ -276,38 +276,38 @@
       "products": [
         {
           "id": "bc772299-1821-49d9-b53a-cb411de4fb7e",
-          "title": "Agricultural Products",
-          "description": "We export high-grade rice, robusta & arabica coffee, black pepper, and cashew nuts cultivated from Vietnam's richest farmlands.",
+          "title": "Nông Sản",
+          "description": "Chúng tôi xuất khẩu gạo chất lượng cao, cà phê robusta & arabica, hạt tiêu đen và hạt điều được trồng từ những vùng đất màu mỡ nhất Việt Nam.",
           "image": "/uploads/exportProducts/agricultural.png"
         },
         {
           "id": "0358716d-a4df-46bd-b126-b0822b12b7c4",
-          "title": "Seafood",
-          "description": "Frozen shrimp, pangasius fillets, squid, and other seafood products meeting global HACCP and ISO standards.",
+          "title": "Hải Sản",
+          "description": "Tôm đông lạnh, cá tra phi lê, mực và các sản phẩm hải sản khác đạt tiêu chuẩn HACCP và ISO toàn cầu.",
           "image": "/uploads/exportProducts/seafood.png"
         },
         {
           "id": "ba483732-3846-4685-8c3f-822715402103",
-          "title": "Furniture",
-          "description": "Eco-friendly wooden and bamboo furniture designed for durability, export-ready for US & EU markets.",
+          "title": "Nội Thất",
+          "description": "Nội thất gỗ và tre thân thiện với môi trường, được thiết kế bền bỉ, sẵn sàng xuất khẩu cho thị trường Mỹ & EU.",
           "image": "/uploads/exportProducts/furniture.png"
         },
         {
           "id": "834161b3-d9d4-48ef-9ee1-5828deb56187",
-          "title": "Garment & Textile",
-          "description": "OEM/ODM apparel production with high-quality fabrics, competitive pricing, and trusted delivery schedules.",
+          "title": "May Mặc & Dệt May",
+          "description": "Sản xuất may mặc OEM/ODM với vải chất lượng cao, giá cả cạnh tranh và lịch giao hàng đáng tin cậy.",
           "image": "/uploads/exportProducts/spices.png"
         },
         {
           "id": "72bc05dd-cffc-42a7-a3ed-a2f793e06cb8",
-          "title": "Handicrafts",
-          "description": "Bamboo, rattan, and lacquer crafts handcrafted by skilled artisans for modern and traditional decor needs.",
+          "title": "Thủ Công Mỹ Nghệ",
+          "description": "Sản phẩm thủ công từ tre, mây và sơn mài được chế tác bởi các nghệ nhân lành nghề cho nhu cầu trang trí hiện đại và truyền thống.",
           "image": "/uploads/exportProducts/garment.png"
         },
         {
           "id": "def2094e-2c18-4da9-a7d3-543e9233e9ab",
-          "title": "Spices & Herbs",
-          "description": "Vietnamese cinnamon, star anise, ginger, turmeric, and medicinal herbs exported in bulk or retail-ready form.",
+          "title": "Gia Vị & Thảo Mộc",
+          "description": "Quế Việt Nam, hoa hồi, gừng, nghệ và các loại thảo mộc y học được xuất khẩu dưới dạng số lượng lớn hoặc đóng gói sẵn cho bán lẻ.",
           "image": "/uploads/exportProducts/spices.png"
         }
       ],
@@ -315,44 +315,44 @@
     },
     {
       "deepExportServicesHeading": {
-        "title": "Specialized Export Services",
-        "description": "VINHAPAC offers comprehensive export support tailored to help you scale globally with confidence."
+        "title": "Dịch Vụ Xuất Khẩu Chuyên Biệt",
+        "description": "VINHAPAC cung cấp hỗ trợ xuất khẩu toàn diện được thiết kế để giúp bạn mở rộng toàn cầu một cách tự tin."
       },
       "services": [
         {
           "id": "b63de828-a9e3-4b6c-afba-3baa0076ab13",
-          "title": "End-to-End Export Solutions",
-          "description": "Comprehensive support from sourcing, logistics, to international compliance handling.",
+          "title": "Giải Pháp Xuất Khẩu Toàn Diện",
+          "description": "Hỗ trợ toàn diện từ tìm nguồn cung ứng, logistics đến xử lý tuân thủ quốc tế.",
           "image": "/uploads/banner-home.png"
         },
         {
           "id": "5e3013b1-ecbe-446e-b730-6e2e742af40c",
-          "title": "Customs & Documentation",
-          "description": "Fast and accurate customs clearance and international export documentation services.",
+          "title": "Hải Quan & Chứng Từ",
+          "description": "Dịch vụ thông quan nhanh chóng, chính xác và chứng từ xuất khẩu quốc tế.",
           "image": "/uploads/banner-home.png"
         },
         {
           "id": "51a3f044-9eca-4849-a1a3-1d079bda03c2",
-          "title": "Product Sourcing & Consolidation",
-          "description": "Strong ties with local manufacturers across industries like apparel, food, furniture, and more.",
+          "title": "Tìm Nguồn & Tổng Hợp Sản Phẩm",
+          "description": "Quan hệ chặt chẽ với các nhà sản xuất địa phương trong các ngành như may mặc, thực phẩm, nội thất và nhiều lĩnh vực khác.",
           "image": "/uploads/news.png"
         },
         {
           "id": "4f48b67c-9cec-47cb-9a04-1f4df5360551",
-          "title": "Quality Control & Certification",
-          "description": "Strict quality inspection with international certification assurance for every shipment.",
+          "title": "Kiểm Soát Chất Lượng & Chứng Nhận",
+          "description": "Kiểm tra chất lượng nghiêm ngặt với đảm bảo chứng nhận quốc tế cho mọi lô hàng.",
           "image": "/uploads/banner-home.png"
         },
         {
           "id": "27ddff9d-9bc0-4349-a537-367a8fb33711",
-          "title": "Tailored Distribution Network",
-          "description": "Flexible and scalable delivery channels to match partner requirements worldwide.",
+          "title": "Mạng Lưới Phân Phối Tùy Chỉnh",
+          "description": "Kênh giao hàng linh hoạt và có thể mở rộng để phù hợp với yêu cầu của đối tác trên toàn thế giới.",
           "image": "/uploads/banner-home.png"
         },
         {
           "id": "5b05ffb5-d337-456c-96eb-16de7a155867",
-          "title": "Global Partner Relationships",
-          "description": "Strategic partnerships with logistics and supply chain experts in France, USA, and Asia.",
+          "title": "Quan Hệ Đối Tác Toàn Cầu",
+          "description": "Hợp tác chiến lược với các chuyên gia logistics và chuỗi cung ứng tại Pháp, Mỹ và châu Á.",
           "image": "/uploads/banner-home.png"
         }
       ],
@@ -360,7 +360,7 @@
     },
     {
       "partnersShowcaseHeading": {
-        "title": "Trusted by Global Retailers"
+        "title": "Được Tin Tưởng Bởi Các Nhà Bán Lẻ Toàn Cầu"
       },
       "partners": [
         {
@@ -393,35 +393,35 @@
     },
     {
       "certificationHeading": {
-        "title": "International Certifications"
+        "title": "Chứng Nhận Quốc Tế"
       },
       "certifications": [
         {
           "name": "HACCP",
           "image": "/uploads/certifications/iso-certi-template.png",
-          "description": "Hazard Analysis & Critical Control Points"
+          "description": "Phân Tích Mối Nguy và Điểm Kiểm Soát Tới Hạn"
         },
         {
           "name": "ISO 22000",
           "image": "/uploads/certifications/iso-certi-template.png",
-          "description": "Food Safety Management Systems"
+          "description": "Hệ Thống Quản Lý An Toàn Thực Phẩm"
         },
         {
-          "name": "FDA Approved",
+          "name": "Chứng Nhận FDA",
           "image": "/uploads/certifications/iso-certi-template.png",
-          "description": "Compliant with U.S. FDA standards"
+          "description": "Tuân thủ tiêu chuẩn FDA Hoa Kỳ"
         },
         {
           "name": "GlobalG.A.P",
           "image": "/uploads/certifications/iso-certi-template.png",
-          "description": "Good Agricultural Practices Certification"
+          "description": "Chứng Nhận Thực Hành Nông Nghiệp Tốt Toàn Cầu"
         }
       ],
       "_template": "certificationsSection"
     },
     {
-      "heading": "Global Market Network",
-      "subheading": "Worldwide market with more than 15 countries",
+      "heading": "Mạng Lưới Thị Trường Toàn Cầu",
+      "subheading": "Thị trường toàn cầu với hơn 15 quốc gia",
       "countries": [
         {
           "name": "US",
@@ -438,55 +438,55 @@
     },
     {
       "callToActionSecondHeading": {
-        "title": "Ready to Start?",
-        "description": "Whether you're looking to source products or export your goods, we have the expertise to help you succeed."
+        "title": "Sẵn Sàng Bắt Đầu?",
+        "description": "Dù bạn đang tìm kiếm nguồn sản phẩm hay muốn xuất khẩu hàng hóa, chúng tôi có chuyên môn để giúp bạn thành công."
       },
       "buyer": {
-        "title": "For International Buyers",
-        "description": "Access premium Vietnamese products with guaranteed quality, competitive pricing, and reliable delivery worldwide.",
+        "title": "Dành Cho Người Mua Quốc Tế",
+        "description": "Tiếp cận sản phẩm Việt Nam cao cấp với chất lượng đảm bảo, giá cả cạnh tranh và giao hàng đáng tin cậy trên toàn thế giới.",
         "button": {
-          "text": "Request a Quote"
+          "text": "Yêu Cầu Báo Giá"
         },
         "features": [
           {
-            "title": "Premium product sourcing",
+            "title": "Tìm nguồn sản phẩm cao cấp",
             "id": "fb28671f-eef9-4ce0-9520-d8413b85eedd"
           },
           {
-            "title": "Quality assurance & certification",
+            "title": "Đảm bảo chất lượng & chứng nhận",
             "id": "f45898a0-c170-430a-92cc-84f30d576740"
           },
           {
-            "title": "Competitive wholesale pricing",
+            "title": "Giá sỉ cạnh tranh",
             "id": "0ae5bec8-f70e-440b-b74f-76dcf8e3fe4c"
           },
           {
-            "title": "End-to-end logistics and export support",
+            "title": "Hỗ trợ logistics và xuất khẩu toàn diện",
             "id": "1076625d-ba1f-4063-9460-f42a76f6fd43"
           }
         ]
       },
       "supplier": {
-        "title": "For Vietnamese Suppliers",
-        "description": "Join our network of trusted suppliers and expand your business to international markets with our expert support.",
+        "title": "Dành Cho Nhà Cung Cấp Việt Nam",
+        "description": "Tham gia mạng lưới nhà cung cấp uy tín của chúng tôi và mở rộng kinh doanh ra thị trường quốc tế với sự hỗ trợ chuyên nghiệp.",
         "button": {
-          "text": "Become a Supplier"
+          "text": "Trở Thành Nhà Cung Cấp"
         },
         "features": [
           {
-            "title": "Global market access",
+            "title": "Tiếp cận thị trường toàn cầu",
             "id": "df659644-773e-407e-8741-41acb76a5919"
           },
           {
-            "title": "Export documentation and compliance",
+            "title": "Hỗ trợ chứng từ và tuân thủ xuất khẩu",
             "id": "571acf33-5a01-4449-9b63-94884f2d6530"
           },
           {
-            "title": "Marketing and promotion support",
+            "title": "Hỗ trợ marketing và quảng bá",
             "id": "74954987-7c20-4d6a-b8b4-0893c5884ebe"
           },
           {
-            "title": "Payment security and trade finance",
+            "title": "Bảo đảm thanh toán và tài chính thương mại",
             "id": "48e25302-2417-45ad-95f9-3cea8bac0ac2"
           }
         ]

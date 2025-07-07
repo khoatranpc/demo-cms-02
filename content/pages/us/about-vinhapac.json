@@ -3,20 +3,77 @@
   "slug": "/about-vinhapac",
   "blocks": [
     {
-      "heading": "We are VINHAPAC",
-      "subheading": "Delivering trust, partnering with our customers",
-      "backgroundImage": "/uploads/banner.png",
-      "primaryButton": {
-        "label": "Contact Us",
-        "link": "/contact",
-        "icon": "FaPhoneAlt"
+      "badge": {
+        "text": "Over 500+ Global Partners"
       },
-      "secondaryButton": {
-        "label": "More",
-        "link": "/us/vinhapac-galleries",
-        "icon": "FaInfoCircle"
+      "heroSectionSecondheading": {
+        "title": "Connecting Vietnam to the ",
+        "highlight": "World"
       },
-      "_template": "heroAboutSection"
+      "description": "Your trusted choice, bridging talented Vietnam to global markets through: Quality, Responsibility, Innovation",
+      "buttons": [
+        {
+          "label": "Get Quote"
+        },
+        {
+          "label": "Become a Supplier"
+        }
+      ],
+      "heroSectionSecondstatistics": [
+        {
+          "id": "a0a94ef3-1c50-4261-a3e3-9017c5d554f9",
+          "number": 500,
+          "text": "Global Partners"
+        },
+        {
+          "id": "62c2da30-b89e-4f9a-b7bd-f3e720fc5abb",
+          "number": 50,
+          "text": "Countries Served"
+        },
+        {
+          "id": "d4aa7254-de10-4a2b-b241-c895edc79ac8",
+          "number": 15,
+          "text": "Import/Export Categories"
+        },
+        {
+          "id": "80e8645f-81ef-436d-abce-868b1e8d7156",
+          "number": 15,
+          "text": "Years of Experience"
+        }
+      ],
+      "_template": "heroSectionSecondTemplate"
+    },
+    {
+      "heading": "Export Markets",
+      "subheading": "Vinhapac's Active International Network",
+      "countries": [
+        {
+          "name": "Thai",
+          "country": "Thai",
+          "iso": "THA"
+        },
+        {
+          "name": "AU",
+          "country": "AU",
+          "iso": "AUT"
+        },
+        {
+          "name": "JA",
+          "country": "JA",
+          "iso": "JPN"
+        },
+        {
+          "name": "VN",
+          "country": "VN",
+          "iso": "VNM"
+        },
+        {
+          "name": "US",
+          "country": "US",
+          "iso": "USA"
+        }
+      ],
+      "_template": "exportMarkets"
     },
     {
       "heading": "History & Development",
@@ -27,15 +84,15 @@
         },
         {
           "year": "2010",
-          "event": "Expanded network to USA and Thailand, diversifying product portfolio into garments and furniture."
+          "event": "Network expansion to USA and Thailand, diversifying product portfolio into apparel and furniture."
         },
         {
           "year": "2020",
-          "event": "Established VINHAPAC in Vietnam, focusing on leveraging local high-quality production and supply capabilities."
+          "event": "VINHAPAC established in Vietnam, focusing on leveraging local high-quality production and supply capabilities."
         },
         {
           "year": "2024",
-          "event": "Achieved ISO 9001:2015 certification, successfully exporting to over 20 countries, affirming our position as a trusted global partner."
+          "event": "Achieved ISO 9001:2015 certification, successfully exporting to over 20 countries, affirming position as a trusted global partner."
         }
       ],
       "_template": "timelineSection"
@@ -46,17 +103,17 @@
         {
           "icon": "FaMicrochip",
           "title": "Technology",
-          "content": "Implementing Blockchain-based traceability and ERP systems for transparent supply chain management."
+          "content": "Implementing Blockchain traceability and ERP systems for transparent supply chain management."
         },
         {
           "icon": "FaChartLine",
           "title": "Capacity",
-          "content": "Capability to handle large orders, with an average capacity of 500 containers/year for agricultural products and 1 million products/year for garments."
+          "content": "Capability to handle large orders, with average capacity of 500 containers/year for agricultural products and 1 million products/year for apparel."
         },
         {
           "icon": "FaWarehouse",
           "title": "Warehouse Space",
-          "content": "Total warehouse area over 20,000 m², equipped with modern Warehouse Management System (WMS), ensuring optimal storage and preservation of goods."
+          "content": "Total warehouse area over 20,000 m², equipped with modern Warehouse Management System (WMS), ensuring optimal storage and preservation."
         },
         {
           "icon": "FaIndustry",
@@ -69,34 +126,34 @@
     {
       "vision": {
         "title": "Vision",
-        "content": "To become a pioneer in import-export and distribution, building Vietnamese brands with international reach."
+        "content": "To become a pioneer in import-export and distribution, building Vietnamese brands to international standards."
       },
       "mission": {
         "title": "Mission",
-        "content": "Connecting high-quality supply with domestic and international market demands. Creating sustainable value for partners and communities."
+        "content": "Connecting high-quality supplies with domestic and international market demands. Creating sustainable value for partners and community."
       },
       "statistics": {
         "orderQuantity": {
-          "label": "Đơn Hàng",
-          "description": "Completed orders",
+          "label": "Orders",
+          "description": "Completed Orders",
           "value": 500000
         },
         "exportQuantity": {
-          "label": "Container",
-          "description": "Exported products per year",
-          "value": 100000
+          "label": "Exports",
+          "description": "Export Items",
+          "value": 1000
         },
         "customerReviews": {
-          "label": "Khách hàng",
-          "description": "Customer satisfaction percentage",
-          "value": 98
+          "label": "Feedback",
+          "description": "Satisfied Customers",
+          "value": 99
         }
       },
       "coreValues": {
         "title": "Core Values",
         "values": [
           {
-            "name": "Credibility",
+            "name": "Reputation",
             "description": "Commitment to honesty and transparency in all transactions."
           },
           {
@@ -104,12 +161,12 @@
             "description": "Superior products and services meeting all international standards."
           },
           {
-            "name": "Collaboration",
+            "name": "Cooperation",
             "description": "Building partnerships based on trust and long-term benefits."
           },
           {
             "name": "Innovation",
-            "description": "Continuous improvement and adoption of new technologies in management and operations."
+            "description": "Continuous improvement and application of new technologies in management and operations."
           }
         ]
       },
@@ -117,22 +174,22 @@
     },
     {
       "heading": "Leadership Team",
-      "subheading": "Experienced captains leading VINHAPAC to success.",
+      "subheading": "Experienced leaders guiding VINHAPAC to success.",
       "members": [
         {
-          "name": "John Smith",
+          "name": "Quoc Nguyen",
           "role": "International Market Development Director"
         },
         {
-          "name": "Nguyen Thi Mai",
+          "name": "Mai Nguyen",
           "role": "Chief Financial Officer"
         },
         {
-          "name": "Tran Van An",
+          "name": "An Tran",
           "role": "Chief Operating Officer (Vietnam)"
         },
         {
-          "name": "Claudine Désir",
+          "name": "Huong Nguyen",
           "role": "Co-founder & CEO"
         }
       ],
@@ -142,7 +199,7 @@
       "heading": "Legal Information & Company Profile",
       "companyProfile": {
         "title": "VINHAPAC Company Profile",
-        "description": "Download our comprehensive document about capabilities, experience, and notable projects.",
+        "description": "Download our comprehensive document about our capabilities, experience, and notable projects.",
         "buttonLabel": "Download (PDF)",
         "fileUrl": "/",
         "image": "/uploads/world-map-export-markets.png"
@@ -162,11 +219,11 @@
         },
         {
           "label": "Head Office Address",
-          "value": "123 Nguyen Van Linh, Tan Thuan Tay Ward, District 7, HCMC"
+          "value": "123 Nguyen Van Linh, Tan Thuan Tay Ward, District 7, Ho Chi Minh City"
         },
         {
           "label": "Certifications & Licenses",
-          "value": "ISO 9001:2015, HACCP, FDA, Export licenses for agricultural products and garments"
+          "value": "ISO 9001:2015, HACCP, FDA, Export licenses for agricultural products and apparel"
         }
       ],
       "_template": "legalInfoSection"
