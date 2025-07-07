@@ -145,30 +145,6 @@
   "slug": "/",
   "blocks": [
     {
-      "name": "BTN TEST",
-      "button": {
-        "label": "TEST",
-        "position": {
-          "right": 2,
-          "bottom": 10
-        }
-      },
-      "form": {
-        "title": "Đây là form test",
-        "description": "Hỗ trợ test form",
-        "fields": [
-          {
-            "label": "Name",
-            "id": "31f7bd86-0035-47dd-aa50-e2964bee1146",
-            "type": "text",
-            "placeholder": "Type yourname",
-            "required": true
-          }
-        ]
-      },
-      "_template": "fixedFormButton"
-    },
-    {
       "name": "Button contact",
       "button": {
         "label": "Contact",
@@ -231,7 +207,7 @@
           "backgroundImage": "/uploads/banner-home.png",
           "button": {
             "label": "Liên hệ",
-            "link": "?modal=BTN TEST"
+            "link": "?modal=Button contact"
           }
         }
       ],
