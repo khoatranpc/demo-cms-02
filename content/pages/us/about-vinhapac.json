@@ -1,51 +1,51 @@
 {
-  "title": "Chúng tôi",
+  "title": "About Us",
   "slug": "/about-vinhapac",
   "blocks": [
     {
       "badge": {
-        "text": "Hơn 500+ đối tác toàn cầu"
+        "text": "Over 500+ Global Partners"
       },
       "heroSectionSecondheading": {
-        "title": "Kết nối Việt Nam tới ",
-        "highlight": "Thế giới"
+        "title": "Connecting Vietnam to the ",
+        "highlight": "World"
       },
-      "description": "Sự lựa chọn tin cậy cho bạn, là một cầu nối Việt Nam tài năng tới thị trường toàn cầu, bởi: Chất lượng, Trách Nhiệm, Đổi mới",
+      "description": "Your trusted choice, bridging talented Vietnam to global markets through: Quality, Responsibility, Innovation",
       "buttons": [
         {
-          "label": "Báo giá ngay"
+          "label": "Get Quote"
         },
         {
-          "label": "Trở thành NCC"
+          "label": "Become a Supplier"
         }
       ],
       "heroSectionSecondstatistics": [
         {
           "id": "a0a94ef3-1c50-4261-a3e3-9017c5d554f9",
           "number": 500,
-          "text": "Đối tác toàn cầu"
+          "text": "Global Partners"
         },
         {
           "id": "62c2da30-b89e-4f9a-b7bd-f3e720fc5abb",
           "number": 50,
-          "text": "Quốc gia đã phục vụ"
+          "text": "Countries Served"
         },
         {
           "id": "d4aa7254-de10-4a2b-b241-c895edc79ac8",
           "number": 15,
-          "text": "Mặt hàng xuất/nhâp khẩu"
+          "text": "Import/Export Categories"
         },
         {
           "id": "80e8645f-81ef-436d-abce-868b1e8d7156",
           "number": 15,
-          "text": "Kinh nghiệm"
+          "text": "Years of Experience"
         }
       ],
       "_template": "heroSectionSecondTemplate"
     },
     {
-      "heading": "Thị trường xuất khẩu",
-      "subheading": "Mạng lưới quốc tế Vinhapac đã, đang làm việc",
+      "heading": "Export Markets",
+      "subheading": "Vinhapac's Active International Network",
       "countries": [
         {
           "name": "Thai",
@@ -76,154 +76,154 @@
       "_template": "exportMarkets"
     },
     {
-      "heading": "Lịch Sử Hình Thành & Phát Triển",
+      "heading": "History & Development",
       "timeline": [
         {
           "year": "1998",
-          "event": "Nền tảng được thiết lập với sự ra đời của công ty mẹ tại Pháp, chuyên về thương mại nông sản."
+          "event": "Foundation established with the creation of the parent company in France, specializing in agricultural trade."
         },
         {
           "year": "2010",
-          "event": "Mở rộng mạng lưới sang Mỹ và Thái Lan, đa dạng hóa danh mục sản phẩm sang hàng may mặc và nội thất."
+          "event": "Network expansion to USA and Thailand, diversifying product portfolio into apparel and furniture."
         },
         {
           "year": "2020",
-          "event": "Thành lập VINHAPAC tại Việt Nam, tập trung khai thác tiềm năng sản xuất và nguồn cung ứng chất lượng cao tại địa phương."
+          "event": "VINHAPAC established in Vietnam, focusing on leveraging local high-quality production and supply capabilities."
         },
         {
           "year": "2024",
-          "event": "Đạt chứng nhận ISO 9001:2015, xuất khẩu thành công đến hơn 20 quốc gia, khẳng định vị thế đối tác tin cậy toàn cầu."
+          "event": "Achieved ISO 9001:2015 certification, successfully exporting to over 20 countries, affirming position as a trusted global partner."
         }
       ],
       "_template": "timelineSection"
     },
     {
-      "capacityHeading": "Năng Lực Sản Xuất & Vận Hành",
+      "capacityHeading": "Production & Operational Capacity",
       "capacityItems": [
         {
           "icon": "FaMicrochip",
-          "title": "Công Nghệ",
-          "content": "Áp dụng công nghệ truy xuất nguồn gốc bằng Blockchain và hệ thống ERP để quản lý toàn bộ chuỗi cung ứng một cách minh bạch."
+          "title": "Technology",
+          "content": "Implementing Blockchain traceability and ERP systems for transparent supply chain management."
         },
         {
           "icon": "FaChartLine",
-          "title": "Công Suất",
-          "content": "Năng lực đáp ứng các đơn hàng lớn, với công suất trung bình 500 container/năm cho hàng nông sản và 1 triệu sản phẩm/năm cho hàng may mặc."
+          "title": "Capacity",
+          "content": "Capability to handle large orders, with average capacity of 500 containers/year for agricultural products and 1 million products/year for apparel."
         },
         {
           "icon": "FaWarehouse",
-          "title": "Diện Tích Kho Bãi",
-          "content": "Tổng diện tích kho bãi hơn 20,000 m², trang bị hệ thống quản lý kho (WMS) hiện đại, đảm bảo lưu trữ và bảo quản hàng hóa tối ưu."
+          "title": "Warehouse Space",
+          "content": "Total warehouse area over 20,000 m², equipped with modern Warehouse Management System (WMS), ensuring optimal storage and preservation."
         },
         {
           "icon": "FaIndustry",
-          "title": "Nhà Máy Đối Tác",
-          "content": "Hệ thống hơn 15 nhà máy và xưởng sản xuất đối tác chiến lược trên toàn quốc, được kiểm toán chất lượng định kỳ."
+          "title": "Partner Factories",
+          "content": "Network of over 15 strategic manufacturing plants and workshops nationwide, with regular quality audits."
         }
       ],
       "_template": "capacitySection"
     },
     {
       "vision": {
-        "title": "Tầm Nhìn",
-        "content": "Trở thành doanh nghiệp tiên phong trong lĩnh vực xuất nhập khẩu và phân phối, xây dựng thương hiệu Việt Nam vươn tầm quốc tế."
+        "title": "Vision",
+        "content": "To become a pioneer in import-export and distribution, building Vietnamese brands to international standards."
       },
       "mission": {
-        "title": "Sứ Mệnh",
-        "content": "Kết nối nguồn cung chất lượng cao với nhu cầu của thị trường trong và ngoài nước. Tạo giá trị bền vững cho đối tác và cộng đồng."
+        "title": "Mission",
+        "content": "Connecting high-quality supplies with domestic and international market demands. Creating sustainable value for partners and community."
       },
       "statistics": {
         "orderQuantity": {
-          "label": "Đơn hàng",
-          "description": "Đơn hàng hoàn thành",
+          "label": "Orders",
+          "description": "Completed Orders",
           "value": 500000
         },
         "exportQuantity": {
-          "label": "Xuất khẩu",
-          "description": "Mặt hàng xuất khẩu",
+          "label": "Exports",
+          "description": "Export Items",
           "value": 1000
         },
         "customerReviews": {
-          "label": "Phải hồi",
-          "description": "Khách hàng hài lòng",
+          "label": "Feedback",
+          "description": "Satisfied Customers",
           "value": 99
         }
       },
       "coreValues": {
-        "title": "Giá Trị Cốt Lõi",
+        "title": "Core Values",
         "values": [
           {
-            "name": "Uy tín",
-            "description": "Cam kết trung thực, minh bạch trong mọi giao dịch."
+            "name": "Reputation",
+            "description": "Commitment to honesty and transparency in all transactions."
           },
           {
-            "name": "Chất Lượng",
-            "description": "Sản phẩm và dịch vụ vượt trội, đáp ứng mọi tiêu chuẩn quốc tế."
+            "name": "Quality",
+            "description": "Superior products and services meeting all international standards."
           },
           {
-            "name": "Hợp Tác",
-            "description": "Xây dựng mối quan hệ đối tác dựa trên sự tin cậy và lợi ích lâu dài."
+            "name": "Cooperation",
+            "description": "Building partnerships based on trust and long-term benefits."
           },
           {
-            "name": "Đổi Mới",
-            "description": "Không ngừng cải tiến và áp dụng công nghệ mới trong quản lý và vận hành."
+            "name": "Innovation",
+            "description": "Continuous improvement and application of new technologies in management and operations."
           }
         ]
       },
       "_template": "visionMissionSection"
     },
     {
-      "heading": "Đội Ngũ Lãnh Đạo",
-      "subheading": "Những người thuyền trưởng dày dặn kinh nghiệm, dẫn dắt VINHAPAC đến thành công.",
+      "heading": "Leadership Team",
+      "subheading": "Experienced leaders guiding VINHAPAC to success.",
       "members": [
         {
-          "name": "John Smith",
-          "role": "Giám đốc Phát triển Thị trường Quốc tế"
+          "name": "Quoc Nguyen",
+          "role": "International Market Development Director"
         },
         {
-          "name": "Nguyễn Thị Mai",
-          "role": "Giám đốc Tài chính"
+          "name": "Mai Nguyen",
+          "role": "Chief Financial Officer"
         },
         {
-          "name": "Trần Văn An",
-          "role": "Giám đốc Điều hành (Việt Nam)"
+          "name": "An Tran",
+          "role": "Chief Operating Officer (Vietnam)"
         },
         {
-          "name": "Claudine Désir",
+          "name": "Huong Nguyen",
           "role": "Co-founder & CEO"
         }
       ],
       "_template": "leadershipSection"
     },
     {
-      "heading": "Thông Tin Pháp Lý & Hồ Sơ Năng Lực",
+      "heading": "Legal Information & Company Profile",
       "companyProfile": {
-        "title": "Hồ Sơ Năng Lực VINHAPAC",
-        "description": "Tải về tài liệu đầy đủ về năng lực, kinh nghiệm và các dự án tiêu biểu của chúng tôi.",
-        "buttonLabel": "Tải Về (PDF)",
+        "title": "VINHAPAC Company Profile",
+        "description": "Download our comprehensive document about our capabilities, experience, and notable projects.",
+        "buttonLabel": "Download (PDF)",
         "fileUrl": "/",
         "image": "/uploads/world-map-export-markets.png"
       },
       "legalDetails": [
         {
-          "label": "Tên công ty đầy đủ",
-          "value": "Công ty TNHH Xuất Nhập Khẩu và Phân Phối VINHAPAC"
+          "label": "Full Company Name",
+          "value": "VINHAPAC Import-Export and Distribution Company Limited"
         },
         {
-          "label": "Mã số thuế",
+          "label": "Tax ID",
           "value": "0312345678"
         },
         {
-          "label": "Giấy phép kinh doanh",
-          "value": "Số 0123456789 do Sở Kế hoạch và Đầu tư TP.HCM cấp ngày 01/01/2020"
+          "label": "Business License",
+          "value": "No. 0123456789 issued by HCMC Department of Planning and Investment on 01/01/2020"
         },
         {
-          "label": "Địa chỉ trụ sở chính",
-          "value": "123 Nguyễn Văn Linh, Phường Tân Thuận Tây, Quận 7, TP.HCM"
+          "label": "Head Office Address",
+          "value": "123 Nguyen Van Linh, Tan Thuan Tay Ward, District 7, Ho Chi Minh City"
         },
         {
-          "label": "Chứng nhận & Giấy phép",
-          "value": "ISO 9001:2015, HACCP, FDA, Giấy phép xuất khẩu các mặt hàng nông sản và may mặc"
+          "label": "Certifications & Licenses",
+          "value": "ISO 9001:2015, HACCP, FDA, Export licenses for agricultural products and apparel"
         }
       ],
       "_template": "legalInfoSection"

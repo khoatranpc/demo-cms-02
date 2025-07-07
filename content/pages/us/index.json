@@ -4,20 +4,20 @@
       "_template": "heroSlider",
       "slides": [
         {
-          "slogan": "Chất Lượng Toàn Cầu - Dịch Vụ Tận Tâm",
-          "subSlogan": "Giải pháp xuất nhập khẩu và phân phối toàn diện, đáp ứng những tiêu chuẩn khắt khe nhất.",
+          "slogan": "Global Quality - Dedicated Service",
+          "subSlogan": "Comprehensive import-export and distribution solutions, meeting the most stringent standards.",
           "backgroundImage": "/images/hero-factory.jpg",
           "button": {
-            "label": "Xem Sản Phẩm",
+            "label": "View Products",
             "link": "/products"
           }
         },
         {
-          "slogan": "Kết Nối Thị Trường - Xây Dựng Niềm Tin",
-          "subSlogan": "Đối tác tin cậy đồng hành cùng doanh nghiệp Việt Nam trên hành trình vươn ra thế giới.",
+          "slogan": "Connecting Markets - Building Trust",
+          "subSlogan": "A reliable partner accompanying Vietnamese businesses on their journey to global expansion.",
           "backgroundImage": "/images/hero-logistics.jpg",
           "button": {
-            "label": "Liên Hệ Chuyên Gia",
+            "label": "Contact Expert",
             "link": "/contact-us"
           }
         }
@@ -25,7 +25,7 @@
     },
     {
       "_template": "introduction",
-      "heading": "Chúng tôi là VINHAPAC",
+      "heading": "We are VINHAPAC",
       "content": {
         "type": "root",
         "children": [
@@ -34,7 +34,7 @@
             "children": [
               {
                 "type": "text",
-                "text": "Với hơn 25 năm kinh nghiệm từ mạng lưới công ty mẹ tại Pháp, Mỹ và Thái Lan, VINHAPAC là đơn vị tiên phong trong lĩnh vực xuất nhập khẩu và phân phối đa ngành. Lợi thế của chúng tôi là sự am hiểu sâu sắc thị trường quốc tế, quy trình vận hành chuyên nghiệp và mạng lưới đối tác sản xuất uy tín tại Việt Nam, cam kết mang lại giá trị bền vững cho khách hàng."
+                "text": "With over 25 years of experience from our parent company network in France, USA, and Thailand, VINHAPAC is a pioneer in multi-sector import-export and distribution. Our advantage lies in our deep understanding of international markets, professional operations, and a network of reputable manufacturing partners in Vietnam, committed to delivering sustainable value to our customers."
               }
             ]
           }
@@ -44,69 +44,69 @@
     },
     {
       "_template": "featuredProducts",
-      "heading": "Sản Phẩm Nổi Bật",
-      "subheading": "Khám phá các dòng sản phẩm chủ lực đã được thị trường quốc tế tin chọn.",
+      "heading": "Featured Products",
+      "subheading": "Discover our flagship product lines trusted by international markets.",
       "products": [
         {
-          "name": "Nông Sản Chất Lượng Cao",
+          "name": "Premium Agricultural Products",
           "image": "/images/products/cashew.jpg",
-          "description": "Hạt điều, cà phê, hồ tiêu đạt chuẩn GlobalG.A.P, được chế biến và đóng gói theo tiêu chuẩn HACCP.",
+          "description": "Cashews, coffee, and pepper meeting GlobalG.A.P standards, processed and packaged according to HACCP standards.",
           "link": "/products/agriculture"
         },
         {
-          "name": "Hàng May Mặc Xuất Khẩu",
+          "name": "Export Garments",
           "image": "/images/products/garment.jpg",
-          "description": "Sản phẩm dệt kim và may mặc thời trang từ các nhà xưởng hiện đại, đáp ứng đơn hàng số lượng lớn.",
+          "description": "Knitted and fashion garments from modern factories, fulfilling large-scale orders.",
           "link": "/products/garment"
         },
         {
-          "name": "Đồ Gỗ & Nội Thất",
+          "name": "Wooden Furniture & Interior",
           "image": "/images/products/furniture.jpg",
-          "description": "Nội thất gỗ tự nhiên với thiết kế tinh xảo, bền đẹp, phù hợp với nhiều phong cách kiến trúc.",
+          "description": "Natural wood furniture with exquisite design, durability, suitable for various architectural styles.",
           "link": "/products/furniture"
         }
       ]
     },
     {
       "_template": "whyChooseUs",
-      "heading": "Tại Sao Chọn VINHAPAC?",
+      "heading": "Why Choose VINHAPAC?",
       "features": [
         {
-          "title": "Chứng Nhận Quốc Tế",
-          "description": "Hệ thống quản lý chất lượng đạt chuẩn ISO 9001, sản phẩm đáp ứng các tiêu chuẩn an toàn như HACCP, GlobalG.A.P.",
+          "title": "International Certifications",
+          "description": "Quality management system certified to ISO 9001, products meeting safety standards like HACCP, GlobalG.A.P.",
           "icon": "FaCertificate"
         },
         {
-          "title": "Năng Lực Sản Xuất",
-          "description": "Hợp tác với mạng lưới nhà xưởng lớn, công nghệ hiện đại, đảm bảo tiến độ và chất lượng cho mọi đơn hàng.",
+          "title": "Production Capacity",
+          "description": "Collaboration with large factory networks, modern technology, ensuring timeline and quality for all orders.",
           "icon": "FaIndustry"
         },
         {
-          "title": "Đội Ngũ Chuyên Gia",
-          "description": "Các chuyên gia giàu kinh nghiệm về logistics, thủ tục hải quan và thị trường, sẵn sàng tư vấn 24/7.",
+          "title": "Expert Team",
+          "description": "Experienced professionals in logistics, customs procedures, and markets, ready for 24/7 consultation.",
           "icon": "FaUsersCog"
         },
         {
-          "title": "Kinh Nghiệm Dày Dặn",
-          "description": "Thừa hưởng hơn 25 năm kinh nghiệm trong ngành, xử lý thành công hàng ngàn lô hàng phức tạp.",
+          "title": "Rich Experience",
+          "description": "Inheriting over 25 years of industry experience, successfully handling thousands of complex shipments.",
           "icon": "FaAward"
         }
       ]
     },
     {
       "_template": "newsAndEvents",
-      "heading": "Tin Tức & Sự Kiện",
+      "heading": "News & Events",
       "posts": [
         {
-          "title": "Xu hướng ngành Logistics năm 2024 và cơ hội cho doanh nghiệp Việt",
-          "category": "Phân Tích Ngành",
+          "title": "Logistics Industry Trends 2024 and Opportunities for Vietnamese Businesses",
+          "category": "Industry Analysis",
           "date": "2024-05-15",
           "image": "/images/news/logistics-trends.jpg",
           "link": "/blog/logistics-trends-2024"
         },
         {
-          "title": "VINHAPAC đạt chứng nhận ISO 9001:2015, khẳng định cam kết chất lượng",
-          "category": "Tin Công Ty",
+          "title": "VINHAPAC achieves ISO 9001:2015 certification, affirming quality commitment",
+          "category": "Company News",
           "date": "2024-04-28",
           "image": "/images/news/iso-certification.jpg",
           "link": "/blog/vinhapac-iso-9001"
@@ -115,33 +115,33 @@
     },
     {
       "_template": "testimonials",
-      "heading": "Đối Tác Nói Về Chúng Tôi",
+      "heading": "What Our Partners Say",
       "items": [
         {
-          "quote": "Sự chuyên nghiệp và minh bạch của VINHAPAC đã giúp chúng tôi tiết kiệm rất nhiều thời gian và chi phí trong khâu tìm nguồn cung ứng. Đối tác rất đáng tin cậy.",
+          "quote": "VINHAPAC's professionalism and transparency have helped us save significant time and costs in sourcing. A truly reliable partner.",
           "author": "Michael Chen",
-          "authorRole": "Giám đốc Mua hàng, Global Retail Inc.",
+          "authorRole": "Purchasing Director, Global Retail Inc.",
           "logo": "/images/logos/global-retail-logo.png"
         },
         {
-          "quote": "Chất lượng hàng may mặc từ VINHAPAC luôn vượt mong đợi. Đội ngũ của họ rất am hiểu kỹ thuật và luôn hỗ trợ chúng tôi nhiệt tình trong quá trình sản xuất.",
+          "quote": "The quality of garments from VINHAPAC always exceeds expectations. Their team is technically proficient and always supports us enthusiastically throughout the production process.",
           "author": "Sophie Dubois",
-          "authorRole": "Nhà sáng lập, La Mode Parisienne",
+          "authorRole": "Founder, La Mode Parisienne",
           "logo": "/images/logos/la-mode-logo.png"
         }
       ]
     },
     {
       "_template": "cta",
-      "heading": "Sẵn Sàng Đưa Sản Phẩm Của Bạn Ra Toàn Cầu?",
-      "subheading": "Hãy để các chuyên gia của chúng tôi tư vấn giải pháp xuất nhập khẩu hiệu quả và tối ưu nhất.",
+      "heading": "Ready to Take Your Products Global?",
+      "subheading": "Let our experts advise you on the most effective and optimal import-export solutions.",
       "button": {
-        "label": "Yêu Cầu Báo Giá Ngay",
+        "label": "Request Quote Now",
         "link": "/request-quote"
       }
     }
   ],
-  "title": "Trang Chủ",
+  "title": "Home",
   "slug": "/",
   "blocks": [
     {
@@ -154,35 +154,35 @@
         }
       },
       "form": {
-        "title": "Liên hệ ngay với Vinhapac",
-        "description": "Hãy để chúng tôi hỗ trợ giải đáp và tư vấn trực tiếp với bạn",
+        "title": "Contact VINHAPAC Now",
+        "description": "Let us help answer your questions and provide direct consultation",
         "fields": [
           {
             "label": "Name",
             "id": "004c5b49-2807-4410-a88b-8ef561e7b0b7",
             "type": "text",
-            "placeholder": "Nhập họ tên của bạn",
+            "placeholder": "Enter your full name",
             "required": true
           },
           {
             "label": "Email",
             "id": "9bc13b26-b955-40f3-b9c3-930e1c2d1efc",
             "type": "email",
-            "placeholder": "Nhập email của bạn",
+            "placeholder": "Enter your email",
             "required": true
           },
           {
             "label": "Phone",
             "id": "27e0e0c9-58c7-4b38-8db6-1ef9f5752955",
             "type": "tel",
-            "placeholder": "Nhập số điện thoại của bạn",
+            "placeholder": "Enter your phone number",
             "required": true
           },
           {
-            "label": "Câu hỏi",
+            "label": "Question",
             "id": "b41ff257-93ea-46b5-868b-fc3e03b0592f",
             "type": "textarea",
-            "placeholder": "Hãy cho chúng tôi biết trước câu hỏi của bạn"
+            "placeholder": "Let us know your questions in advance"
           }
         ]
       },
@@ -191,7 +191,7 @@
     {
       "name": "Button Be Supplier",
       "button": {
-        "label": "Trở thành NCC",
+        "label": "Become Supplier",
         "position": {
           "right": 2,
           "bottom": 6
@@ -202,11 +202,11 @@
     {
       "slides": [
         {
-          "slogan": "Chất Lượng Toàn Cầu - Dịch Vụ Tận Tâm",
-          "subSlogan": "Đối tác tin cậy đồng hành cùng doanh nghiệp Việt Nam trên hành trình vươn ra thế giới.",
+          "slogan": "Global Quality - Dedicated Service",
+          "subSlogan": "A trusted partner accompanying Vietnamese businesses on their journey to global expansion.",
           "backgroundImage": "/uploads/banner-home.png",
           "button": {
-            "label": "Liên hệ",
+            "label": "Contact",
             "link": "?modal=Button contact"
           }
         }
@@ -215,34 +215,34 @@
     },
     {
       "companyName": "Vinhapac",
-      "slogan": "ĐƠN VỊ XUẤT NHẬP KHẨU ĐÁNG TIN CẬY",
+      "slogan": "TRUSTED IMPORT-EXPORT ENTERPRISE",
       "stats": {
         "years": 20,
-        "yearsLabel": "Năm thành lập",
-        "yearsDescription": "Kinh nghiệm và uy tín trong lĩnh vực xuất nhập khẩu",
+        "yearsLabel": "Years Established",
+        "yearsDescription": "Experience and reputation in import-export industry",
         "revenue": 30,
-        "revenueLabel": "TRIỆU USD",
-        "revenueDescription": "Doanh thu nhập khẩu hàng năm của công ty"
+        "revenueLabel": "MILLION USD",
+        "revenueDescription": "Annual import revenue of the company"
       },
       "features": [
         {
-          "title": "HIỆN DIỆN QUỐC TẾ",
-          "description": "Chúng tôi tự hào đưa các sản phẩm Vật liệu xây dựng cùng các hàng hóa Việt Nam hiện diện và khẳng định vị trí ở các thị trường quốc tế quan trọng.",
+          "title": "GLOBAL PRESENCE",
+          "description": "We proudly bring Vietnamese construction materials and goods to establish and affirm their position in key international markets.",
           "id": "aa0f1940-d8e4-48b1-a21f-40944da9f3b2"
         },
         {
-          "title": "KẾT NỐI PHÁT TRIỂN",
-          "description": "Là cầu nối vững chắc kết nối các nhà sản xuất Việt Nam với các đối tác nước ngoài. Cam kết thúc đẩy hợp tác quốc tế và phát triển các hoạt động thương mại toàn cầu.",
+          "title": "DEVELOPMENT CONNECTION",
+          "description": "A solid bridge connecting Vietnamese manufacturers with foreign partners. Committed to promoting international cooperation and developing global trade activities.",
           "id": "778c8898-7702-4966-b96a-2c597cac0b6b"
         },
         {
-          "title": "HỢP TÁC CHIẾN LƯỢC",
-          "description": "Hợp tác với các thương hiệu lớn trong và ngoài nước, phân phối đa dạng các loại hàng hóa dịch vụ, đáp ứng toàn diện nhu cầu thị trường trong nước.",
+          "title": "STRATEGIC COOPERATION",
+          "description": "Collaborating with major domestic and international brands, distributing diverse goods and services, comprehensively meeting domestic market demands.",
           "id": "f798dcfb-573d-4ba8-97cb-03e3f5568530"
         },
         {
-          "title": "CHUYÊN NGHIỆP SÁNG TẠO",
-          "description": "Chiến lược kinh doanh linh hoạt với đội ngũ nhân sự chuyên nghiệp, năng động, sáng tạo và giàu kinh nghiệm trong thương mại quốc tế.",
+          "title": "PROFESSIONAL CREATIVITY",
+          "description": "Flexible business strategy with a professional, dynamic, creative team experienced in international trade.",
           "id": "4cb1b817-2416-4310-916e-39f8ac175c8a"
         }
       ],
