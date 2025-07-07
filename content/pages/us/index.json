@@ -4,20 +4,20 @@
       "_template": "heroSlider",
       "slides": [
         {
-          "slogan": "Global Quality - Dedicated Service",
-          "subSlogan": "Comprehensive import-export and distribution solutions, meeting the strictest standards.",
+          "slogan": "Chất Lượng Toàn Cầu - Dịch Vụ Tận Tâm",
+          "subSlogan": "Giải pháp xuất nhập khẩu và phân phối toàn diện, đáp ứng những tiêu chuẩn khắt khe nhất.",
           "backgroundImage": "/images/hero-factory.jpg",
           "button": {
-            "label": "View Products",
+            "label": "Xem Sản Phẩm",
             "link": "/products"
           }
         },
         {
-          "slogan": "Connecting Markets - Building Trust",
-          "subSlogan": "A reliable partner accompanying Vietnamese businesses on their journey to the world.",
+          "slogan": "Kết Nối Thị Trường - Xây Dựng Niềm Tin",
+          "subSlogan": "Đối tác tin cậy đồng hành cùng doanh nghiệp Việt Nam trên hành trình vươn ra thế giới.",
           "backgroundImage": "/images/hero-logistics.jpg",
           "button": {
-            "label": "Contact Experts",
+            "label": "Liên Hệ Chuyên Gia",
             "link": "/contact-us"
           }
         }
@@ -25,7 +25,7 @@
     },
     {
       "_template": "introduction",
-      "heading": "We Are VINHAPAC",
+      "heading": "Chúng tôi là VINHAPAC",
       "content": {
         "type": "root",
         "children": [
@@ -34,7 +34,7 @@
             "children": [
               {
                 "type": "text",
-                "text": "With over 25 years of experience from our parent company network in France, the USA, and Thailand, VINHAPAC is a pioneer in the multi-industry import-export and distribution sector. Our advantage lies in a deep understanding of international markets, professional operational processes, and a network of reputable manufacturing partners in Vietnam, committed to delivering sustainable value to our customers."
+                "text": "Với hơn 25 năm kinh nghiệm từ mạng lưới công ty mẹ tại Pháp, Mỹ và Thái Lan, VINHAPAC là đơn vị tiên phong trong lĩnh vực xuất nhập khẩu và phân phối đa ngành. Lợi thế của chúng tôi là sự am hiểu sâu sắc thị trường quốc tế, quy trình vận hành chuyên nghiệp và mạng lưới đối tác sản xuất uy tín tại Việt Nam, cam kết mang lại giá trị bền vững cho khách hàng."
               }
             ]
           }
@@ -44,69 +44,69 @@
     },
     {
       "_template": "featuredProducts",
-      "heading": "Featured Products",
-      "subheading": "Discover our key product lines trusted by the international market.",
+      "heading": "Sản Phẩm Nổi Bật",
+      "subheading": "Khám phá các dòng sản phẩm chủ lực đã được thị trường quốc tế tin chọn.",
       "products": [
         {
-          "name": "High-Quality Agricultural Products",
+          "name": "Nông Sản Chất Lượng Cao",
           "image": "/images/products/cashew.jpg",
-          "description": "Cashews, coffee, and pepper meeting GlobalG.A.P. standards, processed and packaged according to HACCP standards.",
+          "description": "Hạt điều, cà phê, hồ tiêu đạt chuẩn GlobalG.A.P, được chế biến và đóng gói theo tiêu chuẩn HACCP.",
           "link": "/products/agriculture"
         },
         {
-          "name": "Export Garments",
+          "name": "Hàng May Mặc Xuất Khẩu",
           "image": "/images/products/garment.jpg",
-          "description": "Knitwear and fashion apparel from modern factories, capable of handling large-volume orders.",
+          "description": "Sản phẩm dệt kim và may mặc thời trang từ các nhà xưởng hiện đại, đáp ứng đơn hàng số lượng lớn.",
           "link": "/products/garment"
         },
         {
-          "name": "Wood & Furniture",
+          "name": "Đồ Gỗ & Nội Thất",
           "image": "/images/products/furniture.jpg",
-          "description": "Exquisitely designed, durable natural wood furniture suitable for various architectural styles.",
+          "description": "Nội thất gỗ tự nhiên với thiết kế tinh xảo, bền đẹp, phù hợp với nhiều phong cách kiến trúc.",
           "link": "/products/furniture"
         }
       ]
     },
     {
       "_template": "whyChooseUs",
-      "heading": "Why Choose VINHAPAC?",
+      "heading": "Tại Sao Chọn VINHAPAC?",
       "features": [
         {
-          "title": "International Certifications",
-          "description": "Our quality management system is ISO 9001 certified, and our products meet safety standards such as HACCP and GlobalG.A.P.",
+          "title": "Chứng Nhận Quốc Tế",
+          "description": "Hệ thống quản lý chất lượng đạt chuẩn ISO 9001, sản phẩm đáp ứng các tiêu chuẩn an toàn như HACCP, GlobalG.A.P.",
           "icon": "FaCertificate"
         },
         {
-          "title": "Production Capacity",
-          "description": "We collaborate with a large network of factories with modern technology, ensuring schedule and quality for every order.",
+          "title": "Năng Lực Sản Xuất",
+          "description": "Hợp tác với mạng lưới nhà xưởng lớn, công nghệ hiện đại, đảm bảo tiến độ và chất lượng cho mọi đơn hàng.",
           "icon": "FaIndustry"
         },
         {
-          "title": "Expert Team",
-          "description": "Experienced experts in logistics, customs procedures, and market analysis, available for 24/7 consultation.",
+          "title": "Đội Ngũ Chuyên Gia",
+          "description": "Các chuyên gia giàu kinh nghiệm về logistics, thủ tục hải quan và thị trường, sẵn sàng tư vấn 24/7.",
           "icon": "FaUsersCog"
         },
         {
-          "title": "Extensive Experience",
-          "description": "Inheriting over 25 years of industry experience, we have successfully handled thousands of complex shipments.",
+          "title": "Kinh Nghiệm Dày Dặn",
+          "description": "Thừa hưởng hơn 25 năm kinh nghiệm trong ngành, xử lý thành công hàng ngàn lô hàng phức tạp.",
           "icon": "FaAward"
         }
       ]
     },
     {
       "_template": "newsAndEvents",
-      "heading": "News & Events",
+      "heading": "Tin Tức & Sự Kiện",
       "posts": [
         {
-          "title": "Logistics Industry Trends in 2024 and Opportunities for Vietnamese Businesses",
-          "category": "Industry Analysis",
+          "title": "Xu hướng ngành Logistics năm 2024 và cơ hội cho doanh nghiệp Việt",
+          "category": "Phân Tích Ngành",
           "date": "2024-05-15",
           "image": "/images/news/logistics-trends.jpg",
           "link": "/blog/logistics-trends-2024"
         },
         {
-          "title": "VINHAPAC Achieves ISO 9001:2015 Certification, Affirming Quality Commitment",
-          "category": "Company News",
+          "title": "VINHAPAC đạt chứng nhận ISO 9001:2015, khẳng định cam kết chất lượng",
+          "category": "Tin Công Ty",
           "date": "2024-04-28",
           "image": "/images/news/iso-certification.jpg",
           "link": "/blog/vinhapac-iso-9001"
@@ -115,200 +115,359 @@
     },
     {
       "_template": "testimonials",
-      "heading": "What Our Partners Say",
+      "heading": "Đối Tác Nói Về Chúng Tôi",
       "items": [
         {
-          "quote": "VINHAPAC's professionalism and transparency have saved us significant time and cost in sourcing. A very reliable partner.",
+          "quote": "Sự chuyên nghiệp và minh bạch của VINHAPAC đã giúp chúng tôi tiết kiệm rất nhiều thời gian và chi phí trong khâu tìm nguồn cung ứng. Đối tác rất đáng tin cậy.",
           "author": "Michael Chen",
-          "authorRole": "Purchasing Director, Global Retail Inc.",
+          "authorRole": "Giám đốc Mua hàng, Global Retail Inc.",
           "logo": "/images/logos/global-retail-logo.png"
         },
         {
-          "quote": "The quality of garments from VINHAPAC always exceeds expectations. Their team is very knowledgeable technically and always supports us enthusiastically during production.",
+          "quote": "Chất lượng hàng may mặc từ VINHAPAC luôn vượt mong đợi. Đội ngũ của họ rất am hiểu kỹ thuật và luôn hỗ trợ chúng tôi nhiệt tình trong quá trình sản xuất.",
           "author": "Sophie Dubois",
-          "authorRole": "Founder, La Mode Parisienne",
+          "authorRole": "Nhà sáng lập, La Mode Parisienne",
           "logo": "/images/logos/la-mode-logo.png"
         }
       ]
     },
     {
       "_template": "cta",
-      "heading": "Ready to Take Your Product Global?",
-      "subheading": "Let our experts advise you on the most effective and optimal import-export solutions.",
+      "heading": "Sẵn Sàng Đưa Sản Phẩm Của Bạn Ra Toàn Cầu?",
+      "subheading": "Hãy để các chuyên gia của chúng tôi tư vấn giải pháp xuất nhập khẩu hiệu quả và tối ưu nhất.",
       "button": {
-        "label": "Request a Quote Now",
+        "label": "Yêu Cầu Báo Giá Ngay",
         "link": "/request-quote"
       }
     }
   ],
-  "title": "Home",
+  "title": "Trang Chủ",
   "slug": "/",
   "blocks": [
     {
+      "name": "Button contact",
+      "button": {
+        "label": "Contact",
+        "position": {
+          "right": 2,
+          "bottom": 2
+        }
+      },
+      "form": {
+        "title": "Liên hệ ngay với Vinhapac",
+        "description": "Hãy để chúng tôi hỗ trợ giải đáp và tư vấn trực tiếp với bạn",
+        "fields": [
+          {
+            "label": "Name",
+            "id": "004c5b49-2807-4410-a88b-8ef561e7b0b7",
+            "type": "text",
+            "placeholder": "Nhập họ tên của bạn",
+            "required": true
+          },
+          {
+            "label": "Email",
+            "id": "9bc13b26-b955-40f3-b9c3-930e1c2d1efc",
+            "type": "email",
+            "placeholder": "Nhập email của bạn",
+            "required": true
+          },
+          {
+            "label": "Phone",
+            "id": "27e0e0c9-58c7-4b38-8db6-1ef9f5752955",
+            "type": "tel",
+            "placeholder": "Nhập số điện thoại của bạn",
+            "required": true
+          },
+          {
+            "label": "Câu hỏi",
+            "id": "b41ff257-93ea-46b5-868b-fc3e03b0592f",
+            "type": "textarea",
+            "placeholder": "Hãy cho chúng tôi biết trước câu hỏi của bạn"
+          }
+        ]
+      },
+      "_template": "fixedFormButton"
+    },
+    {
+      "name": "Button Be Supplier",
+      "button": {
+        "label": "Trở thành NCC",
+        "position": {
+          "right": 2,
+          "bottom": 6
+        }
+      },
+      "_template": "fixedFormButton"
+    },
+    {
       "slides": [
         {
-          "slogan": "Connecting Markets - Building Trust",
-          "subSlogan": "A reliable partner accompanying Vietnamese businesses on their journey to the world.",
+          "slogan": "Chất Lượng Toàn Cầu - Dịch Vụ Tận Tâm",
+          "subSlogan": "Đối tác tin cậy đồng hành cùng doanh nghiệp Việt Nam trên hành trình vươn ra thế giới.",
           "backgroundImage": "/uploads/banner-home.png",
           "button": {
-            "label": "Contact Experts",
-            "link": "/contact"
-          }
-        },
-        {
-          "slogan": "Global Quality - Dedicated Service",
-          "subSlogan": "Comprehensive import-export and distribution solutions, meeting the strictest standards.",
-          "backgroundImage": "/uploads/banner-home.png",
-          "button": {
-            "label": "Details",
-            "link": "/"
+            "label": "Liên hệ",
+            "link": "?modal=Button contact"
           }
         }
       ],
       "_template": "heroSlider"
     },
     {
-      "heading": "We Are VINHAPAC",
-      "content": "With over **25** years of experience from our parent company network in France, the USA, and Thailand, VINHAPAC is a pioneer in the multi-industry import-export and distribution sector. Our advantage lies in a deep understanding of international markets, professional operational processes, and a network of reputable manufacturing partners in Vietnam, committed to delivering sustainable value to our customers.\n",
-      "image": "/uploads/we-vinhapac.png",
-      "_template": "introduction"
-    },
-    {
-      "heading": "Featured Products",
-      "subheading": "Discover our key product lines trusted by the international market.",
-      "products": [
-        {
-          "name": "High-Quality Agricultural Products",
-          "image": "/uploads/news.png",
-          "description": "High-Quality Agricultural Products 2025",
-          "link": "/products/agriculture"
-        },
-        {
-          "name": "High-Quality Agricultural Products",
-          "image": "/uploads/logo.png",
-          "description": "Cashews, coffee, and pepper meeting GlobalG.A.P. standards, processed and packaged according to HACCP standards.",
-          "link": "/products/agriculture"
-        }
-      ],
-      "_template": "featuredProducts"
-    },
-    {
-      "heading": "Why Choose VINHAPAC?",
+      "companyName": "Vinhapac",
+      "slogan": "ĐƠN VỊ XUẤT NHẬP KHẨU ĐÁNG TIN CẬY",
+      "stats": {
+        "years": 20,
+        "yearsLabel": "Năm thành lập",
+        "yearsDescription": "Kinh nghiệm và uy tín trong lĩnh vực xuất nhập khẩu",
+        "revenue": 30,
+        "revenueLabel": "TRIỆU USD",
+        "revenueDescription": "Doanh thu nhập khẩu hàng năm của công ty"
+      },
       "features": [
         {
-          "title": "International Certifications",
-          "description": "Our quality management system is ISO 9001 certified, and our products meet safety standards such as HACCP and GlobalG.A.P.",
-          "icon": "FaCertificate"
+          "title": "HIỆN DIỆN QUỐC TẾ",
+          "description": "Chúng tôi tự hào đưa các sản phẩm Vật liệu xây dựng cùng các hàng hóa Việt Nam hiện diện và khẳng định vị trí ở các thị trường quốc tế quan trọng.",
+          "id": "aa0f1940-d8e4-48b1-a21f-40944da9f3b2"
         },
         {
-          "title": "Production Capacity",
-          "description": "We collaborate with a large network of factories with modern technology, ensuring schedule and quality for every order.",
-          "icon": "FaIndustry"
+          "title": "KẾT NỐI PHÁT TRIỂN",
+          "description": "Là cầu nối vững chắc kết nối các nhà sản xuất Việt Nam với các đối tác nước ngoài. Cam kết thúc đẩy hợp tác quốc tế và phát triển các hoạt động thương mại toàn cầu.",
+          "id": "778c8898-7702-4966-b96a-2c597cac0b6b"
         },
         {
-          "title": "Expert Team",
-          "description": "Experienced experts in logistics, customs procedures, and market analysis, available for 24/7 consultation.",
-          "icon": "FaUsersCog"
+          "title": "HỢP TÁC CHIẾN LƯỢC",
+          "description": "Hợp tác với các thương hiệu lớn trong và ngoài nước, phân phối đa dạng các loại hàng hóa dịch vụ, đáp ứng toàn diện nhu cầu thị trường trong nước.",
+          "id": "f798dcfb-573d-4ba8-97cb-03e3f5568530"
         },
         {
-          "title": "Extensive Experience",
-          "description": "Inheriting over 25 years of industry experience, we have successfully handled thousands of complex shipments.",
-          "icon": "FaAward"
+          "title": "CHUYÊN NGHIỆP SÁNG TẠO",
+          "description": "Chiến lược kinh doanh linh hoạt với đội ngũ nhân sự chuyên nghiệp, năng động, sáng tạo và giàu kinh nghiệm trong thương mại quốc tế.",
+          "id": "4cb1b817-2416-4310-916e-39f8ac175c8a"
         }
       ],
-      "_template": "whyChooseUs"
+      "_template": "introCompanySection"
     },
     {
-      "heading": "Export Markets",
-      "subheading": "Our products are present in over 20 countries and territories.",
-      "mapImage": "/uploads/world-map-export-markets.png",
+      "products": [
+        {
+          "id": "bc772299-1821-49d9-b53a-cb411de4fb7e",
+          "title": "Agricultural Products",
+          "description": "We export high-grade rice, robusta & arabica coffee, black pepper, and cashew nuts cultivated from Vietnam's richest farmlands.",
+          "image": "/uploads/exportProducts/agricultural.png"
+        },
+        {
+          "id": "0358716d-a4df-46bd-b126-b0822b12b7c4",
+          "title": "Seafood",
+          "description": "Frozen shrimp, pangasius fillets, squid, and other seafood products meeting global HACCP and ISO standards.",
+          "image": "/uploads/exportProducts/seafood.png"
+        },
+        {
+          "id": "ba483732-3846-4685-8c3f-822715402103",
+          "title": "Furniture",
+          "description": "Eco-friendly wooden and bamboo furniture designed for durability, export-ready for US & EU markets.",
+          "image": "/uploads/exportProducts/furniture.png"
+        },
+        {
+          "id": "834161b3-d9d4-48ef-9ee1-5828deb56187",
+          "title": "Garment & Textile",
+          "description": "OEM/ODM apparel production with high-quality fabrics, competitive pricing, and trusted delivery schedules.",
+          "image": "/uploads/exportProducts/spices.png"
+        },
+        {
+          "id": "72bc05dd-cffc-42a7-a3ed-a2f793e06cb8",
+          "title": "Handicrafts",
+          "description": "Bamboo, rattan, and lacquer crafts handcrafted by skilled artisans for modern and traditional decor needs.",
+          "image": "/uploads/exportProducts/garment.png"
+        },
+        {
+          "id": "def2094e-2c18-4da9-a7d3-543e9233e9ab",
+          "title": "Spices & Herbs",
+          "description": "Vietnamese cinnamon, star anise, ginger, turmeric, and medicinal herbs exported in bulk or retail-ready form.",
+          "image": "/uploads/exportProducts/spices.png"
+        }
+      ],
+      "_template": "keyExportProducts"
+    },
+    {
+      "deepExportServicesHeading": {
+        "title": "Specialized Export Services",
+        "description": "VINHAPAC offers comprehensive export support tailored to help you scale globally with confidence."
+      },
+      "services": [
+        {
+          "id": "b63de828-a9e3-4b6c-afba-3baa0076ab13",
+          "title": "End-to-End Export Solutions",
+          "description": "Comprehensive support from sourcing, logistics, to international compliance handling.",
+          "image": "/uploads/banner-home.png"
+        },
+        {
+          "id": "5e3013b1-ecbe-446e-b730-6e2e742af40c",
+          "title": "Customs & Documentation",
+          "description": "Fast and accurate customs clearance and international export documentation services.",
+          "image": "/uploads/banner-home.png"
+        },
+        {
+          "id": "51a3f044-9eca-4849-a1a3-1d079bda03c2",
+          "title": "Product Sourcing & Consolidation",
+          "description": "Strong ties with local manufacturers across industries like apparel, food, furniture, and more.",
+          "image": "/uploads/news.png"
+        },
+        {
+          "id": "4f48b67c-9cec-47cb-9a04-1f4df5360551",
+          "title": "Quality Control & Certification",
+          "description": "Strict quality inspection with international certification assurance for every shipment.",
+          "image": "/uploads/banner-home.png"
+        },
+        {
+          "id": "27ddff9d-9bc0-4349-a537-367a8fb33711",
+          "title": "Tailored Distribution Network",
+          "description": "Flexible and scalable delivery channels to match partner requirements worldwide.",
+          "image": "/uploads/banner-home.png"
+        },
+        {
+          "id": "5b05ffb5-d337-456c-96eb-16de7a155867",
+          "title": "Global Partner Relationships",
+          "description": "Strategic partnerships with logistics and supply chain experts in France, USA, and Asia.",
+          "image": "/uploads/banner-home.png"
+        }
+      ],
+      "_template": "deepExportServices"
+    },
+    {
+      "partnersShowcaseHeading": {
+        "title": "Trusted by Global Retailers"
+      },
+      "partners": [
+        {
+          "id": "a294a903-7122-4216-9033-592b868cd2b4",
+          "name": "Lidl",
+          "logo": "/uploads/news.png"
+        },
+        {
+          "id": "998158e8-df76-41f1-a52e-8a1b1a7cfdfc",
+          "name": "Whole Foods",
+          "logo": "/uploads/banner-home.png"
+        },
+        {
+          "id": "70d8bb8b-6709-47a2-81e9-ba6889e7a8e1",
+          "name": "Tesco",
+          "logo": "/uploads/ourmission.png"
+        },
+        {
+          "id": "d1e46c43-45aa-47b8-be20-c50f4969fd2b",
+          "name": "Auchan",
+          "logo": "/uploads/ourvision.png"
+        },
+        {
+          "id": "a31ca4f4-9e81-4d70-abd0-e8bb8c46fa04",
+          "name": "Carrefour",
+          "logo": "/uploads/ourvision.png"
+        }
+      ],
+      "_template": "partnersShowcase"
+    },
+    {
+      "certificationHeading": {
+        "title": "International Certifications"
+      },
+      "certifications": [
+        {
+          "name": "HACCP",
+          "image": "/uploads/certifications/iso-certi-template.png",
+          "description": "Hazard Analysis & Critical Control Points"
+        },
+        {
+          "name": "ISO 22000",
+          "image": "/uploads/certifications/iso-certi-template.png",
+          "description": "Food Safety Management Systems"
+        },
+        {
+          "name": "FDA Approved",
+          "image": "/uploads/certifications/iso-certi-template.png",
+          "description": "Compliant with U.S. FDA standards"
+        },
+        {
+          "name": "GlobalG.A.P",
+          "image": "/uploads/certifications/iso-certi-template.png",
+          "description": "Good Agricultural Practices Certification"
+        }
+      ],
+      "_template": "certificationsSection"
+    },
+    {
+      "heading": "Global Market Network",
+      "subheading": "Worldwide market with more than 15 countries",
       "countries": [
         {
-          "name": "UK",
-          "country": "United Kingdom",
-          "iso": "GBR"
-        },
-        {
-          "name": "Japan",
-          "country": "Japan",
-          "iso": "JPN"
-        },
-        {
-          "name": "India",
-          "country": "India",
-          "iso": "IND"
-        },
-        {
-          "name": "Indonesia",
-          "country": "Indonesia",
-          "iso": "IDN"
-        },
-        {
-          "name": "USA",
-          "country": "USA",
+          "name": "US",
+          "country": "US",
           "iso": "USA"
         },
         {
-          "name": "Vietnam",
-          "country": "Vietnam",
+          "name": "VN",
+          "country": "VN",
           "iso": "VNM"
         }
       ],
       "_template": "exportMarkets"
     },
     {
-      "heading": "News & Events",
-      "posts": [
-        {
-          "title": "Logistics Industry Trends in 2024 and Opportunities for Vietnamese Businesses",
-          "category": "Industry Analysis",
-          "date": "2024-05-15T00:00:00.000Z",
-          "image": "/uploads/news.png",
-          "link": "/blog/logistics-trends-2024"
-        },
-        {
-          "title": "VINHAPAC Achieves ISO 9001:2015 Certification, Affirming Quality Commitment",
-          "category": "Company News",
-          "date": "2024-04-28T00:00:00.000Z",
-          "image": "/uploads/news.png",
-          "link": "/blog/vinhapac-iso-9001"
-        },
-        {
-          "title": "Logistics Industry Trends in 2024 and Opportunities for Vietnamese Businesses",
-          "category": "Industry Analysis",
-          "date": "2024-05-15T00:00:00.000Z",
-          "image": "/uploads/news.png",
-          "link": "/blog/logistics-trends-2024"
-        }
-      ],
-      "_template": "newsAndEvents"
-    },
-    {
-      "heading": "What Our Partners Say",
-      "items": [
-        {
-          "quote": "VINHAPAC's professionalism and transparency have saved us significant time and cost in sourcing. A very reliable partner.",
-          "author": "Michael Chen",
-          "authorRole": "Purchasing Director, Global Retail Inc.",
-          "logo": "/uploads/globallogo.png"
-        },
-        {
-          "quote": "The quality of garments from VINHAPAC always exceeds expectations. Their team is very knowledgeable technically and always supports us enthusiastically during production.",
-          "author": "Sophie Dubois",
-          "authorRole": "Founder, La Mode Parisienne",
-          "logo": "/uploads/globallogo.png"
-        }
-      ],
-      "_template": "testimonials"
-    },
-    {
-      "heading": "Ready to Take Your Product Global?",
-      "subheading": "Let our experts advise you on the most effective and optimal import-export solutions.",
-      "button": {
-        "label": "Consult Now",
-        "link": "/contact"
+      "callToActionSecondHeading": {
+        "title": "Ready to Start?",
+        "description": "Whether you're looking to source products or export your goods, we have the expertise to help you succeed."
       },
-      "_template": "cta"
+      "buyer": {
+        "title": "For International Buyers",
+        "description": "Access premium Vietnamese products with guaranteed quality, competitive pricing, and reliable delivery worldwide.",
+        "button": {
+          "text": "Request a Quote"
+        },
+        "features": [
+          {
+            "title": "Premium product sourcing",
+            "id": "fb28671f-eef9-4ce0-9520-d8413b85eedd"
+          },
+          {
+            "title": "Quality assurance & certification",
+            "id": "f45898a0-c170-430a-92cc-84f30d576740"
+          },
+          {
+            "title": "Competitive wholesale pricing",
+            "id": "0ae5bec8-f70e-440b-b74f-76dcf8e3fe4c"
+          },
+          {
+            "title": "End-to-end logistics and export support",
+            "id": "1076625d-ba1f-4063-9460-f42a76f6fd43"
+          }
+        ]
+      },
+      "supplier": {
+        "title": "For Vietnamese Suppliers",
+        "description": "Join our network of trusted suppliers and expand your business to international markets with our expert support.",
+        "button": {
+          "text": "Become a Supplier"
+        },
+        "features": [
+          {
+            "title": "Global market access",
+            "id": "df659644-773e-407e-8741-41acb76a5919"
+          },
+          {
+            "title": "Export documentation and compliance",
+            "id": "571acf33-5a01-4449-9b63-94884f2d6530"
+          },
+          {
+            "title": "Marketing and promotion support",
+            "id": "74954987-7c20-4d6a-b8b4-0893c5884ebe"
+          },
+          {
+            "title": "Payment security and trade finance",
+            "id": "48e25302-2417-45ad-95f9-3cea8bac0ac2"
+          }
+        ]
+      },
+      "_template": "callToActionSectionSecond"
     }
   ]
 }
