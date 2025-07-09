@@ -469,7 +469,8 @@
         "title": "Dành Cho Người Mua Quốc Tế",
         "description": "Tiếp cận sản phẩm Việt Nam cao cấp với chất lượng đảm bảo, giá cả cạnh tranh và giao hàng đáng tin cậy trên toàn thế giới.",
         "button": {
-          "text": "Yêu Cầu Báo Giá"
+          "text": "Yêu Cầu Báo Giá",
+          "link": "/?modal=Button contact"
         },
         "features": [
           {
@@ -491,10 +492,11 @@
         ]
       },
       "supplier": {
-        "title": "Dành Cho Nhà Cung Cấp Việt Nam",
+        "title": "Dành Cho Nhà Cung Cấp",
         "description": "Tham gia mạng lưới nhà cung cấp uy tín của chúng tôi và mở rộng kinh doanh ra thị trường quốc tế với sự hỗ trợ chuyên nghiệp.",
         "button": {
-          "text": "Trở Thành Nhà Cung Cấp"
+          "text": "Trở Thành Nhà Cung Cấp",
+          "link": "/?modal=Button advisor"
         },
         "features": [
           {
