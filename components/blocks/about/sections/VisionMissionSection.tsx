@@ -47,7 +47,7 @@ export const VisionMissionSection = ({ data }: VisionMissionSectionProps) => {
   return (
     <section className="">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 gap-2 mb-12">
           {/* Vision */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -83,7 +83,7 @@ export const VisionMissionSection = ({ data }: VisionMissionSectionProps) => {
 
         {/* Statistics */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16"
+          className="grid grid-cols-1 md:grid-cols-3 gap-2 mb-12"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -217,7 +217,7 @@ export const VisionMissionSection = ({ data }: VisionMissionSectionProps) => {
         </motion.div>
 
         {/* Core Values */}
-        <div className="text-center mb-12">
+        <div className="text-center">
           <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -229,7 +229,7 @@ export const VisionMissionSection = ({ data }: VisionMissionSectionProps) => {
         </div>
         <div className="max-w-7xl mx-auto !overflow-hidden">
           {!data.coreValues?.values || data.coreValues?.values?.length === 0 ? (
-            <div className="text-center py-12">
+            <div className="text-center py-4">
               <div className="w-16 h-16 mx-auto mb-4">
                 <svg
                   className="w-full h-full text-gray-300"

@@ -35,7 +35,7 @@ export const LegalInfoSection = ({ data }: LegalInfoSectionProps) => {
         >
           {data.heading}
         </motion.h2>
-        <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-2 max-w-4xl mx-auto">
           {/* Company Profile */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -85,7 +85,7 @@ export const LegalInfoSection = ({ data }: LegalInfoSectionProps) => {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="space-y-4"
+            className="space-y-2"
           >
             {data.legalDetails?.map((detail) => (
               <div key={detail.label} className="p-4 bg-gray-50 rounded-lg">

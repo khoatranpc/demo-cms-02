@@ -41,7 +41,7 @@ export const CapacitySection = ({ data }: CapacitySectionProps) => {
         >
           {data.capacityHeading}
         </motion.h2>
-        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-2">
           {data.capacityItems?.map((item, index) => {
             const IconComponent =
               iconComponents[item.icon as keyof typeof iconComponents];
