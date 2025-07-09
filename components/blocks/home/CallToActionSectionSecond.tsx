@@ -4,6 +4,7 @@ import { CheckCircle, ArrowRight } from "lucide-react";
 import { Template } from "tinacms";
 import { uuidv4 } from "@/lib/utils";
 import { Globe, Building } from "lucide-react";
+import Link from "next/link";
 
 interface CallToActionSectionProps {
   onQuoteClick: () => void;
@@ -20,6 +21,7 @@ export interface ICallToActionSectionSecond {
     description?: string;
     button: {
       text?: string;
+      link?: string;
     };
     features?: { title?: string; id?: string }[];
     id?: string;
@@ -29,6 +31,7 @@ export interface ICallToActionSectionSecond {
     description?: string;
     button?: {
       text?: string;
+      link?: string;
     };
     features?: { title?: string; id?: string }[];
     id?: string;
@@ -114,26 +117,27 @@ const CallToActionSectionSecond: React.FC<Props> = ({ data }) => {
                     </motion.div>
                   ))}
                 </div>
-                <motion.button
-                  // onClick={i === 0 ? onQuoteClick : onSupplierClick}
-                  className="w-full bg-gradient-to-r border border-vina-primary rounded-2xl text-vina-primary cursor-pointer py-4 font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-2 relative z-10 group/btn overflow-hidden"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 1.2, duration: 0.6 }}
-                  viewport={{ once: true }}
-                >
-                  <span className="relative z-10">{item?.button?.text}</span>
-                  <motion.div
-                    className="relative z-10 rounded-2xl border border-vina-primary"
-                    whileHover={{ x: 5 }}
-                    transition={{ type: "spring", stiffness: 400 }}
+                <Link href={(item?.button?.link as string) ?? "/"}>
+                  <motion.button
+                    className="w-full bg-gradient-to-r border border-vina-primary rounded-2xl text-vina-primary cursor-pointer py-4 font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-2 relative z-10 group/btn overflow-hidden"
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 1.2, duration: 0.6 }}
+                    viewport={{ once: true }}
                   >
-                    <ArrowRight className="w-5 h-5" />
-                  </motion.div>
-                  <div className="absolute inset-0 bg-white opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300" />
-                </motion.button>
+                    <span className="relative z-10">{item?.button?.text}</span>
+                    <motion.div
+                      className="relative z-10 rounded-2xl border border-vina-primary"
+                      whileHover={{ x: 5 }}
+                      transition={{ type: "spring", stiffness: 400 }}
+                    >
+                      <ArrowRight className="w-5 h-5" />
+                    </motion.div>
+                    <div className="absolute inset-0 bg-white opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300" />
+                  </motion.button>
+                </Link>
               </motion.div>
             );
           })}
@@ -203,6 +207,11 @@ export const callToActionSetionSecondSchema: Template = {
             {
               name: "text",
               label: "Button Text",
+              type: "string",
+            },
+            {
+              name: "link",
+              label: "Link for open",
               type: "string",
             },
           ],
@@ -279,6 +288,11 @@ export const callToActionSetionSecondSchema: Template = {
             {
               name: "text",
               label: "Button Text",
+              type: "string",
+            },
+            {
+              name: "link",
+              label: "Link for open",
               type: "string",
             },
           ],

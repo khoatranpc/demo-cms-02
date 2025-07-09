@@ -145,6 +145,51 @@
   "slug": "/",
   "blocks": [
     {
+      "name": "Button Advisor",
+      "button": {
+        "label": "Tư vấn",
+        "position": {
+          "right": 2,
+          "bottom": 6
+        }
+      },
+      "form": {
+        "title": "Tư vấn phân phối cùng Vinhapac",
+        "description": "Chúng tôi sẽ giải đáp và tư vấn miễn phí cho những khách hàng có nhu cầu hợp tác",
+        "fields": [
+          {
+            "label": "Họ và tên",
+            "id": "c14fff9a-9599-4634-8f70-f450cbb0a134",
+            "type": "text",
+            "placeholder": "Nhập tên của bạn",
+            "required": true
+          },
+          {
+            "label": "Email",
+            "id": "ef2bd621-fdc1-4bd6-83f7-5a60df584d70",
+            "type": "email",
+            "placeholder": "Email của bạn",
+            "required": true
+          },
+          {
+            "label": "Sản phẩm",
+            "id": "9d858cc2-3a39-41c2-9aa0-ba5457266d56",
+            "type": "text",
+            "placeholder": "Sản phẩm muốn phân phối",
+            "required": true
+          },
+          {
+            "label": "Câu hỏi",
+            "id": "fa9c3bf5-6a74-43cb-b476-7f99f5edd247",
+            "type": "text",
+            "placeholder": "Hãy cho chúng tôi biết trước câu hỏi của bạn",
+            "required": true
+          }
+        ]
+      },
+      "_template": "fixedFormButton"
+    },
+    {
       "name": "Button contact",
       "button": {
         "label": "Liên hệ",
@@ -189,24 +234,14 @@
       "_template": "fixedFormButton"
     },
     {
-      "name": "Button Be Supplier",
-      "button": {
-        "label": "Trở thành NCC",
-        "position": {
-          "right": 2,
-          "bottom": 6
-        }
-      },
-      "_template": "fixedFormButton"
-    },
-    {
       "slides": [
         {
           "slogan": "Phân Phối Chuyên Nghiệp",
           "subSlogan": "Tối ưu logistics – kiểm soát chất lượng – mở rộng thị trường cho thương hiệu Việt.",
           "backgroundImage": "/uploads/pp.png",
           "button": {
-            "label": "Tư vấn ngay"
+            "label": "Tư vấn ngay",
+            "link": "?modal=Button Advisor"
           }
         },
         {
