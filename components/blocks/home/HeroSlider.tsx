@@ -67,7 +67,7 @@ export const HeroSlider = ({ slides }: HeroSliderProps) => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
                 <div className="absolute inset-0 flex items-center">
-                  <div className="container mx-auto px-4 md:px-6 lg:px-8">
+                  <div className="container mx-auto p-6 md:p-8">
                     <motion.div
                       initial={{ x: -80, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
