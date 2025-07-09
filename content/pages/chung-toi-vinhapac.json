@@ -76,28 +76,6 @@
       "_template": "exportMarkets"
     },
     {
-      "heading": "Lịch Sử Hình Thành & Phát Triển",
-      "timeline": [
-        {
-          "year": "1998",
-          "event": "Nền tảng được thiết lập với sự ra đời của công ty mẹ tại Pháp, chuyên về thương mại nông sản."
-        },
-        {
-          "year": "2010",
-          "event": "Mở rộng mạng lưới sang Mỹ và Thái Lan, đa dạng hóa danh mục sản phẩm sang hàng may mặc và nội thất."
-        },
-        {
-          "year": "2020",
-          "event": "Thành lập VINHAPAC tại Việt Nam, tập trung khai thác tiềm năng sản xuất và nguồn cung ứng chất lượng cao tại địa phương."
-        },
-        {
-          "year": "2024",
-          "event": "Đạt chứng nhận ISO 9001:2015, xuất khẩu thành công đến hơn 20 quốc gia, khẳng định vị thế đối tác tin cậy toàn cầu."
-        }
-      ],
-      "_template": "timelineSection"
-    },
-    {
       "capacityHeading": "Năng Lực Sản Xuất & Vận Hành",
       "capacityItems": [
         {

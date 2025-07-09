@@ -133,7 +133,8 @@ export const VisionMissionSection = ({ data }: VisionMissionSectionProps) => {
               {data.statistics?.orderQuantity?.label ?? "Orders"}
             </h4>
             <p className="text-gray-600 text-sm">
-              {data.statistics?.orderQuantity?.description ?? "Completed orders"}
+              {data.statistics?.orderQuantity?.description ??
+                "Completed orders"}
             </p>
           </motion.div>
 
@@ -222,7 +223,7 @@ export const VisionMissionSection = ({ data }: VisionMissionSectionProps) => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-2xl md:text-3xl font-bold text-vina-primary"
+            className="text-3xl uppercase underline text-vina-primary mb-10"
           >
             {data.coreValues?.title}
           </motion.h3>
