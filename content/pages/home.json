@@ -147,7 +147,7 @@
     {
       "name": "Button contact",
       "button": {
-        "label": "Contact",
+        "label": "Liên hệ",
         "position": {
           "right": 2,
           "bottom": 2
@@ -202,8 +202,16 @@
     {
       "slides": [
         {
-          "slogan": "Chất Lượng Toàn Cầu - Dịch Vụ Tận Tâm",
-          "subSlogan": "Đối tác tin cậy đồng hành cùng doanh nghiệp Việt Nam trên hành trình vươn ra thế giới.",
+          "slogan": "Phân Phối Chuyên Nghiệp",
+          "subSlogan": "Tối ưu logistics – kiểm soát chất lượng – mở rộng thị trường cho thương hiệu Việt.",
+          "backgroundImage": "/uploads/pp.png",
+          "button": {
+            "label": "Tư vấn ngay"
+          }
+        },
+        {
+          "slogan": "Kết nối toàn cầu",
+          "subSlogan": "Xuất khẩu sản phẩm Việt đến Mỹ, EU và châu Á – nhanh chóng, hiệu quả, đúng chuẩn quốc tế.",
           "backgroundImage": "/uploads/banner-home.png",
           "button": {
             "label": "Liên hệ",
@@ -246,9 +254,14 @@
           "id": "4cb1b817-2416-4310-916e-39f8ac175c8a"
         }
       ],
+      "image": "/uploads/world.png",
       "_template": "introCompanySection"
     },
     {
+      "keyExportProductsHeading": {
+        "title": "Sản phẩm",
+        "description": " "
+      },
       "products": [
         {
           "id": "bc772299-1821-49d9-b53a-cb411de4fb7e",
@@ -291,8 +304,8 @@
     },
     {
       "deepExportServicesHeading": {
-        "title": "Dịch Vụ Xuất Khẩu Chuyên Biệt",
-        "description": "VINHAPAC cung cấp hỗ trợ xuất khẩu toàn diện được thiết kế để giúp bạn mở rộng toàn cầu một cách tự tin."
+        "title": "Dịch Vụ Xuất Khẩu",
+        "description": ""
       },
       "services": [
         {
@@ -336,7 +349,7 @@
     },
     {
       "partnersShowcaseHeading": {
-        "title": "Được Tin Tưởng Bởi Các Nhà Bán Lẻ Toàn Cầu"
+        "title": "Khách hàng"
       },
       "partners": [
         {
@@ -369,7 +382,7 @@
     },
     {
       "certificationHeading": {
-        "title": "Chứng Nhận Quốc Tế"
+        "title": "Chứng Nhận"
       },
       "certifications": [
         {
@@ -396,8 +409,8 @@
       "_template": "certificationsSection"
     },
     {
-      "heading": "Mạng Lưới Thị Trường Toàn Cầu",
-      "subheading": "Thị trường toàn cầu với hơn 15 quốc gia",
+      "heading": "Mạng Lưới Thị Trường",
+      "subheading": "",
       "countries": [
         {
           "name": "US",

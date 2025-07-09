@@ -318,33 +318,43 @@ body::-webkit-scrollbar-thumb:hover {
   }
 
   .bg-vina-secondary-10 {
-    background-color: color-mix(in srgb,
-        var(--vina-secondary) 10%,
-        transparent);
+    background-color: color-mix(
+      in srgb,
+      var(--vina-secondary) 10%,
+      transparent
+    );
   }
 
   .bg-vina-secondary-20 {
-    background-color: color-mix(in srgb,
-        var(--vina-secondary) 20%,
-        transparent);
+    background-color: color-mix(
+      in srgb,
+      var(--vina-secondary) 20%,
+      transparent
+    );
   }
 
   .bg-vina-secondary-30 {
-    background-color: color-mix(in srgb,
-        var(--vina-secondary) 30%,
-        transparent);
+    background-color: color-mix(
+      in srgb,
+      var(--vina-secondary) 30%,
+      transparent
+    );
   }
 
   .bg-vina-secondary-40 {
-    background-color: color-mix(in srgb,
-        var(--vina-secondary) 40%,
-        transparent);
+    background-color: color-mix(
+      in srgb,
+      var(--vina-secondary) 40%,
+      transparent
+    );
   }
 
   .bg-vina-secondary-50 {
-    background-color: color-mix(in srgb,
-        var(--vina-secondary) 50%,
-        transparent);
+    background-color: color-mix(
+      in srgb,
+      var(--vina-secondary) 50%,
+      transparent
+    );
   }
 
   /* Gradients */
@@ -379,28 +389,34 @@ body::-webkit-scrollbar-thumb:hover {
 
   /* Gradient Text Utilities */
   .bg-gradient-text-primary {
-    background-image: linear-gradient(to right,
-        var(--vina-primary),
-        var(--vina-secondary),
-        var(--vina-accent));
+    background-image: linear-gradient(
+      to right,
+      var(--vina-primary),
+      var(--vina-secondary),
+      var(--vina-accent)
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
   .bg-gradient-text-secondary {
-    background-image: linear-gradient(to right,
-        var(--vina-secondary),
-        var(--vina-accent));
+    background-image: linear-gradient(
+      to right,
+      var(--vina-secondary),
+      var(--vina-accent)
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
   .bg-gradient-text-accent {
-    background-image: linear-gradient(to right,
-        var(--vina-accent),
-        var(--vina-primary));
+    background-image: linear-gradient(
+      to right,
+      var(--vina-accent),
+      var(--vina-primary)
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -408,16 +424,18 @@ body::-webkit-scrollbar-thumb:hover {
 
   /* Gradient Text with Opacity */
   .bg-gradient-text-primary-50 {
-    background-image: linear-gradient(to right,
-        color-mix(in srgb, var(--vina-primary) 50%, transparent),
-        color-mix(in srgb, var(--vina-secondary) 50%, transparent),
-        color-mix(in srgb, var(--vina-accent) 50%, transparent));
+    background-image: linear-gradient(
+      to right,
+      color-mix(in srgb, var(--vina-primary) 50%, transparent),
+      color-mix(in srgb, var(--vina-secondary) 50%, transparent),
+      color-mix(in srgb, var(--vina-accent) 50%, transparent)
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 }
 
-main>div:has(.parentAbsolute) {
+main > div:has(.parentAbsolute) {
   position: absolute;
 }

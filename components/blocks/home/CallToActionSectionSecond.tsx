@@ -50,30 +50,25 @@ const CallToActionSectionSecond: React.FC<Props> = ({ data }) => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <motion.h2 className="text-4xl font-bold text-vina-foreground mb-6 relative">
+          <motion.h2 className="text-3xl uppercase underline text-vina-primary mb-6 relative leading-normal">
             {data.callToActionSecondHeading?.title || ""}
-            <motion.div
-              className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-vina-primary via-vina-secondary to-vina-accent rounded-full"
-              initial={{ width: 0 }}
-              whileInView={{ width: 128 }}
-              transition={{ delay: 0.5, duration: 0.8 }}
-              viewport={{ once: true }}
-            />
           </motion.h2>
-          <motion.p
-            className="text-xl text-vina-muted-foreground"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            {data.callToActionSecondHeading?.description ||
-              `Whether you're looking to source products or export your goods, we
+          {data.callToActionSecondHeading?.description && (
+            <motion.p
+              className="text-xl text-vina-muted-foreground"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4, duration: 0.8 }}
+              viewport={{ once: true }}
+            >
+              {data.callToActionSecondHeading?.description ||
+                `Whether you're looking to source products or export your goods, we
             have the expertise to help you succeed.`}
-          </motion.p>
+            </motion.p>
+          )}
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-2">
           {[data.buyer, data.supplier].map((item, i) => {
             const icons = [
               <Globe className="w-12 h-12 text-vina-primary" />,

@@ -22,14 +22,14 @@ export const ExportMarkets = ({
   countries,
 }: ExportMarketsProps) => {
   return (
-    <section className="bg-accent/5">
+    <section className="">
       <div className="container mx-auto px-4">
         <div className="mb-6 sm:mb-10 text-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mb-4 text-xl font-bold text-vina-primary md:text-4xl lg:text-5xl"
+            className="mb-4 text-vina-primary text-3xl uppercase underline"
           >
             {heading}
           </motion.h2>
@@ -44,7 +44,7 @@ export const ExportMarkets = ({
           </motion.p>
         </div>
 
-        <div className="relative w-full aspect-[21/9] overflow-hidden rounded-xl bg-background/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div className="relative w-full aspect-[21/9] overflow-hidden rounded-xl bg-transparent backdrop-blur-sm flex items-center justify-center p-4">
           <WorldMap countries={(countries as any) ?? []} />
         </div>
       </div>

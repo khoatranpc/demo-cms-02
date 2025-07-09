@@ -38,7 +38,7 @@ const HeroSectionSecond: React.FC<HeroSectionProps> = ({
   onSupplierClick,
 }) => {
   return (
-    <section className="relative left-1/2 -translate-x-1/2 mx-auto w-screen rounded-xl relative bg-gradient-to-br from-vina-background via-vina-muted to-vina-background overflow-hidden py-2">
+    <section className="relative left-1/2 -translate-x-1/2 mx-auto w-screen rounded-xl bg-gradient-to-br from-vina-background via-vina-muted to-vina-background overflow-hidden py-2">
       <div className="mx-auto px-4 z-10 container">
         <div className="grid lg:grid-cols-2 gap-16 xl:gap-24 items-center">
           {/* Left Column */}
