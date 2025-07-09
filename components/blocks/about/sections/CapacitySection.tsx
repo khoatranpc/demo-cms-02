@@ -17,7 +17,7 @@ interface CapacitySectionProps {
       icon?: string;
       title?: string;
       content?: string;
-      id?: string
+      id?: string;
     }>;
   };
 }
@@ -37,11 +37,11 @@ export const CapacitySection = ({ data }: CapacitySectionProps) => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-2xl md:text-4xl font-bold text-center text-vina-primary mb-12"
+          className="text-3xl underline uppercase text-center text-vina-primary mb-12"
         >
           {data.capacityHeading}
         </motion.h2>
-        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-2">
           {data.capacityItems?.map((item, index) => {
             const IconComponent =
               iconComponents[item.icon as keyof typeof iconComponents];
@@ -93,10 +93,10 @@ export const capacitySectionBlockSchema: Template = {
           id: item?.id,
         }),
         defaultItem() {
-          if (typeof window === "undefined") return {}
+          if (typeof window === "undefined") return {};
           return {
             id: uuidv4(),
-          }
+          };
         },
       },
       fields: [
@@ -105,8 +105,8 @@ export const capacitySectionBlockSchema: Template = {
           label: "id",
           type: "string",
           ui: {
-            component: () => <></>
-          }
+            component: () => <></>,
+          },
         },
         {
           label: "Icon",

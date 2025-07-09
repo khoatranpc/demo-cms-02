@@ -29,20 +29,20 @@ const PartnersShowcase = ({
   data: { partnersShowcaseHeading, partners },
 }: Props) => {
   return (
-    <section className="">
+    <section className="relative -translate-x-1/2 left-1/2 overflow-hidden w-screen bg-gradient-to-br from-vina-background via-vina-muted to-vina-background py-4">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center text-3xl font-bold text-vina-foreground mb-10"
+          className="text-center text-3xl mb-10 uppercase underline text-vina-primary"
         >
           {partnersShowcaseHeading?.title ?? "Trusted by Global Retailers"}
         </motion.h2>
 
         <Marquee
           gradient={true}
-          gradientColor="#ffffff"
+          gradientColor="transparent"
           speed={40}
           pauseOnHover={true}
           className="overflow-y-hidden"
@@ -50,13 +50,13 @@ const PartnersShowcase = ({
           {partners?.map((partner) => (
             <motion.div
               key={partner.id ?? uuidv4()}
-              className="flex items-center cursor-pointer justify-center opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300 mx-12"
+              className="flex items-center cursor-pointer justify-center opacity-100 transition-all duration-300 mx-12"
               whileHover={{ scale: 1.1 }}
             >
               <img
                 src={partner.logo}
                 alt={partner.name}
-                className="max-h-24 object-contain"
+                className="max-h-28 sm:max-h-44 object-contain"
               />
             </motion.div>
           ))}

@@ -32,7 +32,7 @@ const MapChart = (props: Props) => {
           rotate: [-10, 0, 0],
           scale: 147,
         }}
-        className="transition-transform duration-300 ease-in-out"
+        className="transition-transform duration-300 ease-in-ou"
       >
         <motion.g
           initial={{ opacity: 0 }}
@@ -45,7 +45,7 @@ const MapChart = (props: Props) => {
             fill="#F5F4F6"
             id="sphere"
           />
-          <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
+          <Graticule stroke="white" strokeWidth={0.5} />
         </motion.g>
         <Geographies
           geography={geoUrl}
@@ -80,10 +80,10 @@ const MapChart = (props: Props) => {
                     style={{
                       default: {
                         transition: "all 0.1s ease",
-                        stroke: "#E4E5E6",
+                        stroke: "#e5e7eb",
                         strokeWidth: 0.5,
                         outline: "none",
-                        zIndex: 1,
+                        zIndex: existedCountry ? 1 : 0,
                       },
                       hover: {
                         stroke: "#FFF",

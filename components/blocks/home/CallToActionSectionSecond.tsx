@@ -4,6 +4,7 @@ import { CheckCircle, ArrowRight } from "lucide-react";
 import { Template } from "tinacms";
 import { uuidv4 } from "@/lib/utils";
 import { Globe, Building } from "lucide-react";
+import Link from "next/link";
 
 interface CallToActionSectionProps {
   onQuoteClick: () => void;
@@ -20,6 +21,7 @@ export interface ICallToActionSectionSecond {
     description?: string;
     button: {
       text?: string;
+      link?: string;
     };
     features?: { title?: string; id?: string }[];
     id?: string;
@@ -29,6 +31,7 @@ export interface ICallToActionSectionSecond {
     description?: string;
     button?: {
       text?: string;
+      link?: string;
     };
     features?: { title?: string; id?: string }[];
     id?: string;
@@ -50,30 +53,25 @@ const CallToActionSectionSecond: React.FC<Props> = ({ data }) => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <motion.h2 className="text-4xl font-bold text-vina-foreground mb-6 relative">
+          <motion.h2 className="text-3xl uppercase underline text-vina-primary mb-6 relative leading-normal">
             {data.callToActionSecondHeading?.title || ""}
-            <motion.div
-              className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-vina-primary via-vina-secondary to-vina-accent rounded-full"
-              initial={{ width: 0 }}
-              whileInView={{ width: 128 }}
-              transition={{ delay: 0.5, duration: 0.8 }}
-              viewport={{ once: true }}
-            />
           </motion.h2>
-          <motion.p
-            className="text-xl text-vina-muted-foreground"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            {data.callToActionSecondHeading?.description ||
-              `Whether you're looking to source products or export your goods, we
+          {data.callToActionSecondHeading?.description && (
+            <motion.p
+              className="text-xl text-vina-muted-foreground"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4, duration: 0.8 }}
+              viewport={{ once: true }}
+            >
+              {data.callToActionSecondHeading?.description ||
+                `Whether you're looking to source products or export your goods, we
             have the expertise to help you succeed.`}
-          </motion.p>
+            </motion.p>
+          )}
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-2">
           {[data.buyer, data.supplier].map((item, i) => {
             const icons = [
               <Globe className="w-12 h-12 text-vina-primary" />,
@@ -119,26 +117,27 @@ const CallToActionSectionSecond: React.FC<Props> = ({ data }) => {
                     </motion.div>
                   ))}
                 </div>
-                <motion.button
-                  // onClick={i === 0 ? onQuoteClick : onSupplierClick}
-                  className="w-full bg-gradient-to-r border border-vina-primary rounded-2xl text-vina-primary cursor-pointer py-4 font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-2 relative z-10 group/btn overflow-hidden"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 1.2, duration: 0.6 }}
-                  viewport={{ once: true }}
-                >
-                  <span className="relative z-10">{item?.button?.text}</span>
-                  <motion.div
-                    className="relative z-10 rounded-2xl border border-vina-primary"
-                    whileHover={{ x: 5 }}
-                    transition={{ type: "spring", stiffness: 400 }}
+                <Link href={(item?.button?.link as string) ?? "/"}>
+                  <motion.button
+                    className="w-full bg-gradient-to-r border border-vina-primary rounded-2xl text-vina-primary cursor-pointer py-4 font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-2 relative z-10 group/btn overflow-hidden"
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 1.2, duration: 0.6 }}
+                    viewport={{ once: true }}
                   >
-                    <ArrowRight className="w-5 h-5" />
-                  </motion.div>
-                  <div className="absolute inset-0 bg-white opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300" />
-                </motion.button>
+                    <span className="relative z-10">{item?.button?.text}</span>
+                    <motion.div
+                      className="relative z-10 rounded-2xl border border-vina-primary"
+                      whileHover={{ x: 5 }}
+                      transition={{ type: "spring", stiffness: 400 }}
+                    >
+                      <ArrowRight className="w-5 h-5" />
+                    </motion.div>
+                    <div className="absolute inset-0 bg-white opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300" />
+                  </motion.button>
+                </Link>
               </motion.div>
             );
           })}
@@ -208,6 +207,11 @@ export const callToActionSetionSecondSchema: Template = {
             {
               name: "text",
               label: "Button Text",
+              type: "string",
+            },
+            {
+              name: "link",
+              label: "Link for open",
               type: "string",
             },
           ],
@@ -284,6 +288,11 @@ export const callToActionSetionSecondSchema: Template = {
             {
               name: "text",
               label: "Button Text",
+              type: "string",
+            },
+            {
+              name: "link",
+              label: "Link for open",
               type: "string",
             },
           ],

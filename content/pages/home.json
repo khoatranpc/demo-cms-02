@@ -145,9 +145,54 @@
   "slug": "/",
   "blocks": [
     {
+      "name": "Button Advisor",
+      "button": {
+        "label": "Tư vấn",
+        "position": {
+          "right": 2,
+          "bottom": 6
+        }
+      },
+      "form": {
+        "title": "Tư vấn phân phối cùng Vinhapac",
+        "description": "Chúng tôi sẽ giải đáp và tư vấn miễn phí cho những khách hàng có nhu cầu hợp tác",
+        "fields": [
+          {
+            "label": "Họ và tên",
+            "id": "c14fff9a-9599-4634-8f70-f450cbb0a134",
+            "type": "text",
+            "placeholder": "Nhập tên của bạn",
+            "required": true
+          },
+          {
+            "label": "Email",
+            "id": "ef2bd621-fdc1-4bd6-83f7-5a60df584d70",
+            "type": "email",
+            "placeholder": "Email của bạn",
+            "required": true
+          },
+          {
+            "label": "Sản phẩm",
+            "id": "9d858cc2-3a39-41c2-9aa0-ba5457266d56",
+            "type": "text",
+            "placeholder": "Sản phẩm muốn phân phối",
+            "required": true
+          },
+          {
+            "label": "Câu hỏi",
+            "id": "fa9c3bf5-6a74-43cb-b476-7f99f5edd247",
+            "type": "text",
+            "placeholder": "Hãy cho chúng tôi biết trước câu hỏi của bạn",
+            "required": true
+          }
+        ]
+      },
+      "_template": "fixedFormButton"
+    },
+    {
       "name": "Button contact",
       "button": {
-        "label": "Contact",
+        "label": "Liên hệ",
         "position": {
           "right": 2,
           "bottom": 2
@@ -189,21 +234,19 @@
       "_template": "fixedFormButton"
     },
     {
-      "name": "Button Be Supplier",
-      "button": {
-        "label": "Trở thành NCC",
-        "position": {
-          "right": 2,
-          "bottom": 6
-        }
-      },
-      "_template": "fixedFormButton"
-    },
-    {
       "slides": [
         {
-          "slogan": "Chất Lượng Toàn Cầu - Dịch Vụ Tận Tâm",
-          "subSlogan": "Đối tác tin cậy đồng hành cùng doanh nghiệp Việt Nam trên hành trình vươn ra thế giới.",
+          "slogan": "Phân Phối Chuyên Nghiệp",
+          "subSlogan": "Tối ưu logistics – kiểm soát chất lượng – mở rộng thị trường cho thương hiệu Việt.",
+          "backgroundImage": "/uploads/pp.png",
+          "button": {
+            "label": "Tư vấn ngay",
+            "link": "?modal=Button Advisor"
+          }
+        },
+        {
+          "slogan": "Kết nối toàn cầu",
+          "subSlogan": "Xuất khẩu sản phẩm Việt đến Mỹ, EU và châu Á – nhanh chóng, hiệu quả, đúng chuẩn quốc tế.",
           "backgroundImage": "/uploads/banner-home.png",
           "button": {
             "label": "Liên hệ",
@@ -246,9 +289,14 @@
           "id": "4cb1b817-2416-4310-916e-39f8ac175c8a"
         }
       ],
+      "image": "/uploads/world.png",
       "_template": "introCompanySection"
     },
     {
+      "keyExportProductsHeading": {
+        "title": "Sản phẩm",
+        "description": " "
+      },
       "products": [
         {
           "id": "bc772299-1821-49d9-b53a-cb411de4fb7e",
@@ -291,8 +339,8 @@
     },
     {
       "deepExportServicesHeading": {
-        "title": "Dịch Vụ Xuất Khẩu Chuyên Biệt",
-        "description": "VINHAPAC cung cấp hỗ trợ xuất khẩu toàn diện được thiết kế để giúp bạn mở rộng toàn cầu một cách tự tin."
+        "title": "Dịch Vụ Xuất Khẩu",
+        "description": ""
       },
       "services": [
         {
@@ -336,7 +384,7 @@
     },
     {
       "partnersShowcaseHeading": {
-        "title": "Được Tin Tưởng Bởi Các Nhà Bán Lẻ Toàn Cầu"
+        "title": "Khách hàng"
       },
       "partners": [
         {
@@ -369,7 +417,7 @@
     },
     {
       "certificationHeading": {
-        "title": "Chứng Nhận Quốc Tế"
+        "title": "Chứng Nhận"
       },
       "certifications": [
         {
@@ -396,8 +444,8 @@
       "_template": "certificationsSection"
     },
     {
-      "heading": "Mạng Lưới Thị Trường Toàn Cầu",
-      "subheading": "Thị trường toàn cầu với hơn 15 quốc gia",
+      "heading": "Mạng Lưới Thị Trường",
+      "subheading": "",
       "countries": [
         {
           "name": "US",
@@ -421,7 +469,8 @@
         "title": "Dành Cho Người Mua Quốc Tế",
         "description": "Tiếp cận sản phẩm Việt Nam cao cấp với chất lượng đảm bảo, giá cả cạnh tranh và giao hàng đáng tin cậy trên toàn thế giới.",
         "button": {
-          "text": "Yêu Cầu Báo Giá"
+          "text": "Yêu Cầu Báo Giá",
+          "link": "/?modal=Button contact"
         },
         "features": [
           {
@@ -443,10 +492,11 @@
         ]
       },
       "supplier": {
-        "title": "Dành Cho Nhà Cung Cấp Việt Nam",
+        "title": "Dành Cho Nhà Cung Cấp",
         "description": "Tham gia mạng lưới nhà cung cấp uy tín của chúng tôi và mở rộng kinh doanh ra thị trường quốc tế với sự hỗ trợ chuyên nghiệp.",
         "button": {
-          "text": "Trở Thành Nhà Cung Cấp"
+          "text": "Trở Thành Nhà Cung Cấp",
+          "link": "/?modal=Button advisor"
         },
         "features": [
           {

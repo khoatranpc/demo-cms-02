@@ -72,46 +72,49 @@ const DeepExportServices = ({
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-vina-foreground mb-4">
+          <h2 className="text-3xl uppercase underline text-vina-primary mb-4">
             {deepExportServicesHeading?.title || "Deep Export Services"}
           </h2>
-          <p className="text-lg text-vina-muted-foreground max-w-2xl mx-auto">
-            {deepExportServicesHeading?.description ||
-              `VINHAPAC offers comprehensive export support tailored to help you
-            scale globally with confidence.`}
-          </p>
+          {deepExportServicesHeading?.description && (
+            <p className="text-lg text-vina-muted-foreground max-w-2xl mx-auto">
+              {deepExportServicesHeading?.description}
+            </p>
+          )}
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          className="grid grid-cols-1 sm:grid-cols-2 p-1"
+        >
           {services?.map((service, index) => (
             <motion.div
               key={service.id ?? uuidv4()}
-              className="group bg-white/5 backdrop-blur-xl border border-vina-primary-10 rounded-2xl hover:border-vina-primary/30 transition-all duration-300 overflow-hidden"
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="group relative overflow-hidden bg-white/5 backdrop-blur-xl border border-vina-primary-10 hover:border-vina-primary/30 shadow-sm hover:shadow-md transition-all duration-300"
             >
-              <div className="relative h-48 w-full overflow-hidden">
-                <Image
-                  src={service.image ?? ""}
-                  alt={service.title ?? "Service"}
-                  fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-vina-foreground mb-3 group-hover:text-vina-primary transition-colors duration-300">
-                  {service.title}
-                </h3>
-                <p className="text-vina-muted-foreground text-base leading-relaxed">
-                  {service.description}
-                </p>
+              <div className="relative">
+                <div className="absolute z-1 inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
+                <div className="relative h-64 w-full overflow-hidden">
+                  <Image
+                    src={service.image ?? ""}
+                    alt={service.title ?? "Service"}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                </div>
+                <div className="absolute group z-2 inset-0 flex flex-col items-center justify-center p-6">
+                  <h3 className="text-xl uppercase font-bold text-white text-center mb-3">
+                    {service.title}
+                  </h3>
+                  <motion.button className="cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-200 px-4 py-2 bg-vina-primary text-white rounded-lg">
+                    View More
+                  </motion.button>
+                </div>
               </div>
             </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

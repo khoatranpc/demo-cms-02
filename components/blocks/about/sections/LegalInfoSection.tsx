@@ -31,11 +31,11 @@ export const LegalInfoSection = ({ data }: LegalInfoSectionProps) => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-2xl md:text-4xl font-bold text-center text-vina-primary mb-12"
+          className="text-3xl uppercase underline text-center text-vina-primary mb-10"
         >
           {data.heading}
         </motion.h2>
-        <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-2 max-w-4xl mx-auto">
           {/* Company Profile */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -85,7 +85,7 @@ export const LegalInfoSection = ({ data }: LegalInfoSectionProps) => {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="space-y-4"
+            className="space-y-2"
           >
             {data.legalDetails?.map((detail) => (
               <div key={detail.label} className="p-4 bg-gray-50 rounded-lg">

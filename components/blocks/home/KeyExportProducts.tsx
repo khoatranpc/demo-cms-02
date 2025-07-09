@@ -37,7 +37,7 @@ const KeyExportProducts = ({
   data: { products, keyExportProductsHeading },
 }: Props) => {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative -translate-x-1/2 left-1/2 overflow-hidden w-screen bg-gradient-to-br from-vina-background via-vina-muted to-vina-background py-4">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Section heading */}
         <motion.div
@@ -47,14 +47,16 @@ const KeyExportProducts = ({
           transition={{ duration: 0.6 }}
           className="text-center mb-8 sm:mb-10"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-vina-foreground mb-4">
+          <h2 className="text-3xl uppercase text-vina-primary mb-4 underline">
             {keyExportProductsHeading?.title || "Key Export Products"}
           </h2>
-          <p className="text-lg md:text-xl text-vina-muted-foreground max-w-2xl mx-auto font-light">
-            {keyExportProductsHeading?.description ||
-              `At VINHAPAC, we deliver Vietnam’s signature export products to the
+          {keyExportProductsHeading?.description && (
+            <p className="text-xl text-vina-muted-foreground max-w-2xl mx-auto font-light">
+              {keyExportProductsHeading?.description ||
+                `At VINHAPAC, we deliver Vietnam’s signature export products to the
             world – ensuring quality, sustainability, and global standards.`}
-          </p>
+            </p>
+          )}
         </motion.div>
 
         {/* Product grid */}
@@ -63,22 +65,18 @@ const KeyExportProducts = ({
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-1"
+          className="grid grid-cols-1 sm:grid-cols-2 p-1"
         >
           {products?.map((category) => {
             return (
               <motion.div
                 key={category.id}
                 variants={item}
-                className="group relative p-6 bg-white/5 backdrop-blur-xl rounded-2xl border border-vina-primary-10 hover:border-vina-primary/30 shadow-sm hover:shadow-md transition-all duration-300"
-                whileHover={{
-                  scale: 1.02,
-                  backgroundColor: "rgba(255,255,255,0.08)",
-                }}
+                className="group relative overflow-hidden bg-white/5 backdrop-blur-xl border border-vina-primary-10 hover:border-vina-primary/30 shadow-sm hover:shadow-md transition-all duration-300"
               >
-                <div className="absolute inset-0 bg-gradient-to-br from-vina-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl" />
-                <div className="relative space-y-4">
-                  <div className="relative h-48 w-full overflow-hidden rounded-xl">
+                <div className="relative">
+                  <div className="absolute z-1 inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
+                  <div className="relative h-64 w-full overflow-hidden">
                     <Image
                       src={category.image || ""}
                       alt={category.title || "Product"}
@@ -86,12 +84,14 @@ const KeyExportProducts = ({
                       className="object-cover transition-transform duration-300 group-hover:scale-110"
                     />
                   </div>
-                  <h3 className="text-xl font-semibold text-vina-foreground">
-                    {category.title}
-                  </h3>
-                  <p className="text-vina-muted-foreground text-sm md:text-base leading-relaxed">
-                    {category.description}
-                  </p>
+                  <div className="absolute group z-2 inset-0 flex flex-col items-center justify-center p-6 hover:">
+                    <h3 className="text-xl uppercase font-bold text-white text-center mb-3">
+                      {category.title}
+                    </h3>
+                    <motion.button className="cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-200 px-4 py-2 bg-vina-primary text-white rounded-lg">
+                      View More
+                    </motion.button>
+                  </div>
                 </div>
               </motion.div>
             );

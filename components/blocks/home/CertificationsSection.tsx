@@ -46,7 +46,7 @@ const CertificationsSection = (props: Props) => {
   return (
     <section className="">
       <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12">
-        <h2 className="text-center text-3xl font-bold text-vina-foreground mb-12">
+        <h2 className="text-center text-3xl uppercase underline text-vina-primary mb-12">
           {props.data.certificationHeading?.title ?? "Certifications"}
         </h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -62,7 +62,7 @@ const CertificationsSection = (props: Props) => {
               <img
                 src={cert.image}
                 alt={cert.name}
-                className="mx-auto mb-4 h-16 object-contain"
+                className="mx-auto mb-4 h-36 object-contain"
               />
               <h3 className="text-lg font-semibold text-vina-foreground mb-1">
                 {cert.name}
@@ -110,7 +110,7 @@ export const certificationsSectionSchema: Template = {
           }
           return {
             id: uuidv4(),
-          }
+          };
         },
       },
       fields: [

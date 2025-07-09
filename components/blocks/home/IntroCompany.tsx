@@ -98,7 +98,7 @@ const IntroCompany = ({ data }: Props) => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="relative w-full aspect-[4/3] rounded-lg md:rounded-2xl overflow-hidden shadow-md md:shadow-xl"
+                        className="relative w-full aspect-[4/3] rounded-lg md:rounded-2xl overflow-hidden"
                     >
                         <Image
                             src={data?.image ?? "/uploads/banner.png"}
@@ -106,7 +106,7 @@ const IntroCompany = ({ data }: Props) => {
                             fill
                             className="object-cover"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+                        {/* <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent" /> */}
                     </motion.div>
 
                     {/* Features */}
