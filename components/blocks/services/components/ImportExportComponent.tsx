@@ -1,13 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { uuidv4 } from "@/lib/utils";
+import { Template } from "tinacms";
 
-// Component cho từng sản phẩm/item trong danh sách
+export interface IImportExportItem {
+  imageSrc?: string;
+  certificateSrc?: string;
+  description?: string;
+  productName?: string;
+  id?: string;
+}
 const ImportExportItem = ({
   imageSrc,
   certificateSrc,
   description,
   productName,
-}: any) => {
+}: IImportExportItem) => {
   return (
     <motion.div
       className="cursor-pointer relative bg-white shadow-md overflow-hidden group transition-shadow duration-300 hover:shadow-xl"
@@ -25,19 +33,16 @@ const ImportExportItem = ({
         />
       </div>
 
-      {/* Chứng nhận - Đặt ở góc trên bên trái, đè lên ảnh */}
       {certificateSrc && (
         <div className="absolute top-0 left-0 p-2 z-10">
-          {/* Padding nhỏ để tạo khoảng trống */}
           <img
             src={certificateSrc}
             alt="Certificate"
-            className="w-12 h-12 md:w-16 md:h-16 border-2 border-white shadow-md" // Kích thước và viền tròn
+            className="w-12 h-12 md:w-16 md:h-16 border-2 border-white shadow-md"
           />
         </div>
       )}
 
-      {/* Mô tả sản phẩm */}
       <div className="p-4 md:p-6">
         <h4 className="font-bold text-lg md:text-xl text-vina-primary mb-2 leading-tight">
           {productName}
@@ -50,14 +55,21 @@ const ImportExportItem = ({
   );
 };
 
-// Component bao bọc hiển thị danh sách các sản phẩm/item
-const ImportExportComponent = ({ title, subTitle, items }: any) => {
+export interface IImportExportComponent {
+  title?: string;
+  subTitle?: string;
+  items?: IImportExportItem[];
+}
+interface Props {
+  data?: IImportExportComponent;
+}
+const ImportExportComponent = ({ data }: Props) => {
   const containerVariants = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1, // Hiệu ứng xuất hiện lần lượt cho các item con
+        staggerChildren: 0.1,
       },
     },
   };
@@ -71,7 +83,7 @@ const ImportExportComponent = ({ title, subTitle, items }: any) => {
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.6 }}
       >
-        {title}
+        {data?.title}
       </motion.h3>
       <motion.p
         className="text-gray-600 text-left"
@@ -80,7 +92,7 @@ const ImportExportComponent = ({ title, subTitle, items }: any) => {
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
-        {subTitle}
+        {data?.subTitle}
       </motion.p>
 
       <motion.div
@@ -90,17 +102,87 @@ const ImportExportComponent = ({ title, subTitle, items }: any) => {
         whileInView="show"
         viewport={{ once: true, amount: 0.3 }}
       >
-        {items.map((item: any, index: number) => (
+        {data?.items?.map((item) => (
           <ImportExportItem
-            key={index}
-            imageSrc={item.imageSrc}
-            certificateSrc={item.certificateSrc}
-            description={item.description}
-            productName={item.productName}
+            key={item?.id ?? uuidv4()}
+            imageSrc={item?.imageSrc}
+            certificateSrc={item?.certificateSrc}
+            description={item?.description}
+            productName={item?.productName}
           />
         ))}
       </motion.div>
     </div>
   );
+};
+export const importExportComponentSection: Template = {
+  label: "Import Export Products Section",
+  name: "importExportComponentSection",
+  fields: [
+    {
+      type: "string",
+      name: "title",
+      label: "Tiêu đề",
+    },
+    {
+      type: "string",
+      name: "subTitle",
+      label: "Tiêu đề phụ",
+      ui: {
+        component: "textarea",
+      },
+    },
+    {
+      type: "object",
+      name: "items",
+      label: "Danh sách sản phẩm",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: item?.productName, id: item?.id };
+        },
+        defaultItem() {
+          if (typeof window === "undefined") return {};
+          return {
+            id: uuidv4(),
+          };
+        },
+      },
+      fields: [
+        {
+          type: "string",
+          name: "id",
+          ui: {
+            component(props) {
+              return null;
+            },
+          },
+        },
+        {
+          type: "string",
+          name: "productName",
+          label: "Tên sản phẩm",
+        },
+        {
+          type: "string",
+          name: "description",
+          label: "Mô tả sản phẩm",
+          ui: {
+            component: "textarea",
+          },
+        },
+        {
+          type: "image",
+          name: "imageSrc",
+          label: "Hình ảnh sản phẩm",
+        },
+        {
+          type: "image",
+          name: "certificateSrc",
+          label: "Hình ảnh chứng nhận",
+        },
+      ],
+    },
+  ],
 };
 export default ImportExportComponent;

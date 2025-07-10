@@ -2,16 +2,29 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRightIcon } from "lucide-react";
+import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
+import { uuidv4 } from "@/lib/utils";
+import { Template } from "tinacms";
 
-const ProfileServiceSection = () => {
-  // Dữ liệu cho các chỉ số thống kê
-  const stats = [
-    { number: "50+", label: "Công ty đối tác" },
-    { number: "200+", label: "Khách hàng hài lòng" },
-    { number: "1.000+", label: "Sản phẩm được giao dịch" },
-    { number: "5.000+", label: "Đơn vị vận chuyển" },
-  ];
+export interface IProfileServiceSection {
+  title?: string;
+  profileStats?: {
+    value?: string;
+    label?: string;
+    id?: string;
+  }[];
+  backgroundImage?: string;
+  button?: {
+    label?: string;
+    link?: string;
+  };
+}
 
+interface Props {
+  data?: IProfileServiceSection;
+}
+const ProfileServiceSection = ({ data }: Props) => {
+  console.log("🚀 ~ ProfileServiceSection ~ data:", data);
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
@@ -23,7 +36,7 @@ const ProfileServiceSection = () => {
       <div
         className="absolute inset-0 w-full h-full z-0"
         style={{
-          backgroundImage: "url(/uploads/services/vinhapac-service.png)",
+          backgroundImage: `url(${data?.backgroundImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -48,10 +61,8 @@ const ProfileServiceSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6 }}
-        >
-          Hơn <span className="text-vina-primary">25 năm kinh nghiệm</span>{" "}
-          trong ngành Xuất nhập khẩu và Phân phối toàn cầu
-        </motion.p>
+          dangerouslySetInnerHTML={{ __html: data?.title ?? "" }}
+        ></motion.p>
 
         {/* Khối các chỉ số thống kê */}
         <motion.div
@@ -61,14 +72,14 @@ const ProfileServiceSection = () => {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ staggerChildren: 0.15 }}
         >
-          {stats.map((stat, index) => (
+          {data?.profileStats?.map((stat, index) => (
             <motion.div
-              key={index}
+              key={stat.id ?? uuidv4()}
               className="bg-white/5 backdrop-blur-lg border border-white/10 p-4 md:p-6 rounded-lg"
               variants={itemVariants}
             >
               <p className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-1">
-                {stat.number}
+                {stat.value}
               </p>
               <p className="text-sm md:text-base text-gray-200">{stat.label}</p>
             </motion.div>
@@ -82,15 +93,85 @@ const ProfileServiceSection = () => {
           transition={{ duration: 0.6 }}
         >
           <Link
-            href="/contact"
+            href={data?.button?.link ?? "#"}
             className="bg-vina-primary flex w-fit mx-auto text-white px-8 py-3 rounded-full shadow-lg hover:bg-vina-secondary transition duration-300"
           >
-            Liên hệ với chúng tôi <ArrowRightIcon className="ml-2" />
+            {data?.button?.label} <ArrowRightIcon className="ml-2" />
           </Link>
         </motion.div>
       </div>
     </section>
   );
 };
-
+export const profileServiceSection: Template = {
+  label: "Profile Service Section",
+  name: "profileServiceSection",
+  fields: [
+    {
+      type: "string",
+      name: "title",
+      label: "Tiêu đề",
+    },
+    {
+      type: "object",
+      name: "profileStats",
+      label: "Danh sách thống kê",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: item?.label, id: item?.id };
+        },
+        defaultItem() {
+          if (typeof window === "undefined") return {};
+          return {
+            id: uuidv4(),
+          };
+        },
+      },
+      fields: [
+        {
+          type: "string",
+          name: "id",
+          ui: {
+            component(props) {
+              return null;
+            },
+          },
+        },
+        {
+          type: "string",
+          name: "value",
+          label: "Giá trị",
+        },
+        {
+          type: "string",
+          name: "label",
+          label: "Nhãn",
+        },
+      ],
+    },
+    {
+      type: "image",
+      name: "backgroundImage",
+      label: "Hình nền",
+    },
+    {
+      type: "object",
+      name: "button",
+      label: "Nút liên kết",
+      fields: [
+        {
+          type: "string",
+          name: "label",
+          label: "Nhãn nút",
+        },
+        {
+          type: "string",
+          name: "link",
+          label: "Đường dẫn",
+        },
+      ],
+    },
+  ],
+};
 export default ProfileServiceSection;

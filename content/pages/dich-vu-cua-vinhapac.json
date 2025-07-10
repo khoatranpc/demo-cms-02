@@ -1,4 +1,260 @@
 {
   "title": "Dịch vụ",
-  "slug": "/dich-vu-cua-vinhapac"
+  "slug": "/dich-vu-cua-vinhapac",
+  "blocks": [
+    {
+      "title": "Dịch vụ Toàn diện của Vinhapac",
+      "image": "/uploads/services/services.png",
+      "services": [
+        {
+          "id": "b0033fff-7534-4d17-8a64-37f0f7c6baa6",
+          "title": "Xuất Nhập khẩu",
+          "description": "Cung cấp giải pháp toàn diện cho hoạt động xuất nhập khẩu các mặt hàng như nguyên liệu thô sơ, sản phẩm tiêu dùng và hàng hoá công nghiệp. Đảm bảo quy trình vận chuyển và thủ tục hải quan nhanh chóng, hiệu quả.",
+          "button": {
+            "label": "Tìm hiểu về Xuất nhập khẩu"
+          }
+        },
+        {
+          "id": "474b39e7-6714-4bda-889d-17f0258ba51d",
+          "title": "Phân Phối",
+          "description": "Sở hữu hệ thống phân phối linh hoạt và hiện đại, cùng các mối quan hệ chiến lược với nhiều nhà sản xuất lớn trong các lĩnh vực may mặc, thực phẩm, nội thất, hàng gia dùng và nhiều ngành hàng khác",
+          "button": {
+            "label": "Khám phá Dịch vụ Phân Phối"
+          }
+        }
+      ],
+      "_template": "heroSectionServiceBlock"
+    },
+    {
+      "description": "VINHAPAC tự hào là đối tác tin cậy, mang đến các giải pháp xuất nhập khẩu\n      và phân phối toàn diện, kết nối nguồn cung chất lượng cao với nhu cầu thị\n      trường trong và ngoài nước. Với bề dày hơn 25 năm kinh nghiệm trong lĩnh\n      vực xuất nhập khẩu và phân phối đa ngành tại Pháp, Mỹ và Thái Lan ,\n      VINHAPAC đã khẳng định vị thế vững chắc trong mạng lưới thương mại nội địa\n      và quốc tế. Công ty cung cấp giải pháp toàn diện cho hoạt động xuất nhập\n      khẩu các mặt hàng đa dạng như nguyên liệu thô, sản phẩm tiêu dùng và hàng\n      hóa công nghiệp, đảm bảo quy trình vận chuyển và thủ tục hải quan nhanh\n      chóng, hiệu quả. VINHAPAC sở hữu hệ thống phân phối linh hoạt và hiện đại,\n      cùng mối quan hệ chiến lược với nhiều nhà sản xuất lớn trong các lĩnh vực\n      như may mặc, thời trang, thực phẩm và đồ uống, nội thất và trang trí nhà\n      cửa, hàng gia dụng, và nhiều ngành hàng khác. Tọa lạc tại TP. Hồ Chí Minh\n      – trung tâm kinh tế và logistics của Việt Nam , cùng đội ngũ chuyên\n      nghiệp, giàu kinh nghiệm , VINHAPAC cam kết mang đến dịch vụ vượt trội,\n      xây dựng mối quan hệ đối tác dựa trên sự tin cậy và lợi ích lâu dài. Sứ\n      mệnh của chúng tôi là \"Kết nối nguồn cung chất lượng cao với nhu cầu của\n      thị trường trong và ngoài nước\" , hướng tới xây dựng thương hiệu Việt Nam\n      vươn tầm quốc tế.",
+      "_template": "descriptionBlockSection"
+    },
+    {
+      "title": "Lĩnh vực hoạt động",
+      "_template": "titleSection"
+    },
+    {
+      "title": "Nhóm hàng xuất khẩu",
+      "mainDescription": "Chuyên cung cấp dịch vụ xuất, nhập khẩu với đa dạng các mặt hàng, bao gồm các lĩnh vực trọng tâm và nhiều ngành hàng khác nhau, đảm bảo hiệu quả và uy tín.",
+      "services": [
+        {
+          "id": "d3886a85-9e55-4c7a-9e0d-c69840201abd",
+          "title": "Thời trang và phụ kiện",
+          "description": "Cung cấp các giải pháp xuất nhập khẩu cho ngành thời trang, từ nguyên liệu đến sản phẩm hoàn chỉnh, đáp ứng xu hướng thị trường và tiêu chuẩn quốc tế.",
+          "image": "/uploads/services/outfit.png",
+          "button": {
+            "label": "Tìm hiểu",
+            "link": ""
+          }
+        },
+        {
+          "id": "58ba537f-c362-4720-817b-0ee800fc5e47",
+          "title": "Đồ gỗ & trang trí nhà cửa",
+          "description": "Vận chuyển và phân phối đồ gỗ nội thất, vật liệu trang trí nhà cửa với quy trình chuyên nghiệp, đảm bảo hàng hóa nguyên vẹn và đúng tiến độ.",
+          "image": "/uploads/services/furniture.png",
+          "button": {
+            "label": "Tìm hiểu"
+          }
+        },
+        {
+          "id": "57290c4c-c57c-4137-8cb9-012f662c95ea",
+          "title": "Thực phẩm chế biến & nông sản tinh chế",
+          "description": "Chúng tôi chuyên xuất nhập khẩu đa dạng các mặt hàng thực phẩm chế biến và nông sản chất lượng cao, đảm bảo nguồn gốc rõ ràng và an toàn vệ sinh thực phẩm.",
+          "image": "/uploads/services/foods.png",
+          "button": {
+            "label": "Tìm hiểu"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "id": "2500a12d-1234-4eb0-824d-684838c5f07a",
+          "label": "Báo giá",
+          "icon": "FileText"
+        },
+        {
+          "id": "2945124a-1000-432e-8842-b6ed4f43fc79",
+          "label": "Tải catalog",
+          "icon": "Download"
+        }
+      ],
+      "_template": "serviceComponentSection"
+    },
+    {
+      "title": "Dịch vụ Xuất khẩu",
+      "mainDescription": "Sở hữu hệ thống phân phối linh hoạt và hiện đại, cùng mối quan hệ chiến lược với các nhà sản xuất và đối tác lớn, chúng tôi đảm bảo sản phẩm của bạn tiếp cận thị trường nhanh chóng.",
+      "services": [
+        {
+          "id": "97698cb7-9477-42ff-a019-1dc428a5147c",
+          "title": "Điều phối & vận chuyển xuất khẩu",
+          "description": "Chúng tôi xử lý toàn bộ chuỗi logistics cho hoạt động xuất khẩu: từ kho bãi, đóng container, vận chuyển nội địa, thủ tục hải quan, đến giao hàng quốc tế. VINHAPAC đảm bảo tiến độ, tính chính xác của chứng từ, và sự tối ưu chi phí vận hành cho từng lô hàng.",
+          "image": "/uploads/services/logistic.png",
+          "button": {
+            "label": "Tìm hiểu"
+          }
+        },
+        {
+          "id": "8f3648ec-cf15-4b63-a8d2-d2c7312a0ae5",
+          "title": "Đại diện xuất khẩu chính thức",
+          "description": "VINHAPAC đại diện cho các nhà cung cấp Việt Nam trong việc tiếp cận và giao dịch với hệ thống khách hàng quốc tế. Chúng tôi chịu trách nhiệm kết nối, đàm phán, tư vấn pháp lý và đồng hành xuyên suốt hành trình đưa sản phẩm ra thị trường nước ngoài – đảm bảo minh bạch, hiệu quả và tuân thủ đúng chuẩn quốc tế.",
+          "image": "/uploads/services/market-consulting.png",
+          "button": {
+            "label": "Tìm hiểu"
+          }
+        },
+        {
+          "id": "82f89b55-38ad-46ea-829a-4eb99e9d0778",
+          "title": "Tìm nguồn hàng và kiểm định chất lượng",
+          "description": "Chúng tôi giúp các buyer quốc tế tìm kiếm nguồn cung phù hợp tại Việt Nam, từ nhà xưởng uy tín đến sản phẩm đạt tiêu chuẩn xuất khẩu. Đồng thời, VINHAPAC thực hiện kiểm định chất lượng, đánh giá nhà máy và giám sát quy trình sản xuất để đảm bảo mọi lô hàng đều đáp ứng yêu cầu khắt khe của thị trường nhập khẩu.",
+          "image": "/uploads/news.png",
+          "button": {
+            "label": "Tìm hiểu"
+          }
+        },
+        {
+          "id": "587b7781-35d9-4413-af3b-b9cc6e175f12",
+          "title": " Gia công & đóng gói theo thương hiệu",
+          "description": "VINHAPAC cung cấp giải pháp sản xuất và đóng gói theo yêu cầu thương hiệu riêng của khách hàng (OEM/ODM). Từ thiết kế bao bì, nhãn mác đến tiêu chuẩn đóng gói – chúng tôi phối hợp chặt chẽ với nhà máy để đảm bảo tính đồng nhất, tính thương hiệu và chất lượng sản phẩm trong từng chi tiết.",
+          "image": "/uploads/news.png",
+          "button": {
+            "label": "Tìm hiểu"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "id": "01226a1a-7f9a-4a86-abfe-6abff496931d",
+          "label": "Tư vấn ngay",
+          "icon": "Headset"
+        }
+      ],
+      "_template": "serviceComponentSection"
+    },
+    {
+      "_template": "lineBlockSection"
+    },
+    {
+      "title": "Thực phẩm chế biến & nông sản tinh chế",
+      "subTitle": "Chúng tôi chuyên xuất nhập khẩu đa dạng các mặt hàng thực phẩm chế biến và nông sản chất lượng cao, đảm bảo nguồn gốc rõ ràng và an toàn vệ sinh thực phẩm. Hơn 10.000 sản phẩm được giao dịch mỗi năm.",
+      "items": [
+        {
+          "id": "632e08ee-3fd2-46a4-8302-a770f1e0d891",
+          "productName": "Gạo Jasmine cao cấp",
+          "description": "Gạo Jasmine được chọn lọc kỹ lưỡng, đảm bảo hương vị thơm ngon và chất lượng xuất khẩu hàng đầu. Đạt tiêu chuẩn an toàn thực phẩm quốc tế.",
+          "imageSrc": "/uploads/services/products/rice.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "eccd4903-f4f8-4a18-a3c7-01912fa403be",
+          "productName": "Hạt điều rang muối",
+          "description": "Hạt điều loại A, rang muối tự nhiên, giòn rụm và giàu dinh dưỡng. Đóng gói tiện lợi, phù hợp cho thị trường khó tính.",
+          "imageSrc": "/uploads/services/products/hatdieu.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "fefb895f-3358-42c9-b2c1-9104b81eb3cc",
+          "productName": "Cà phê Robusta nguyên chất",
+          "description": "Cà phê Robusta từ vùng cao nguyên Việt Nam, hương vị đậm đà, đặc trưng. Đảm bảo quy trình sản xuất bền vững và công bằng.",
+          "imageSrc": "/uploads/services/products/coffe.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        }
+      ],
+      "_template": "importExportComponentSection"
+    },
+    {
+      "_template": "lineBlockSection"
+    },
+    {
+      "title": "Thời trang & phụ kiện",
+      "subTitle": "VINHAPAC tự hào cung cấp các giải pháp xuất nhập khẩu toàn diện cho ngành thời trang và phụ kiện. Từ việc tìm nguồn cung ứng nguyên liệu thô chất lượng cao cho đến vận chuyển và phân phối các sản phẩm hoàn chỉnh.",
+      "items": [
+        {
+          "id": "504e4934-315c-482d-911f-d529b0f0ad4e",
+          "productName": "Áo Khoác Da Bò Cao Cấp VINA-Leather",
+          "description": "Được chế tác từ 100% da bò thật nhập khẩu, Áo Khoác Da Bò VINA-Leather mang đến vẻ ngoài sang trọng, lịch lãm và bền bỉ theo thời gian. ",
+          "imageSrc": "/uploads/services/products/aokhoacdabo.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "0ddddd94-e7f4-46f5-aa94-d4c983768a99",
+          "productName": "Bộ Sưu Tập Trang Sức Bạc S925 \"Tinh Hoa Việt\"",
+          "description": "Lấy cảm hứng từ vẻ đẹp văn hóa truyền thống Việt Nam, Bộ Sưu Tập \"Tinh Hoa Việt\" bao gồm các mẫu vòng cổ, khuyên tai và lắc tay được chế tác từ bạc S925 cao cấp. ",
+          "imageSrc": "/uploads/services/products/trangsucbac.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "ca3fc7b4-8687-4d16-acab-a0f633d4fe36",
+          "productName": "Túi Xách Nữ Thời Thượng Chic Tote",
+          "description": "Túi xách VINHAPAC Chic Tote là sự lựa chọn hoàn hảo cho những quý cô yêu thích sự tiện dụng và phong cách. Được làm từ chất liệu da tổng hợp cao cấp, chống thấm nước và dễ vệ sinh",
+          "imageSrc": "/uploads/services/products/tuisach.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        }
+      ],
+      "_template": "importExportComponentSection"
+    },
+    {
+      "_template": "lineBlockSection"
+    },
+    {
+      "title": "Đồ gỗ & trang trí nhà cửa",
+      "subTitle": "VINHAPAC cung cấp các giải pháp toàn diện trong lĩnh vực đồ gỗ nội thất và trang trí nhà cửa, từ khâu tìm nguồn hàng đến vận chuyển và phân phối. Chúng tôi cam kết mang đến những sản phẩm chất lượng cao, có nguồn gốc rõ ràng, được chế tác tinh xảo, đồng thời đảm bảo quy trình logistics chuyên nghiệp để hàng hóa luôn nguyên vẹn và đúng tiến độ đến tay đối tác và khách hàng. Với mạng lưới đối tác rộng khắp, chúng tôi tự tin đáp ứng nhu cầu đa dạng của thị trường về nội thất và các vật phẩm trang trí, góp phần tạo nên không gian sống và làm việc đẳng cấp.",
+      "items": [
+        {
+          "id": "93818b7c-3c48-49cc-823b-d6fa3e54ed78",
+          "productName": "Bộ Bàn Ăn Gỗ Sồi Tự Nhiên VINA-Oak",
+          "description": "Bộ bàn ăn VINA-Oak được chế tác từ gỗ sồi tự nhiên nhập khẩu cao cấp, nổi bật với đường vân gỗ tinh tế và độ bền vượt trội. Thiết kế hiện đại, tối giản ",
+          "imageSrc": "/uploads/services/products/bango.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "08b82ef8-767f-458b-92cf-12ea5ad671ae",
+          "productName": "Kệ Trang Trí Đa Năng VINHAPAC Decor Shelf",
+          "description": "Kệ trang trí VINHAPAC Decor Shelf là giải pháp lưu trữ và trưng bày thông minh cho mọi không gian. Với thiết kế đa năng, bạn có thể dễ dàng điều chỉnh cấu trúc để phù hợp với sách, vật phẩm trang trí hay cây cảnh",
+          "imageSrc": "/uploads/services/products/ke.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "d707fa59-dcbf-4351-b86e-1589b572f7b9",
+          "productName": "Đèn Ngủ Gốm Sứ Thủ Công \"Bình Minh An Nhiên\"",
+          "description": "Bộ đèn ngủ \"Bình Minh An Nhiên\" là sự kết hợp hoàn hảo giữa nghệ thuật gốm sứ thủ công và ánh sáng ấm áp, tạo điểm nhấn tinh tế cho phòng ngủ của bạn. ",
+          "imageSrc": "/uploads/services/products/dengom.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        }
+      ],
+      "_template": "importExportComponentSection"
+    },
+    {
+      "_template": "lineBlockSection"
+    },
+    {
+      "title": "Hơn <span class=\"text-vina-primary\">25 năm kinh nghiệm</span> trong ngành Xuất nhập khẩu và Phân phối toàn cầu",
+      "profileStats": [
+        {
+          "id": "e240efad-d3e0-4534-a6c0-9f4e8d61cadd",
+          "value": "50+",
+          "label": "Công ty đối tác"
+        },
+        {
+          "id": "5efb25bc-b4a4-41e1-92e5-1bf6cb4ba1c5",
+          "value": "50k+",
+          "label": "Khách hàng hài lòng"
+        },
+        {
+          "id": "b1053590-94bc-4062-af38-333500e0c7f3",
+          "value": "1b+",
+          "label": "Sản phẩm được giao dịch"
+        },
+        {
+          "id": "0fc5f53f-7374-4a10-9083-2ba44c0b96ef",
+          "value": "5k+",
+          "label": "Đơn vị vận chuyển"
+        }
+      ],
+      "backgroundImage": "/uploads/services/vinhapac-service.png",
+      "button": {
+        "label": "Liên hệ với chúng tôi"
+      },
+      "_template": "profileServiceSection"
+    }
+  ]
 }

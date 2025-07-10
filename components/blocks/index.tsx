@@ -35,6 +35,23 @@ import CallToActionSectionSecond from "./home/CallToActionSectionSecond";
 import IntroCompany, { IIntroCompany } from "./home/IntroCompany";
 import FormSection, { IFormSection } from "./form/FormSection";
 import FixedFormButton, { IFixedFormButton } from "../ui/FixedFormButton";
+import ImportExportComponent, {
+  IImportExportComponent,
+} from "./services/components/ImportExportComponent";
+import HeroSectionService, {
+  THerosectionService,
+} from "./services/components/HeroSectionService";
+import DescribeSection, {
+  IDescribeSection,
+} from "./services/components/DescribeSection";
+import Line from "./services/components/Line";
+import ProfileServiceSection, {
+  IProfileServiceSection,
+} from "./services/components/ProfileServiceSection";
+import ServicesComponent, {
+  IServicesComponent,
+} from "./services/components/ServicesSummarySection";
+import Title, { ITitle } from "./services/components/Title";
 
 type Maybe<T> = T | null | undefined;
 
@@ -235,7 +252,7 @@ interface VisionMissionSectionBlock extends BaseBlock {
 
 interface IHeroSectionSecondTemplateBLock
   extends BaseBlock,
-  IHeroSectionSecond {
+    IHeroSectionSecond {
   __typename: "PageBlocksHeroSectionSecondTemplate";
 }
 
@@ -257,13 +274,13 @@ interface IPartnersShowcaseBlock extends BaseBlock, IPartnersShowcase {
 
 interface ICertificationsSectionBlock
   extends BaseBlock,
-  ICertificationsSection {
+    ICertificationsSection {
   __typename: "PageBlocksCertificationsSection";
 }
 
 interface ICallToActionSectionSecondBblock
   extends BaseBlock,
-  ICallToActionSectionSecond {
+    ICallToActionSectionSecond {
   __typename: "PageBlocksCallToActionSectionSecond";
 }
 
@@ -278,7 +295,35 @@ interface IFormSectionBlock extends BaseBlock, IFormSection {
 interface IFixedFormButtonBlock extends BaseBlock, IFixedFormButton {
   __typename: "PageBlocksFixedFormButton";
 }
+interface IImportExportComponentBlock
+  extends BaseBlock,
+    IImportExportComponent {
+  __typename: "PageBlocksImportExportComponentSection";
+}
+interface ITHerosectionServiceBlock extends BaseBlock, THerosectionService {
+  __typename: "PageBlocksHeroSectionServiceBlock";
+}
 
+interface IDescribeSectionBlock extends BaseBlock, IDescribeSection {
+  __typename: "PageBlocksDescriptionBlockSection";
+}
+
+interface IineBlockSectionBlock extends BaseBlock {
+  __typename: "PageBlocksLineBlockSection";
+}
+
+interface IProfileServiceSectionBlock
+  extends BaseBlock,
+    IProfileServiceSection {
+  __typename: "PageBlocksProfileServiceSection";
+}
+
+interface IServicesComponentBlock extends BaseBlock, IServicesComponent {
+  __typename: "PageBlocksServiceComponentSection";
+}
+interface ITitleBlock extends BaseBlock, ITitle {
+  __typename: "PageBlocksTitleSection";
+}
 type PageBlock =
   | HeroSliderBlock
   | IntroductionBlock
@@ -303,6 +348,13 @@ type PageBlock =
   | IIntroCompanySectionBlock
   | IFormSectionBlock
   | IFixedFormButtonBlock
+  | IImportExportComponentBlock
+  | ITHerosectionServiceBlock
+  | IDescribeSectionBlock
+  | IineBlockSectionBlock
+  | IProfileServiceSectionBlock
+  | IServicesComponentBlock
+  | ITitleBlock
   | IHeroSectionSecondTemplateBLock;
 
 interface Page {
@@ -583,11 +635,52 @@ export const Block = ({ block }: { block: PageBlock }) => {
     case "PageBlocksFormSection":
       return <FormSection data={block} />;
     case "PageBlocksFixedFormButton":
-      return <FixedFormButton data={{
-        form: block.form,
-        button: block.button,
-        name: block.name
-      }} />
+      return (
+        <FixedFormButton
+          data={{
+            form: block.form,
+            button: block.button,
+            name: block.name,
+          }}
+        />
+      );
+    case "PageBlocksImportExportComponentSection":
+      return (
+        <ImportExportComponent
+          data={{
+            items: block.items ?? [],
+            subTitle: block.subTitle ?? "",
+            title: block.title ?? "",
+          }}
+        />
+      );
+    case "PageBlocksHeroSectionServiceBlock":
+      return (
+        <HeroSectionService
+          data={{
+            title: block.title ?? "",
+            services: block.services ?? [],
+            description: block.description,
+            image: block.image ?? "",
+          }}
+        />
+      );
+    case "PageBlocksDescriptionBlockSection":
+      return (
+        <DescribeSection
+          data={{
+            description: block.description ?? "",
+          }}
+        />
+      );
+    case "PageBlocksLineBlockSection":
+      return <Line />;
+    case "PageBlocksProfileServiceSection":
+      return <ProfileServiceSection data={block} />;
+    case "PageBlocksServiceComponentSection":
+      return <ServicesComponent data={block} />;
+    case "PageBlocksTitleSection":
+      return <Title data={block} />;
     default:
       return null;
   }
