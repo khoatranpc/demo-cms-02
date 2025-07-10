@@ -7,13 +7,13 @@
         "text": "Over 500+ Global Partners"
       },
       "heroSectionSecondheading": {
-        "title": "Connecting Vietnam to the ",
-        "highlight": "World"
+        "title": "Vietnamese Import-Export ",
+        "highlight": "Brand"
       },
-      "description": "Your trusted choice, bridging talented Vietnam to global markets through: Quality, Responsibility, Innovation",
+      "description": "With over 25 years of experience, VINHAPAC is a strategic partner for Vietnamese businesses in their global expansion journey - from consulting, legal, logistics to multinational distribution.",
       "buttons": [
         {
-          "label": "Get Quote"
+          "label": "Get Quote Now"
         },
         {
           "label": "Become a Supplier"
@@ -33,7 +33,7 @@
         {
           "id": "d4aa7254-de10-4a2b-b241-c895edc79ac8",
           "number": 15,
-          "text": "Import/Export Categories"
+          "text": "Import/Export Products"
         },
         {
           "id": "80e8645f-81ef-436d-abce-868b1e8d7156",
@@ -45,7 +45,7 @@
     },
     {
       "heading": "Export Markets",
-      "subheading": "Vinhapac's Active International Network",
+      "subheading": "Vinhapac's International Network",
       "countries": [
         {
           "name": "Thai",
@@ -76,49 +76,27 @@
       "_template": "exportMarkets"
     },
     {
-      "heading": "History & Development",
-      "timeline": [
-        {
-          "year": "1998",
-          "event": "Foundation established with the creation of the parent company in France, specializing in agricultural trade."
-        },
-        {
-          "year": "2010",
-          "event": "Network expansion to USA and Thailand, diversifying product portfolio into apparel and furniture."
-        },
-        {
-          "year": "2020",
-          "event": "VINHAPAC established in Vietnam, focusing on leveraging local high-quality production and supply capabilities."
-        },
-        {
-          "year": "2024",
-          "event": "Achieved ISO 9001:2015 certification, successfully exporting to over 20 countries, affirming position as a trusted global partner."
-        }
-      ],
-      "_template": "timelineSection"
-    },
-    {
       "capacityHeading": "Production & Operational Capacity",
       "capacityItems": [
         {
           "icon": "FaMicrochip",
           "title": "Technology",
-          "content": "Implementing Blockchain traceability and ERP systems for transparent supply chain management."
+          "content": "Implementing Blockchain-based traceability and ERP systems to manage the entire supply chain transparently."
         },
         {
           "icon": "FaChartLine",
           "title": "Capacity",
-          "content": "Capability to handle large orders, with average capacity of 500 containers/year for agricultural products and 1 million products/year for apparel."
+          "content": "Capability to handle large orders, with an average capacity of 500 containers/year for agricultural products and 1 million products/year for garments."
         },
         {
           "icon": "FaWarehouse",
           "title": "Warehouse Space",
-          "content": "Total warehouse area over 20,000 m², equipped with modern Warehouse Management System (WMS), ensuring optimal storage and preservation."
+          "content": "Total warehouse area of over 20,000 m², equipped with modern Warehouse Management System (WMS), ensuring optimal storage and preservation of goods."
         },
         {
           "icon": "FaIndustry",
           "title": "Partner Factories",
-          "content": "Network of over 15 strategic manufacturing plants and workshops nationwide, with regular quality audits."
+          "content": "Network of over 15 strategic partner factories and production facilities nationwide, with regular quality audits."
         }
       ],
       "_template": "capacitySection"
@@ -126,11 +104,11 @@
     {
       "vision": {
         "title": "Vision",
-        "content": "To become a pioneer in import-export and distribution, building Vietnamese brands to international standards."
+        "content": "To become a pioneer in import-export and distribution, building Vietnamese brands to reach international standards."
       },
       "mission": {
         "title": "Mission",
-        "content": "Connecting high-quality supplies with domestic and international market demands. Creating sustainable value for partners and community."
+        "content": "Connecting high-quality supply sources with domestic and international market demands. Creating sustainable value for partners and communities."
       },
       "statistics": {
         "orderQuantity": {
@@ -140,7 +118,7 @@
         },
         "exportQuantity": {
           "label": "Exports",
-          "description": "Export Items",
+          "description": "Export Products",
           "value": 1000
         },
         "customerReviews": {
@@ -153,7 +131,7 @@
         "title": "Core Values",
         "values": [
           {
-            "name": "Reputation",
+            "name": "Credibility",
             "description": "Commitment to honesty and transparency in all transactions."
           },
           {
@@ -174,31 +152,31 @@
     },
     {
       "heading": "Leadership Team",
-      "subheading": "Experienced leaders guiding VINHAPAC to success.",
+      "subheading": "Experienced captains leading VINHAPAC to success.",
       "members": [
         {
-          "name": "Quoc Nguyen",
+          "name": "Nguyen Van Quoc",
           "role": "International Market Development Director"
         },
         {
-          "name": "Mai Nguyen",
-          "role": "Chief Financial Officer"
+          "name": "Nguyen Thi Mai",
+          "role": "Finance Director"
         },
         {
-          "name": "An Tran",
+          "name": "Tran Van An",
           "role": "Chief Operating Officer (Vietnam)"
         },
         {
-          "name": "Huong Nguyen",
+          "name": "Nguyen Thi Huong",
           "role": "Co-founder & CEO"
         }
       ],
       "_template": "leadershipSection"
     },
     {
-      "heading": "Legal Information & Company Profile",
+      "heading": "Legal Information & Capability Profile",
       "companyProfile": {
-        "title": "VINHAPAC Company Profile",
+        "title": "VINHAPAC Capability Profile",
         "description": "Download our comprehensive document about our capabilities, experience, and notable projects.",
         "buttonLabel": "Download (PDF)",
         "fileUrl": "/",
@@ -210,7 +188,7 @@
           "value": "VINHAPAC Import-Export and Distribution Company Limited"
         },
         {
-          "label": "Tax ID",
+          "label": "Tax Code",
           "value": "0312345678"
         },
         {
@@ -219,11 +197,11 @@
         },
         {
           "label": "Head Office Address",
-          "value": "123 Nguyen Van Linh, Tan Thuan Tay Ward, District 7, Ho Chi Minh City"
+          "value": "123 Nguyen Van Linh, Tan Thuan Tay Ward, District 7, HCMC"
         },
         {
           "label": "Certifications & Licenses",
-          "value": "ISO 9001:2015, HACCP, FDA, Export licenses for agricultural products and apparel"
+          "value": "ISO 9001:2015, HACCP, FDA, Export licenses for agricultural products and garments"
         }
       ],
       "_template": "legalInfoSection"

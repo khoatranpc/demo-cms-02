@@ -1,0 +1,260 @@
+{
+  "title": "Services",
+  "slug": "/services-of-vinhapac",
+  "blocks": [
+    {
+      "title": "Comprehensive Services by Vinhapac",
+      "image": "/uploads/services/services.png",
+      "services": [
+        {
+          "id": "b0033fff-7534-4d17-8a64-37f0f7c6baa6",
+          "title": "Import & Export",
+          "description": "Providing comprehensive solutions for import and export activities of raw materials, consumer products, and industrial goods. Ensuring fast and efficient transportation and customs procedures.",
+          "button": {
+            "label": "Learn about Import & Export"
+          }
+        },
+        {
+          "id": "474b39e7-6714-4bda-889d-17f0258ba51d",
+          "title": "Distribution",
+          "description": "Operating a flexible and modern distribution system, along with strategic relationships with major manufacturers in garments, food, furniture, household goods, and many other industries",
+          "button": {
+            "label": "Explore Distribution Services"
+          }
+        }
+      ],
+      "_template": "heroSectionServiceBlock"
+    },
+    {
+      "description": "VINHAPAC is proud to be a trusted partner, providing comprehensive import-export and distribution solutions, connecting high-quality supply sources with domestic and international market demands. With over 25 years of experience in multi-sector import-export and distribution in France, USA, and Thailand, VINHAPAC has established a solid position in domestic and international trade networks. The company provides comprehensive solutions for importing and exporting various items such as raw materials, consumer products, and industrial goods, ensuring quick and efficient transportation and customs procedures. VINHAPAC owns a flexible and modern distribution system, along with strategic relationships with many major manufacturers in sectors such as garments, fashion, food and beverages, furniture and home decoration, household goods, and many other industries. Located in Ho Chi Minh City - Vietnam's economic and logistics center, with a professional and experienced team, VINHAPAC commits to delivering superior service, building partnerships based on trust and long-term benefits. Our mission is 'Connecting high-quality supply sources with domestic and international market demands', aiming to build Vietnamese brands to reach international standards.",
+      "_template": "descriptionBlockSection"
+    },
+    {
+      "title": "Areas of Operation",
+      "_template": "titleSection"
+    },
+    {
+      "title": "Export Product Groups",
+      "mainDescription": "Specializing in import and export services with diverse product categories, including key sectors and various industries, ensuring efficiency and reliability.",
+      "services": [
+        {
+          "id": "d3886a85-9e55-4c7a-9e0d-c69840201abd",
+          "title": "Fashion and Accessories",
+          "description": "Providing import-export solutions for the fashion industry, from raw materials to finished products, meeting market trends and international standards.",
+          "image": "/uploads/services/outfit.png",
+          "button": {
+            "label": "Learn More",
+            "link": ""
+          }
+        },
+        {
+          "id": "58ba537f-c362-4720-817b-0ee800fc5e47",
+          "title": "Furniture & Home Decoration",
+          "description": "Transportation and distribution of wooden furniture and home decoration materials with professional processes, ensuring intact goods and timely delivery.",
+          "image": "/uploads/services/furniture.png",
+          "button": {
+            "label": "Learn More"
+          }
+        },
+        {
+          "id": "57290c4c-c57c-4137-8cb9-012f662c95ea",
+          "title": "Processed Food & Refined Agricultural Products",
+          "description": "We specialize in importing and exporting a diverse range of high-quality processed foods and agricultural products, ensuring clear origin and food safety.",
+          "image": "/uploads/services/foods.png",
+          "button": {
+            "label": "Learn More"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "id": "2500a12d-1234-4eb0-824d-684838c5f07a",
+          "label": "Get Quote",
+          "icon": "FileText"
+        },
+        {
+          "id": "2945124a-1000-432e-8842-b6ed4f43fc79",
+          "label": "Download Catalog",
+          "icon": "Download"
+        }
+      ],
+      "_template": "serviceComponentSection"
+    },
+    {
+      "title": "Export Services",
+      "mainDescription": "With a flexible and modern distribution system, along with strategic relationships with major manufacturers and partners, we ensure your products reach markets quickly.",
+      "services": [
+        {
+          "id": "97698cb7-9477-42ff-a019-1dc428a5147c",
+          "title": "Export Coordination & Transportation",
+          "description": "We handle the entire logistics chain for export operations: from warehousing, container loading, domestic transportation, customs procedures, to international delivery. VINHAPAC ensures timely progress, document accuracy, and optimized operational costs for each shipment.",
+          "image": "/uploads/services/logistic.png",
+          "button": {
+            "label": "Learn More"
+          }
+        },
+        {
+          "id": "8f3648ec-cf15-4b63-a8d2-d2c7312a0ae5",
+          "title": "Official Export Representative",
+          "description": "VINHAPAC represents Vietnamese suppliers in accessing and transacting with international customer networks. We are responsible for connecting, negotiating, providing legal advice, and accompanying throughout the journey of bringing products to foreign markets – ensuring transparency, efficiency, and compliance with international standards.",
+          "image": "/uploads/services/market-consulting.png",
+          "button": {
+            "label": "Learn More"
+          }
+        },
+        {
+          "id": "82f89b55-38ad-46ea-829a-4eb99e9d0778",
+          "title": "Sourcing and Quality Inspection",
+          "description": "We help international buyers find suitable supply sources in Vietnam, from reputable factories to export-standard products. Additionally, VINHAPAC conducts quality inspections, factory assessments, and production process monitoring to ensure all shipments meet the strict requirements of import markets.",
+          "image": "/uploads/news.png",
+          "button": {
+            "label": "Learn More"
+          }
+        },
+        {
+          "id": "587b7781-35d9-4413-af3b-b9cc6e175f12",
+          "title": "Private Label Manufacturing & Packaging",
+          "description": "VINHAPAC provides manufacturing and packaging solutions according to customers' brand requirements (OEM/ODM). From packaging design, labeling to packaging standards – we work closely with factories to ensure consistency, branding, and product quality in every detail.",
+          "image": "/uploads/news.png",
+          "button": {
+            "label": "Learn More"
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "id": "01226a1a-7f9a-4a86-abfe-6abff496931d",
+          "label": "Get Consultation",
+          "icon": "Headset"
+        }
+      ],
+      "_template": "serviceComponentSection"
+    },
+    {
+      "_template": "lineBlockSection"
+    },
+    {
+      "title": "Processed Food & Refined Agricultural Products",
+      "subTitle": "We specialize in importing and exporting a diverse range of high-quality processed foods and agricultural products, ensuring clear origin and food safety. Over 10,000 products are traded annually.",
+      "items": [
+        {
+          "id": "632e08ee-3fd2-46a4-8302-a770f1e0d891",
+          "productName": "Premium Jasmine Rice",
+          "description": "Carefully selected Jasmine rice, ensuring delicious flavor and top export quality. Meets international food safety standards.",
+          "imageSrc": "/uploads/services/products/rice.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "eccd4903-f4f8-4a18-a3c7-01912fa403be",
+          "productName": "Salted Roasted Cashews",
+          "description": "Grade A cashews, naturally salted, crispy and nutritious. Convenient packaging, suitable for demanding markets.",
+          "imageSrc": "/uploads/services/products/hatdieu.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "fefb895f-3358-42c9-b2c1-9104b81eb3cc",
+          "productName": "Pure Robusta Coffee",
+          "description": "Robusta coffee from Vietnam's highlands, with rich, distinctive flavor. Ensuring sustainable and fair production processes.",
+          "imageSrc": "/uploads/services/products/coffe.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        }
+      ],
+      "_template": "importExportComponentSection"
+    },
+    {
+      "_template": "lineBlockSection"
+    },
+    {
+      "title": "Fashion & Accessories",
+      "subTitle": "VINHAPAC proudly provides comprehensive import-export solutions for the fashion and accessories industry. From sourcing high-quality raw materials to transporting and distributing finished products.",
+      "items": [
+        {
+          "id": "504e4934-315c-482d-911f-d529b0f0ad4e",
+          "productName": "Premium Cowhide Leather Jacket VINA-Leather",
+          "description": "Crafted from 100% genuine imported cowhide leather, VINA-Leather Jacket offers a luxurious, elegant appearance that stands the test of time.",
+          "imageSrc": "/uploads/services/products/aokhoacdabo.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "0ddddd94-e7f4-46f5-aa94-d4c983768a99",
+          "productName": "S925 Silver Jewelry Collection 'Vietnamese Essence'",
+          "description": "Inspired by the beauty of traditional Vietnamese culture, the 'Vietnamese Essence' Collection includes necklaces, earrings, and bracelets crafted from premium S925 silver.",
+          "imageSrc": "/uploads/services/products/trangsucbac.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "ca3fc7b4-8687-4d16-acab-a0f633d4fe36",
+          "productName": "Trendy Women's Chic Tote Bag",
+          "description": "VINHAPAC Chic Tote is the perfect choice for ladies who love convenience and style. Made from premium synthetic leather, water-resistant and easy to clean",
+          "imageSrc": "/uploads/services/products/tuisach.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        }
+      ],
+      "_template": "importExportComponentSection"
+    },
+    {
+      "_template": "lineBlockSection"
+    },
+    {
+      "title": "Furniture & Home Decoration",
+      "subTitle": "VINHAPAC provides comprehensive solutions in the furniture and home decoration sector, from sourcing to transportation and distribution. We commit to delivering high-quality products with clear origins, exquisite craftsmanship, while ensuring professional logistics processes for intact and timely delivery to partners and customers. With our extensive partner network, we confidently meet diverse market needs for furniture and decorative items, contributing to creating sophisticated living and working spaces.",
+      "items": [
+        {
+          "id": "93818b7c-3c48-49cc-823b-d6fa3e54ed78",
+          "productName": "Natural Oak Dining Set VINA-Oak",
+          "description": "VINA-Oak dining set is crafted from premium imported natural oak, featuring elegant wood grain and superior durability. Modern, minimalist design",
+          "imageSrc": "/uploads/services/products/bango.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "08b82ef8-767f-458b-92cf-12ea5ad671ae",
+          "productName": "VINHAPAC Decor Shelf Versatile Display Unit",
+          "description": "VINHAPAC Decor Shelf is a smart storage and display solution for any space. With its versatile design, you can easily adjust the structure to accommodate books, decorative items, or plants",
+          "imageSrc": "/uploads/services/products/ke.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        },
+        {
+          "id": "d707fa59-dcbf-4351-b86e-1589b572f7b9",
+          "productName": "Handcrafted Ceramic Table Lamp 'Peaceful Dawn'",
+          "description": "The 'Peaceful Dawn' table lamp is a perfect blend of handcrafted ceramic art and warm lighting, creating an elegant accent for your bedroom.",
+          "imageSrc": "/uploads/services/products/dengom.png",
+          "certificateSrc": "/uploads/certifications/iso-certi-template.png"
+        }
+      ],
+      "_template": "importExportComponentSection"
+    },
+    {
+      "_template": "lineBlockSection"
+    },
+    {
+      "title": "Over <span class=\"text-vina-primary\">25 years of experience</span> in Global Import-Export and Distribution",
+      "profileStats": [
+        {
+          "id": "e240efad-d3e0-4534-a6c0-9f4e8d61cadd",
+          "value": "50+",
+          "label": "Partner Companies"
+        },
+        {
+          "id": "5efb25bc-b4a4-41e1-92e5-1bf6cb4ba1c5",
+          "value": "50k+",
+          "label": "Satisfied Customers"
+        },
+        {
+          "id": "b1053590-94bc-4062-af38-333500e0c7f3",
+          "value": "1b+",
+          "label": "Products Traded"
+        },
+        {
+          "id": "0fc5f53f-7374-4a10-9083-2ba44c0b96ef",
+          "value": "5k+",
+          "label": "Shipping Partners"
+        }
+      ],
+      "backgroundImage": "/uploads/services/vinhapac-service.png",
+      "button": {
+        "label": "Contact Us"
+      },
+      "_template": "profileServiceSection"
+    }
+  ]
+}

@@ -21,6 +21,13 @@ import { partnersShowcaseSchemaTemplate } from "@/components/blocks/home/Partner
 import { testimonialsBlockSchema } from "@/components/blocks/home/Testimonials";
 import { whoWeAreSectionTemplate } from "@/components/blocks/home/WhoWeAreSection";
 import { whyChooseUsBlockSchema } from "@/components/blocks/home/WhyChooseUs";
+import { descriptionBlockSection } from "@/components/blocks/services/components/DescribeSection";
+import { heroSectionServiceBlock } from "@/components/blocks/services/components/HeroSectionService";
+import { importExportComponentSection } from "@/components/blocks/services/components/ImportExportComponent";
+import { lineBlockSection } from "@/components/blocks/services/components/Line";
+import { profileServiceSection } from "@/components/blocks/services/components/ProfileServiceSection";
+import { serviceComponentSection } from "@/components/blocks/services/components/ServicesSummarySection";
+import { titleBlockSection } from "@/components/blocks/services/components/Title";
 import type { Collection } from "tinacms";
 
 const Page: Collection = {
@@ -74,6 +81,13 @@ const Page: Collection = {
         callToActionBlockSchema,
         callToActionSetionSecondSchema,
         fixedButtonBlockSchema,
+        descriptionBlockSection,
+        heroSectionServiceBlock,
+        importExportComponentSection,
+        lineBlockSection,
+        profileServiceSection,
+        serviceComponentSection,
+        titleBlockSection,
 
         capacitySectionBlockSchema,
         heroAboutBlockSchema,
