@@ -218,7 +218,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 @layer utilities {
-
   /* Base vina colors */
   .text-vina-primary {
     color: var(--vina-primary);
@@ -311,6 +310,12 @@ body::-webkit-scrollbar-thumb:hover {
 
   .bg-vina-primary-50 {
     background-color: color-mix(in srgb, var(--vina-primary) 50%, transparent);
+  }
+  .bg-vina-primary-80 {
+    background-color: color-mix(in srgb, var(--vina-primary) 80%, transparent);
+  }
+  .bg-vina-primary-90 {
+    background-color: color-mix(in srgb, var(--vina-primary) 90%, transparent);
   }
 
   .border-vina-primary {
