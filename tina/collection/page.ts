@@ -25,9 +25,12 @@ import { descriptionBlockSection } from "@/components/blocks/services/components
 import { heroSectionServiceBlock } from "@/components/blocks/services/components/HeroSectionService";
 import { importExportComponentSection } from "@/components/blocks/services/components/ImportExportComponent";
 import { lineBlockSection } from "@/components/blocks/services/components/Line";
+import { listServicesSection } from "@/components/blocks/services/components/ListServices";
 import { profileServiceSection } from "@/components/blocks/services/components/ProfileServiceSection";
+import { sectionBannerDetailService } from "@/components/blocks/services/components/SectionBannerDetailService";
 import { serviceComponentSection } from "@/components/blocks/services/components/ServicesSummarySection";
 import { titleBlockSection } from "@/components/blocks/services/components/Title";
+import { contentDetailServiceSection } from "@/components/blocks/services/ContentDetailService";
 import type { Collection } from "tinacms";
 
 const Page: Collection = {
@@ -88,7 +91,9 @@ const Page: Collection = {
         profileServiceSection,
         serviceComponentSection,
         titleBlockSection,
-
+        sectionBannerDetailService,
+        listServicesSection,
+        contentDetailServiceSection,
         capacitySectionBlockSchema,
         heroAboutBlockSchema,
         leadershipSectionBlockSchema,

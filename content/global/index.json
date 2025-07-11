@@ -16,7 +16,19 @@
       },
       {
         "href": "/dich-vu-cua-vinhapac",
-        "label": "Dịch vụ"
+        "label": "Dịch vụ",
+        "children": [
+          {
+            "id": "8d551478-f97a-405f-a13b-53558fb3590b",
+            "href": "/dich-vu-cua-vinhapac/phan-phoi",
+            "label": "Phân phối"
+          },
+          {
+            "id": "15721663-7c9b-4ccb-9c48-38f888863df4",
+            "href": "/dich-vu-cua-vinhapac/xuat-nhap-khau",
+            "label": "Xuất nhập khẩu"
+          }
+        ]
       },
       {
         "href": "/vinhapac-galleries",

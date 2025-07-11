@@ -52,6 +52,13 @@ import ServicesComponent, {
   IServicesComponent,
 } from "./services/components/ServicesSummarySection";
 import Title, { ITitle } from "./services/components/Title";
+import SectionBanner, {
+  TSectionBannerDetailService,
+} from "./services/components/SectionBannerDetailService";
+import ListServices, { TServices } from "./services/components/ListServices";
+import ContentDetailService, {
+  TContetnDetailService,
+} from "./services/ContentDetailService";
 
 type Maybe<T> = T | null | undefined;
 
@@ -324,6 +331,20 @@ interface IServicesComponentBlock extends BaseBlock, IServicesComponent {
 interface ITitleBlock extends BaseBlock, ITitle {
   __typename: "PageBlocksTitleSection";
 }
+
+interface ISectionBannerDetailServiceBlock
+  extends BaseBlock,
+    TSectionBannerDetailService {
+  __typename: "PageBlocksSectionBannerDetailService";
+}
+
+interface ISectionServices extends BaseBlock, TServices {
+  __typename: "PageBlocksListServicesSection";
+}
+
+interface IContetnDetailService extends BaseBlock, TContetnDetailService {
+  __typename: "PageBlocksContentDetailServiceSection";
+}
 type PageBlock =
   | HeroSliderBlock
   | IntroductionBlock
@@ -355,6 +376,9 @@ type PageBlock =
   | IProfileServiceSectionBlock
   | IServicesComponentBlock
   | ITitleBlock
+  | ISectionBannerDetailServiceBlock
+  | ISectionServices
+  | IContetnDetailService
   | IHeroSectionSecondTemplateBLock;
 
 interface Page {
@@ -681,6 +705,12 @@ export const Block = ({ block }: { block: PageBlock }) => {
       return <ServicesComponent data={block} />;
     case "PageBlocksTitleSection":
       return <Title data={block} />;
+    case "PageBlocksSectionBannerDetailService":
+      return <SectionBanner data={block} />;
+    case "PageBlocksListServicesSection":
+      return <ListServices data={block} />;
+    case "PageBlocksContentDetailServiceSection":
+      return <ContentDetailService data={block} />;
     default:
       return null;
   }

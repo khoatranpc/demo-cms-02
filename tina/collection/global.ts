@@ -3,6 +3,7 @@ import { ColorPickerInput } from "../fields/color";
 import { countries } from "country-flag-icons";
 import CountryFlagItem from "@/components/CountryFlagItem";
 import SelectCountry from "@/components/SelectCountry";
+import { uuidv4 } from "@/lib/utils";
 
 const Global: Collection = {
   label: "Global",
@@ -71,6 +72,44 @@ const Global: Collection = {
               type: "string",
               label: "Label",
               name: "label",
+            },
+            {
+              type: "object",
+              name: "children",
+              label: "Children Link",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: item?.label, id: item?.id };
+                },
+                defaultItem() {
+                  if (typeof window === "undefined") return {};
+                  return {
+                    id: uuidv4(),
+                  };
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  name: "id",
+                  ui: {
+                    component(props) {
+                      return null;
+                    },
+                  },
+                },
+                {
+                  type: "string",
+                  name: "href",
+                  label: "Link",
+                },
+                {
+                  type: "string",
+                  name: "label",
+                  label: "Label",
+                },
+              ],
             },
           ],
         },
