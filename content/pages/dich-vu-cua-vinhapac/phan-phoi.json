@@ -1,0 +1,90 @@
+{
+  "title": "Dịch vụ phân phối",
+  "slug": "/dich-vu-cua-vinhapac/phan-phoi",
+  "blocks": [
+    {
+      "listServices": [
+        {
+          "id": "1a9f3901-9d29-44ac-8e77-7de4a487ee39",
+          "name": "Xuất nhập khẩu",
+          "icon": "Import"
+        },
+        {
+          "id": "bc2ad995-679c-4bb2-a397-e70ff0b9c477",
+          "name": "Phân phối",
+          "icon": "AlignVerticalJustifyCenter"
+        },
+        {
+          "id": "7eecd5ee-8171-4b6c-bd0b-5b6bd0f4236d",
+          "name": "Thực phẩm chế biến",
+          "icon": "UtensilsCrossed"
+        },
+        {
+          "id": "71912c0e-289a-43bb-9f8e-ade3f1be0c6f",
+          "name": "Nôn sản tinh chế",
+          "icon": "Tractor"
+        },
+        {
+          "id": "a4042499-e4bb-42cb-96b1-4e20e41e91c4",
+          "name": "Thời trang & phụ kiện"
+        },
+        {
+          "id": "d6c9086b-edd1-4c1c-988c-2ee93af2577d",
+          "name": "Đồ gỗ & trang trí nhà cửa"
+        }
+      ],
+      "_template": "listServicesSection"
+    },
+    {
+      "bannerDetailServiceTitle": "Dịch vụ phân phối tại Vinhapac",
+      "subTitle": "Hơn <span class=\"font-bold\">20 năm kinh nghiệm</span> trong lĩnh vực phân phối với hơn 50 đối tác trên thế giới",
+      "button": {
+        "label": "Tìm hiểu ngay",
+        "href": "#"
+      },
+      "_template": "sectionBannerDetailService"
+    },
+    {
+      "title": "Dịch vụ phân phối",
+      "_template": "titleSection"
+    },
+    {
+      "titleService": "Nguồn phân phối thuộc Vinhapac",
+      "content": "Với sứ mệnh kết nối thị trường và xây dựng hành trình xuất khẩu chuyên nghiệp cho thương hiệu Việt, VINHAPAC không chỉ dừng lại ở vai trò đại diện xuất khẩu mà còn phát triển một hệ thống phân phối hiệu quả – hiện đại – bền vững, phục vụ cho hàng loạt ngành hàng chiến lược như thực phẩm, thời trang, hàng gia dụng, nội thất và nguyên vật liệu công nghiệp.\n\n### **Hệ thống phân phối đa tầng, linh hoạt**\n\nVINHAPAC sở hữu mạng lưới phân phối trải rộng tại nhiều thành phố và vùng kinh tế trọng điểm như TP.HCM, Hà Nội, Bình Dương, Đồng Nai, Đà Nẵng và khu vực ĐBSCL. Mỗi trung tâm phân phối được bố trí tại vị trí chiến lược gần cảng biển, cảng hàng không và tuyến đường quốc lộ để đảm bảo tối ưu hóa khả năng tiếp cận, vận chuyển nhanh chóng, linh hoạt cho cả thị trường nội địa và xuất khẩu.\n\n![](/uploads/news.png)\n\n### Năng lực vận hành kho và logistics\n\nHệ thống kho của VINHAPAC được xây dựng theo tiêu chuẩn quốc tế với diện tích lên tới hàng trăm ngàn mét vuông, tích hợp các công nghệ quản lý kho hiện đại (WMS) giúp theo dõi tồn kho theo thời gian thực, phân loại và xử lý hàng hóa một cách hiệu quả. Chúng tôi cung cấp đầy đủ các dịch vụ như:\n\n* Tiếp nhận và phân loại hàng hóa\n* Đóng gói, dán nhãn theo yêu cầu\n* Lưu kho ngắn hạn hoặc dài hạn\n* Điều phối hàng hóa tới các kênh bán lẻ hoặc đối tác nước ngoài\n* Quản lý tồn kho và báo cáo minh bạch\n\nBên cạnh đó, đội ngũ logistics chuyên nghiệp của chúng tôi có kinh nghiệm phối hợp đa phương thức vận chuyển: đường bộ, đường sắt, đường thủy và đường hàng không, đảm bảo tối ưu chi phí và thời gian giao hàng.\n\n### Đối tác phân phối quốc tế\n\nKhông chỉ tại Việt Nam, VINHAPAC còn hợp tác với mạng lưới phân phối quốc tế tại hơn 50 quốc gia thông qua các đối tác lâu năm tại Mỹ, Pháp, Thái Lan và châu Âu. Điều này cho phép chúng tôi phân phối trực tiếp các sản phẩm Việt Nam đến tay người tiêu dùng toàn cầu thông qua hệ thống bán lẻ, nhà phân phối khu vực và các sàn thương mại quốc tế.\n\n### Cam kết & kiểm soát chất lượng\n\nTất cả hàng hóa được vận hành qua hệ thống phân phối của VINHAPAC đều phải trải qua quá trình kiểm định chất lượng nghiêm ngặt. Chúng tôi duy trì tiêu chuẩn kiểm soát đầu vào – đầu ra, truy xuất nguồn gốc rõ ràng và tuân thủ các quy chuẩn về vệ sinh, an toàn thực phẩm, đóng gói và bảo quản, đảm bảo mỗi lô hàng đều đúng chuẩn, đúng tiến độ, đúng cam kết.\n\n> VINHAPAC cam kết không chỉ là cầu nối, mà là đối tác phân phối chiến lược đồng hành cùng doanh nghiệp Việt trên hành trình hội nhập – phát triển toàn cầu. Với kinh nghiệm thực tiễn, hệ thống phân phối vững mạnh và đội ngũ tận tâm, chúng tôi sẵn sàng đưa sản phẩm của bạn chinh phục mọi thị trường.\n",
+      "hasSectionServices": true,
+      "listServices": [
+        {
+          "id": "ff4461b9-5bc0-4ccc-9c00-cdeb192a0de7",
+          "title": "Xuất nhập khẩu",
+          "href": "#",
+          "icon": "Import",
+          "items": [
+            {
+              "id": "caa24add-c0b7-4a23-8d33-71447aa588dc",
+              "title": "Thực phẩm chế biến",
+              "icon": "UtensilsCrossed"
+            },
+            {
+              "id": "bd298475-0e61-404d-90b6-d0660cfb040e",
+              "title": "Nông sản tinh chế",
+              "icon": "Tractor"
+            },
+            {
+              "id": "73bd5ae3-2ee3-4439-a986-f1f5c0dfd26b",
+              "title": "Thời trang & phụ kiện"
+            },
+            {
+              "id": "d5b0ea56-da82-4892-94f3-4c402becd261",
+              "title": "Đồ gỗ & trang trí nhà cửa"
+            }
+          ]
+        },
+        {
+          "id": "284fbe46-9bdc-48e9-8a85-c1953cc08399",
+          "title": "Phân phối"
+        }
+      ],
+      "_template": "contentDetailServiceSection"
+    }
+  ]
+}

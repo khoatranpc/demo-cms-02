@@ -6,9 +6,12 @@ interface FeatureItemProps {
 }
 
 const LucideIcon = ({ icon }: FeatureItemProps) => {
-  const LucideIcon = (Icons as any)[icon];
+  if (icon && (Icons as any)[icon]) {
+    const LucideIconReact = (Icons as any)[icon];
 
-  return <LucideIcon />;
+    return <LucideIconReact />;
+  }
+  return <Icons.AppWindowMac />;
 };
 
 export default LucideIcon;
