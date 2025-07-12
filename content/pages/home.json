@@ -238,7 +238,7 @@
         {
           "slogan": "Phân Phối Chuyên Nghiệp",
           "subSlogan": "Tối ưu logistics – kiểm soát chất lượng – mở rộng thị trường cho thương hiệu Việt.",
-          "backgroundImage": "/uploads/pp.png",
+          "backgroundImage": "/uploads/container.png",
           "button": {
             "label": "Tư vấn ngay",
             "link": "?modal=Button Advisor"
@@ -289,13 +289,13 @@
           "id": "4cb1b817-2416-4310-916e-39f8ac175c8a"
         }
       ],
-      "image": "/uploads/world.png",
+      "image": "/uploads/trans.png",
       "_template": "introCompanySection"
     },
     {
       "keyExportProductsHeading": {
         "title": "Sản phẩm",
-        "description": " "
+        "description": "Các nhóm sản phẩm xuất nhập khẩu chính "
       },
       "products": [
         {
@@ -340,7 +340,7 @@
     {
       "deepExportServicesHeading": {
         "title": "Dịch Vụ Xuất Khẩu",
-        "description": ""
+        "description": "Dịch vụ xuất khẩu của Vinhapac"
       },
       "services": [
         {
@@ -384,7 +384,8 @@
     },
     {
       "partnersShowcaseHeading": {
-        "title": "Khách hàng"
+        "title": "Khách hàng",
+        "subTitle": "Khách hàng đồng hành cùng Vinhapac"
       },
       "partners": [
         {
@@ -417,7 +418,8 @@
     },
     {
       "certificationHeading": {
-        "title": "Chứng Nhận"
+        "title": "Chứng Nhận",
+        "subTitle": "Chứng nhận của Vinhapac"
       },
       "certifications": [
         {
@@ -445,7 +447,7 @@
     },
     {
       "heading": "Mạng Lưới Thị Trường",
-      "subheading": "",
+      "subheading": "Vinhapac đã có mặt tại 20 nước trên thế giới",
       "countries": [
         {
           "name": "US",

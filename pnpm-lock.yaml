@@ -95,6 +95,9 @@ importers:
       react-fast-marquee:
         specifier: ^1.6.5
         version: 1.6.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-hook-form:
+        specifier: ^7.60.0
+        version: 7.60.0(react@18.3.1)
       react-icons:
         specifier: ^5.5.0
         version: 5.5.0(react@18.3.1)
@@ -6398,6 +6401,12 @@ packages:
     peerDependencies:
       final-form: ^4.20.4
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
+
+  react-hook-form@7.60.0:
+    resolution: {integrity: sha512-SBrYOvMbDB7cV8ZfNpaiLcgjH/a1c7aK0lK+aNigpf4xWLO8q+o4tcvVurv3c4EOyzn/3dCsYt4GKD42VvJ/+A==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18 || ^19
 
   react-hotkeys-hook@4.5.0:
     resolution: {integrity: sha512-Samb85GSgAWFQNvVt3PS90LPPGSf9mkH/r4au81ZP1yOIFayLC3QAvqTgGtJ8YEDMXtPmaVBs6NgipHO6h4Mug==}
@@ -14748,6 +14757,10 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.25.0
       final-form: 4.20.10
+      react: 18.3.1
+
+  react-hook-form@7.60.0(react@18.3.1):
+    dependencies:
       react: 18.3.1
 
   react-hotkeys-hook@4.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
