@@ -22,6 +22,7 @@ import { partnersShowcaseSchemaTemplate } from "@/components/blocks/home/Partner
 import { testimonialsBlockSchema } from "@/components/blocks/home/Testimonials";
 import { whoWeAreSectionTemplate } from "@/components/blocks/home/WhoWeAreSection";
 import { whyChooseUsBlockSchema } from "@/components/blocks/home/WhyChooseUs";
+import { articleSectionTemplate } from "@/components/blocks/productionLibrary/ArticleSection";
 import { descriptionBlockSection } from "@/components/blocks/services/components/DescribeSection";
 import { heroSectionServiceBlock } from "@/components/blocks/services/components/HeroSectionService";
 import { importExportComponentSection } from "@/components/blocks/services/components/ImportExportComponent";
@@ -96,6 +97,7 @@ const Page: Collection = {
         sectionBannerDetailService,
         listServicesSection,
         contentDetailServiceSection,
+        articleSectionTemplate,
         capacitySectionBlockSchema,
         heroAboutBlockSchema,
         leadershipSectionBlockSchema,

@@ -1,0 +1,92 @@
+{
+  "title": "Production library",
+  "slug": "/thu-vien-san-xuat-vinhapac",
+  "blocks": [
+    {
+      "title": "Tận mắt quy trình – Khẳng định chất lượng",
+      "subTitle": "Khám phá quy trình sản xuất – gia công – đóng gói tại các nhà cung cấp uy tín của VINHAPAC.",
+      "backgroundImage": "/uploads/news.png",
+      "button": {
+        "label": "Liên hệ ngay"
+      },
+      "_template": "profileServiceSection"
+    },
+    {
+      "contentArticle": {
+        "body": "## Thư Viện Sản Xuất – Hành Trình Kiến Tạo Chất Lượng Việt\n\nTại VINHAPAC, chúng tôi tin rằng một sản phẩm đạt tiêu chuẩn quốc tế không chỉ đến từ nguyên liệu tốt, mà còn được tạo nên bởi quy trình sản xuất chuyên nghiệp, kiểm soát chặt chẽ và sự tận tâm trong từng công đoạn. Đó là lý do vì sao VINHAPAC không ngừng mở rộng mạng lưới sản xuất – gia công – đóng gói tại Việt Nam để đáp ứng những yêu cầu khắt khe nhất từ thị trường toàn cầu.\n\n<youtubeEmbed url=\"https://www.youtube.com/watch?v=mRM0REnUiCs&list=RDmRM0REnUiCs&start_radio=1\" />\n\n### Mạng lưới sản xuất được kiểm duyệt\n\nVINHAPAC hợp tác cùng hơn 50 nhà cung cấp và nhà máy tại các tỉnh thành trọng điểm như TP.HCM, Bình Dương, Đồng Nai, Đà Nẵng và miền Tây Nam Bộ. Mỗi đối tác sản xuất đều được kiểm định kỹ lưỡng trước khi đưa vào hệ thống, đảm bảo tiêu chuẩn về pháp lý, công nghệ sản xuất, điều kiện lao động và khả năng xuất khẩu.\n\nTừ xưởng may hàng thời trang, nhà máy chế biến thực phẩm, đơn vị sản xuất đồ gỗ – đến các tổ hợp gia công đóng gói theo yêu cầu thương hiệu – tất cả đều là những mắt xích trong một chuỗi cung ứng khép kín mà VINHAPAC vận hành với cam kết chất lượng tối đa.\n\n| ![](/uploads/banner-home.png) | ![](/uploads/banner.png) |\n| ----------------------------- | ------------------------ |\n|                               |                          |\n\n### Gia công – đóng gói theo yêu cầu thương hiệu\n\nVINHAPAC cung cấp giải pháp OEM/ODM trọn gói cho các đối tác quốc tế: từ thiết kế bao bì, lựa chọn vật liệu, in nhãn mác đến quản lý tiêu chuẩn đóng gói và xuất khẩu. Chúng tôi đồng hành cùng khách hàng trong việc cá nhân hóa sản phẩm mà vẫn đảm bảo tính nhất quán, chi phí tối ưu và khả năng mở rộng sản lượng theo nhu cầu.\n\nĐây không chỉ là giải pháp sản xuất, mà là chiến lược xây dựng thương hiệu xuất khẩu bền vững cho doanh nghiệp trong nước và quốc tế.\n\n### Minh bạch quy trình – chuẩn hóa chất lượng\n\nToàn bộ quy trình sản xuất tại hệ thống của VINHAPAC được kiểm soát bởi đội ngũ kiểm định chất lượng nội bộ giàu kinh nghiệm, am hiểu tiêu chuẩn HACCP, ISO 22000, FDA và các quy định nhập khẩu tại EU, Mỹ, châu Á. Mỗi công đoạn đều có quy trình QC/QA rõ ràng, được ghi nhận và truy xuất nhằm đảm bảo tính minh bạch và nhất quán.\n\nChúng tôi không chỉ cung cấp hình ảnh minh chứng thực tế, mà còn sẵn sàng đón tiếp các đối tác đến tham quan, kiểm tra tại nhà máy để củng cố sự tin cậy lâu dài.\n\n### Từ nhà máy đến container xuất khẩu\n\nSau khi sản phẩm hoàn thiện, VINHAPAC điều phối toàn bộ quá trình đóng gói, xếp dỡ, vận chuyển và hoàn thiện chứng từ để hàng hóa được xuất đi nhanh chóng, đúng hạn và an toàn. Chúng tôi tối ưu thời gian, giảm thiểu rủi ro và giúp đối tác yên tâm giao hàng đến bất kỳ thị trường nào trên thế giới.\n\n### Trực quan – Minh bạch – Chuẩn quốc tế\n\n\"Thư viện sản xuất\" là nơi VINHAPAC chia sẻ hình ảnh thực tế, video hậu trường và quy trình vận hành chuyên nghiệp – như một cách thể hiện sự minh bạch, cam kết chất lượng và năng lực sản xuất vững chắc của hệ thống chúng tôi. Đây không chỉ là nơi trưng bày, mà là không gian chứng minh rằng sản phẩm Việt hoàn toàn đủ năng lực vươn ra toàn cầu.\n\n> Hãy cùng chúng tôi tạo nên hành trình sản xuất đáng tin cậy – từ Việt Nam ra thế giới.\n"
+      },
+      "listArticle": [
+        {
+          "title": "Thư viện sản xuất",
+          "listServices": [
+            {
+              "id": "aa122ea3-810a-417a-ac9e-c28cd1a130ea",
+              "title": "Thư viện sản xuất",
+              "icon": "TableOfContents",
+              "items": [
+                {
+                  "id": "8a17c0f8-2d61-4176-aa4f-0e5b76e5d44f",
+                  "title": "Tổng quan",
+                  "href": "thu-vien-san-xuat-vinhapac",
+                  "icon": "FileUser"
+                },
+                {
+                  "id": "ae9438cf-93cf-475d-a426-2c1eb8c6e09e",
+                  "title": "Quy trình đóng gói",
+                  "icon": "PackageSearch"
+                },
+                {
+                  "id": "be2e811f-8b22-48c8-9390-66b6455355e3",
+                  "title": "Kiểm định",
+                  "icon": "TicketCheck"
+                },
+                {
+                  "id": "8c37f90c-9413-4a76-9456-27e0178c0903",
+                  "title": "Xưởng sản xuất",
+                  "icon": "PackagePlus"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sản phẩm xuất khẩu",
+          "listServices": [
+            {
+              "id": "a0efefdd-fe5e-4acd-9fa9-3dfb977d8ff7",
+              "title": "Sản phẩm xuất khẩu",
+              "icon": "PanelsTopLeft",
+              "items": [
+                {
+                  "id": "9d054f5e-ad6d-4eef-bd9f-d12df230a964",
+                  "title": "Thực phẩm chế biển",
+                  "icon": "Atom"
+                },
+                {
+                  "id": "a7bd8b02-903f-4bb5-941e-0e3f6421dced",
+                  "title": "Nông sản tinh chế",
+                  "icon": "BadgePercent"
+                },
+                {
+                  "id": "e03b8c96-a8ea-41ab-a071-5311cc12c1d8",
+                  "title": "Thời trang & phụ kiện",
+                  "icon": "Shirt"
+                },
+                {
+                  "id": "16ac8fa8-b00b-4a38-b8ad-d7d74cf8839d",
+                  "title": "Đồ gỗ & trang trí nhà cửa",
+                  "icon": "Lamp"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_template": "articleSection"
+    },
+    {
+      "googleMapSrc": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36445.57777586944!2d105.81911665420542!3d21.057010731508846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aba15ec15d17%3A0x620e85c2cfe14d4c!2zTMSDbmcgQ2jhu6cgdOG7i2NoIEjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1752307062834!5m2!1svi!2s\" class=\"w-full sm:h-[400px]\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "_template": "companyMapSection"
+    }
+  ]
+}
