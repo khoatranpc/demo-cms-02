@@ -440,6 +440,7 @@ body::-webkit-scrollbar-thumb:hover {
     color: transparent;
   }
 }
+
 main > div:has(.parentMargin0) {
   margin: 0 !important;
 }

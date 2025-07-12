@@ -4,17 +4,10 @@ import Marquee from "react-fast-marquee";
 import { uuidv4 } from "@/lib/utils";
 import { Template } from "tinacms";
 
-const partners = [
-  { name: "Carrefour", logo: "/images/bigc-template.png" },
-  { name: "Auchan", logo: "/images/bigc-template.png" },
-  { name: "Tesco", logo: "/images/bigc-template.png" },
-  { name: "Lidl", logo: "/images/bigc-template.png" },
-  { name: "Whole Foods", logo: "/images/bigc-template.png" },
-  { name: "Big C", logo: "/images/bigc-template.png" },
-];
 export interface IPartnersShowcase {
   partnersShowcaseHeading?: {
     title?: string;
+    subTitle?: string;
   };
   partners?: Array<{
     name?: string;
@@ -31,15 +24,22 @@ const PartnersShowcase = ({
   return (
     <section className="relative -translate-x-1/2 left-1/2 overflow-hidden w-screen bg-gradient-to-br from-vina-background via-vina-muted to-vina-background py-4">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <motion.h2
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center text-3xl mb-10 uppercase underline text-vina-primary"
-        >
-          {partnersShowcaseHeading?.title ?? "Trusted by Global Retailers"}
-        </motion.h2>
-
+        <div className="mb-4 sm:mb-6">
+          <motion.h2
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center text-3xl mb-4 uppercase text-vina-primary relative  font-bold"
+          >
+            {partnersShowcaseHeading?.title ?? "Trusted by Global Retailers"}
+            <div className="absolute top-full bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-0.5 bg-vina-primary"></div>
+          </motion.h2>
+          {partnersShowcaseHeading?.subTitle && (
+            <p className="text-lg text-vina-muted-foreground max-w-2xl mx-auto text-center">
+              {partnersShowcaseHeading?.subTitle}
+            </p>
+          )}
+        </div>
         <Marquee
           gradient={true}
           gradientColor="transparent"
@@ -77,6 +77,11 @@ export const partnersShowcaseSchemaTemplate: Template = {
         {
           name: "title",
           label: "Title",
+          type: "string",
+        },
+        {
+          name: "subTitle",
+          label: "Subtitle",
           type: "string",
         },
       ],

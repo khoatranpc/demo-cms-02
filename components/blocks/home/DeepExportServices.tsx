@@ -66,14 +66,15 @@ const DeepExportServices = ({
     <section className="">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <motion.div
-          className="text-center mb-10"
+          className="text-center mb-4 sm:mb-6"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl uppercase underline text-vina-primary mb-4">
+          <h2 className="text-3xl uppercase text-vina-primary mb-4 relative  font-bold">
             {deepExportServicesHeading?.title || "Deep Export Services"}
+            <div className="absolute top-full bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-0.5 bg-vina-primary"></div>
           </h2>
           {deepExportServicesHeading?.description && (
             <p className="text-lg text-vina-muted-foreground max-w-2xl mx-auto">

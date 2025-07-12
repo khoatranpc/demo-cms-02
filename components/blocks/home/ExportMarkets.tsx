@@ -24,14 +24,15 @@ export const ExportMarkets = ({
   return (
     <section className="">
       <div className="container mx-auto px-4">
-        <div className="mb-6 sm:mb-10 text-center">
+        <div className="mb-4 sm:mb-6 text-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mb-4 text-vina-primary text-3xl uppercase underline"
+            className="mb-4 text-vina-primary text-3xl uppercase relative font-bold"
           >
             {heading}
+            <p className="absolute top-full bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-0.5 bg-vina-primary"></p>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

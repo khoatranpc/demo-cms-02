@@ -621,6 +621,7 @@ export const Block = ({ block }: { block: PageBlock }) => {
           data={{
             partnersShowcaseHeading: {
               title: block.partnersShowcaseHeading?.title ?? "",
+              subTitle: block.partnersShowcaseHeading?.subTitle ?? "",
             },
             partners: block.partners || [],
           }}
@@ -633,6 +634,7 @@ export const Block = ({ block }: { block: PageBlock }) => {
             certifications: block.certifications || [],
             certificationHeading: {
               title: block.certificationHeading?.title ?? "",
+              subTitle: block.certificationHeading?.subTitle ?? "",
             },
           }}
         />

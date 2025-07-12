@@ -29,15 +29,33 @@ export interface IKeyExportProducts {
     image?: string;
     id?: string;
   }>;
+  backgroundImage?: string;
 }
 interface Props {
   data: IKeyExportProducts;
 }
 const KeyExportProducts = ({
-  data: { products, keyExportProductsHeading },
+  data: { products, keyExportProductsHeading, backgroundImage },
 }: Props) => {
   return (
     <section className="relative -translate-x-1/2 left-1/2 overflow-hidden w-screen bg-gradient-to-br from-vina-background via-vina-muted to-vina-background py-4">
+      {/* {backgroundImage && ( */}
+        {/* <div className="absolute inset-0 z-0">
+          <Image
+            src={"/uploads/container.png"}
+            alt="Background"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/40" />
+        </div> */}
+      {/* )} */}
+
+      {/* Fallback gradient background */}
+      {/* {!backgroundImage && (
+        <div className="absolute inset-0 bg-gradient-to-br from-vina-background via-vina-muted to-vina-background" />
+      )} */}
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Section heading */}
         <motion.div
@@ -45,10 +63,11 @@ const KeyExportProducts = ({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-8 sm:mb-10"
+          className="text-center mb-4 sm:mb-6"
         >
-          <h2 className="text-3xl uppercase text-vina-primary mb-4 underline">
+          <h2 className="text-3xl uppercase text-vina-primary mb-4 relative font-bold">
             {keyExportProductsHeading?.title || "Key Export Products"}
+            <div className="absolute top-full bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-0.5 bg-vina-primary"></div>
           </h2>
           {keyExportProductsHeading?.description && (
             <p className="text-xl text-vina-muted-foreground max-w-2xl mx-auto font-light">
