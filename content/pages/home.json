@@ -520,6 +520,27 @@
         ]
       },
       "_template": "callToActionSectionSecond"
+    },
+    {
+      "title": "Bắt đầu đồng hành cùng<h1 class=\"text-vina-primary\">VINHAPAC</h1>",
+      "subTitle": "Trải nghiệm và kết quả của khách hàng là trách nhiệm của chúng tôi",
+      "profileStats": [
+        {
+          "id": "78092eff-aaa9-466d-bf83-46e300279246",
+          "value": "50",
+          "label": "Đối tác toàn cầu"
+        },
+        {
+          "id": "b83e2243-2fce-414b-840f-7edebab67055"
+        },
+        {
+          "id": "e291ead0-cd56-4032-a162-4f66cfdb2146"
+        },
+        {
+          "id": "4875183c-61ef-4e39-b9d7-159d5a472506"
+        }
+      ],
+      "_template": "profileServiceSection"
     }
   ]
 }
