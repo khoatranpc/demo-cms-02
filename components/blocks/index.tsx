@@ -63,6 +63,7 @@ import CompanyMap, { ICompanyMap } from "./CompanyMap";
 import ArticleSection, {
   TArticleSection,
 } from "./productionLibrary/ArticleSection";
+import Contact, { TContactSection } from "./contact/Contact";
 
 type Maybe<T> = T | null | undefined;
 
@@ -357,6 +358,10 @@ interface ICompanyMapBlock extends BaseBlock, ICompanyMap {
 interface IIArticleSectionBlock extends BaseBlock, TArticleSection {
   __typename: "PageBlocksArticleSection";
 }
+
+interface IContactSectionBlock extends BaseBlock, TContactSection {
+  __typename: "PageBlocksContactSection";
+}
 type PageBlock =
   | HeroSliderBlock
   | IntroductionBlock
@@ -393,6 +398,7 @@ type PageBlock =
   | IContentDetailService
   | ICompanyMapBlock
   | IIArticleSectionBlock
+  | IContactSectionBlock
   | IHeroSectionSecondTemplateBLock;
 
 interface Page {
@@ -729,6 +735,8 @@ export const Block = ({ block }: { block: PageBlock }) => {
       return <CompanyMap data={block} />;
     case "PageBlocksArticleSection":
       return <ArticleSection data={block} />;
+    case "PageBlocksContactSection":
+      return <Contact data={block} />;
     default:
       return null;
   }
