@@ -536,12 +536,20 @@
           "label": "Sản phẩm được phân phối"
         },
         {
-          "id": "e291ead0-cd56-4032-a162-4f66cfdb2146"
+          "id": "e291ead0-cd56-4032-a162-4f66cfdb2146",
+          "value": "5",
+          "label": "Vị trí xếp hạng nhà phân phối thế giới"
         },
         {
-          "id": "4875183c-61ef-4e39-b9d7-159d5a472506"
+          "id": "4875183c-61ef-4e39-b9d7-159d5a472506",
+          "value": "10b",
+          "label": "Vốn hoá đầu tư"
         }
       ],
+      "backgroundImage": "/uploads/services/logistic.png",
+      "button": {
+        "label": "Bắt đầu ngay"
+      },
       "_template": "profileServiceSection"
     }
   ]
