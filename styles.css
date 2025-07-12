@@ -441,8 +441,8 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 main > div:has(.parentMargin0) {
-  margin: 0;
+  margin: 0 !important;
 }
 main > div:has(.parentAbsolute) {
-  position: absolute;
+  position: absolute !important;
 }
