@@ -23,10 +23,10 @@ const SectionListServices = (props: Props) => {
     <div className="space-y-2">
       <Link
         href={props.data?.href ?? "#"}
-        className="flex items-center rounded-md gap-3 p-4 bg-vina-primary text-white cursor-pointer hover:bg-vina-accent"
+        className="flex items-center rounded-md gap-3 p-2 bg-vina-primary text-white cursor-pointer hover:bg-vina-accent"
       >
         <LucideIcon icon={props.data?.icon as string} />
-        <h3 className="text-xl font-semibold">{props.data?.title}</h3>
+        <h3 className="text-sm font-semibold">{props.data?.title}</h3>
       </Link>
       {props.data?.items?.length && (
         <div className="rounded-md shadow-lg p-2 space-y-2">
@@ -34,7 +34,7 @@ const SectionListServices = (props: Props) => {
             <Link
               href={item.href ?? "#"}
               key={item.id ?? uuidv4()}
-              className="cursor-pointer flex items-start gap-3 p-3 rounded-xs bg-gray-50 hover:bg-gray-100 transition-colors"
+              className="cursor-pointer flex items-start gap-3 p-2 rounded-xs bg-gray-50 hover:bg-gray-100 transition-colors"
             >
               <LucideIcon icon={item?.icon as string} />
               <span className="text-gray-700 font-medium">{item.title}</span>
@@ -59,10 +59,10 @@ interface PropsContentDetailService {
 const ContentDetailService = (props: PropsContentDetailService) => {
   console.log(props.data?.listServices);
   return (
-    <section className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <section className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-4 gap-8">
       <div
         className={`prose max-w-none ${
-          props.data?.hasSectionServices ? "lg:col-span-2" : "lg:col-span-3"
+          props.data?.hasSectionServices ? "lg:col-span-3" : "lg:col-span-4"
         } space-y-6 text-gray-800`}
       >
         {props.data?.titleService && (

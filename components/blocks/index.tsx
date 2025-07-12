@@ -59,6 +59,7 @@ import ListServices, { TServices } from "./services/components/ListServices";
 import ContentDetailService, {
   TContetnDetailService,
 } from "./services/ContentDetailService";
+import CompanyMap, { ICompanyMap } from "./CompanyMap";
 
 type Maybe<T> = T | null | undefined;
 
@@ -342,8 +343,12 @@ interface ISectionServices extends BaseBlock, TServices {
   __typename: "PageBlocksListServicesSection";
 }
 
-interface IContetnDetailService extends BaseBlock, TContetnDetailService {
+interface IContentDetailService extends BaseBlock, TContetnDetailService {
   __typename: "PageBlocksContentDetailServiceSection";
+}
+
+interface ICompanyMapBlock extends BaseBlock, ICompanyMap {
+  __typename: "PageBlocksCompanyMapSection";
 }
 type PageBlock =
   | HeroSliderBlock
@@ -378,7 +383,8 @@ type PageBlock =
   | ITitleBlock
   | ISectionBannerDetailServiceBlock
   | ISectionServices
-  | IContetnDetailService
+  | IContentDetailService
+  | ICompanyMapBlock
   | IHeroSectionSecondTemplateBLock;
 
 interface Page {
@@ -711,6 +717,8 @@ export const Block = ({ block }: { block: PageBlock }) => {
       return <ListServices data={block} />;
     case "PageBlocksContentDetailServiceSection":
       return <ContentDetailService data={block} />;
+    case "PageBlocksCompanyMapSection":
+      return <CompanyMap data={block} />;
     default:
       return null;
   }
