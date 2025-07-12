@@ -531,7 +531,9 @@
           "label": "Đối tác toàn cầu"
         },
         {
-          "id": "b83e2243-2fce-414b-840f-7edebab67055"
+          "id": "b83e2243-2fce-414b-840f-7edebab67055",
+          "value": "1k",
+          "label": "Sản phẩm được phân phối"
         },
         {
           "id": "e291ead0-cd56-4032-a162-4f66cfdb2146"
