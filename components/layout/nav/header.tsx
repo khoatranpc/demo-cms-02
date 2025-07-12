@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import SelectLang from "@/components/SelectLang";
 import { motion, AnimatePresence } from "framer-motion";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
+import { Disclosure } from "@headlessui/react";
 
 interface Props {
   locale: string;
@@ -60,17 +61,16 @@ export const Header = ({ locale = "vn" }: Props) => {
               />
             </Link>
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content 
-            className="absolute top-0 left-0 w-full sm:w-auto data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight"
-          >
-            <div className="m-0 w-[280px] bg-white rounded-lg shadow-lg border border-gray-100 overflow-hidden">
+          <NavigationMenu.Content className="absolute top-0 left-0 w-full sm:w-auto data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight">
+            <div className="m-0 w-[200px] bg-white rounded-lg shadow-lg border border-gray-100 overflow-hidden">
               <ul className="flex flex-col py-2">
                 {item.children.map((child, index) => (
                   <li key={index} className="group">
                     <NavigationMenu.Link asChild>
                       <Link
                         href={child.href || "#"}
-                        className={`flex items-center gap-2 px-4 py-2.5 hover:bg-accent/10 transition-all duration-150 ${                          pathname === child.href
+                        className={`flex items-center gap-2 px-4 py-2.5 hover:bg-accent/10 transition-all duration-150 ${
+                          pathname === child.href
                             ? "bg-vina-primary/10 text-vina-primary"
                             : "text-muted-foreground hover:text-accent-foreground"
                         }`}
@@ -104,6 +104,68 @@ export const Header = ({ locale = "vn" }: Props) => {
           </Link>
         </NavigationMenu.Link>
       </NavigationMenu.Item>
+    );
+  };
+
+  const MobileNavItem = ({ item }: { item: NavItem }) => {
+    const isActive = pathname === item.href;
+
+    if (item.children && item.children.length > 0) {
+      return (
+        <Disclosure>
+          {({ open }) => (
+            <>
+              <Disclosure.Button
+                className={`flex w-full items-center justify-between rounded-md px-2.5 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm transition-colors ${
+                  isActive
+                    ? "bg-accent text-accent-foreground"
+                    : "text-muted-foreground hover:bg-accent/50 hover:text-accent-foreground"
+                }`}
+              >
+                <span>{item.label}</span>
+                <ChevronDown
+                  className={`h-4 w-4 transition-transform duration-200 ${
+                    open ? "rotate-180" : ""
+                  }`}
+                />
+              </Disclosure.Button>
+              <Disclosure.Panel className="mt-1 ml-4 space-y-1">
+                {item.children?.map((child, childIndex) => {
+                  const isChildActive = pathname === child.href;
+                  return (
+                    <Link
+                      key={childIndex}
+                      href={child.href || "#"}
+                      className={`block rounded-md px-2.5 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm transition-colors ${
+                        isChildActive
+                          ? "bg-vina-primary/10 text-vina-primary"
+                          : "text-muted-foreground hover:bg-accent/30 hover:text-accent-foreground"
+                      }`}
+                      onClick={() => setMenuState(false)}
+                    >
+                      {child.label}
+                    </Link>
+                  );
+                })}
+              </Disclosure.Panel>
+            </>
+          )}
+        </Disclosure>
+      );
+    }
+
+    return (
+      <Link
+        href={item.href || "#"}
+        className={`block rounded-md px-2.5 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm transition-colors ${
+          isActive
+            ? "bg-accent text-accent-foreground"
+            : "text-muted-foreground hover:bg-accent/50 hover:text-accent-foreground"
+        }`}
+        onClick={() => setMenuState(false)}
+      >
+        {item.label}
+      </Link>
     );
   };
 
@@ -168,7 +230,7 @@ export const Header = ({ locale = "vn" }: Props) => {
                       </NavigationMenu.Indicator>
                     </NavigationMenu.List>
 
-                    <div className="absolute left-0 top-full flex justify-center">
+                    <div className="absolute left-1/2 -translate-x-1/2 top-full flex justify-center">
                       <NavigationMenu.Viewport className="border data-[state=open]:animate-scaleIn data-[state=closed]:animate-scaleOut relative mt-[10px] h-[var(--radix-navigation-menu-viewport-height)] w-full origin-[top_center] overflow-hidden rounded-[6px] bg-popover text-popover-foreground shadow-lg transition-[width,_height] duration-300 sm:w-[var(--radix-navigation-menu-viewport-width)]" />
                     </div>
                   </NavigationMenu.Root>
@@ -234,25 +296,11 @@ export const Header = ({ locale = "vn" }: Props) => {
                   }`}
                 >
                   <div className="flex flex-col gap-4 sm:gap-6">
-                    <ul className="flex flex-col gap-1.5 sm:gap-2">
-                      {header.nav!.map((item, index) => {
-                        const isActive = pathname === item!.href;
-                        return (
-                          <li key={index}>
-                            <Link
-                              href={item!.href!}
-                              className={`block rounded-md px-2.5 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm transition-colors ${
-                                isActive
-                                  ? "bg-accent text-accent-foreground"
-                                  : "text-muted-foreground hover:bg-accent/50 hover:text-accent-foreground"
-                              }`}
-                            >
-                              {item!.label}
-                            </Link>
-                          </li>
-                        );
-                      })}
-                    </ul>
+                    <div className="flex flex-col gap-1.5 sm:gap-2">
+                      {header.nav!.map((item, index) => (
+                        <MobileNavItem key={index} item={item as NavItem} />
+                      ))}
+                    </div>
 
                     {/* Mobile Language Selector */}
                     <div className="w-full">
