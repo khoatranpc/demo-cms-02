@@ -5,6 +5,7 @@ import { legalInfoSectionBlockSchema } from "@/components/blocks/about/sections/
 import { timelineSectionBlockSchema } from "@/components/blocks/about/sections/TimelineSection";
 import { visionMissionSectionBlockSchema } from "@/components/blocks/about/sections/VisionMissionSection";
 import { fixedButtonBlockSchema } from "@/components/blocks/button/FixedButtonSchema";
+import { companyMapSection } from "@/components/blocks/CompanyMap";
 import { callToActionBlockSchema } from "@/components/blocks/home/CallToAction";
 import { callToActionSetionSecondSchema } from "@/components/blocks/home/CallToActionSectionSecond";
 import { certificationsSectionSchema } from "@/components/blocks/home/CertificationsSection";
@@ -25,9 +26,12 @@ import { descriptionBlockSection } from "@/components/blocks/services/components
 import { heroSectionServiceBlock } from "@/components/blocks/services/components/HeroSectionService";
 import { importExportComponentSection } from "@/components/blocks/services/components/ImportExportComponent";
 import { lineBlockSection } from "@/components/blocks/services/components/Line";
+import { listServicesSection } from "@/components/blocks/services/components/ListServices";
 import { profileServiceSection } from "@/components/blocks/services/components/ProfileServiceSection";
+import { sectionBannerDetailService } from "@/components/blocks/services/components/SectionBannerDetailService";
 import { serviceComponentSection } from "@/components/blocks/services/components/ServicesSummarySection";
 import { titleBlockSection } from "@/components/blocks/services/components/Title";
+import { contentDetailServiceSection } from "@/components/blocks/services/ContentDetailService";
 import type { Collection } from "tinacms";
 
 const Page: Collection = {
@@ -86,9 +90,12 @@ const Page: Collection = {
         importExportComponentSection,
         lineBlockSection,
         profileServiceSection,
+        companyMapSection,
         serviceComponentSection,
         titleBlockSection,
-
+        sectionBannerDetailService,
+        listServicesSection,
+        contentDetailServiceSection,
         capacitySectionBlockSchema,
         heroAboutBlockSchema,
         leadershipSectionBlockSchema,

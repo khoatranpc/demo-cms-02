@@ -64,8 +64,8 @@ export const LeadershipSection = ({ data }: LeadershipSectionProps) => {
                   >
                     <div className="relative aspect-square">
                       <Image
-                        src={member.image}
-                        alt={member.name}
+                        src={member.image ?? ""}
+                        alt={member.name ?? ""}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
                       />

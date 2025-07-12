@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRightIcon } from "lucide-react";
-import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text";
 import { uuidv4 } from "@/lib/utils";
 import { Template } from "tinacms";
 
@@ -24,7 +23,6 @@ interface Props {
   data?: IProfileServiceSection;
 }
 const ProfileServiceSection = ({ data }: Props) => {
-  console.log("🚀 ~ ProfileServiceSection ~ data:", data);
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
