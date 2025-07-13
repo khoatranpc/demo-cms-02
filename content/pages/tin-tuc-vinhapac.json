@@ -195,7 +195,7 @@
           "category": "Giải thưởng"
         }
       ],
-      "style": "pb-12",
+      "style": "py-2",
       "_template": "overViewListNews"
     }
   ]
