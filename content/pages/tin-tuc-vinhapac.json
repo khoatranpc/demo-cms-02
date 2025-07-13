@@ -3,6 +3,14 @@
   "slug": "/tin-tuc-vinhapac",
   "blocks": [
     {
+      "bannerDetailServiceTitle": "Tin tức tại Vinhapac",
+      "subTitle": "Chúng tôi luôn đem tới những thông tin mới nhất cho khách hàng",
+      "button": {
+        "label": "Đăng ký nhận thông tin"
+      },
+      "_template": "sectionBannerDetailService"
+    },
+    {
       "heading": "Tin tức & Bài viết",
       "description": "Chúng tôi liên tục cập nhật các thông tin mới nhất tại Vinhapac",
       "articles": [
