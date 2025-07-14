@@ -48,24 +48,9 @@
       "backgroundImage": "/uploads/news.png",
       "timeline": [
         {
-          "year": "2004",
-          "image": "/uploads/trans.png",
-          "event": "**Thành lập VINHAPAC** - Khởi đầu với vai trò là nhà đại diện xuất khẩu cho một số doanh nghiệp Việt Nam tại TP.HCM.\nTập trung vào các ngành hàng cơ bản như nông sản, thực phẩm khô.\n\nHoạt động nổi bật:\n\n* Đại diện thương mại cho doanh nghiệp Việt tại các hội chợ quốc tế.\n* Kết nối đơn hàng xuất khẩu đầu tiên sang thị trường Nhật Bản.\n* Hỗ trợ doanh nghiệp SMEs hoàn thiện hồ sơ chứng từ xuất khẩu.\n"
-        },
-        {
-          "year": "2007",
-          "image": "/uploads/ourmission.png",
-          "event": "**Mở rộng thị trường sang EU & Đông Á** – Thiết lập quan hệ đối tác xuất khẩu với các khách hàng tại Pháp, Nhật Bản, Đài Loan.\n\nĐiểm nhấn:\n\n* Xuất khẩu sang 5 thị trường quốc tế đầu tiên.\n* Đạt doanh thu tăng trưởng 80% so với năm 2006.\n* Bắt đầu hợp tác với các đơn vị logistics tại EU\n"
-        },
-        {
-          "year": "2010",
-          "image": "/uploads/services/market-consulting.png",
-          "event": "**Ra mắt dịch vụ tư vấn xuất khẩu chuyên sâu** – Hỗ trợ doanh nghiệp SMEs Việt Nam tiếp cận thị trường toàn cầu.\n\nDịch vụ triển khai:\n\n* Tư vấn chiến lược sản phẩm phù hợp từng thị trường.\n* Kiểm tra & nâng cấp tiêu chuẩn bao bì – nhãn mác.\n* Đào tạo nghiệp vụ xuất nhập khẩu cho đối tác nội địa.\n"
-        },
-        {
           "year": "2018",
           "image": "/uploads/pp.png",
-          "event": "**Đạt chứng nhận ISO 22000, FDA, HACCP** – Nâng cao chuẩn mực xuất khẩu, đáp ứng các thị trường khó tính.\n\n* ISO 22000 – Quản lý an toàn thực phẩm.\n* HACCP – Kiểm soát rủi ro trong chế biến thực phẩm.\n* FDA – Chứng nhận đủ tiêu chuẩn vào thị trường Hoa Kỳ.\n"
+          "event": "**Đạt chứng nhận ISO 22000, FDA, HACCP** – Nâng cao chuẩn mực xuất khẩu, đáp ứng các thị trường khó tính.\n"
         },
         {
           "id": "c8340a46-d0af-43b3-9492-2933a545601f",
