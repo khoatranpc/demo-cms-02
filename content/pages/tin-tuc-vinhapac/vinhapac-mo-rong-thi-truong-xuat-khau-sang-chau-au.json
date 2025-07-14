@@ -38,6 +38,10 @@
           }
         ]
       },
+      "breadcrumb": {
+        "label": "Quay lại",
+        "backUrl": "/tin-tuc-vinhapac"
+      },
       "shareText": "Chia  sẻ",
       "form": {
         "title": "Đăng ký nhận tin",
